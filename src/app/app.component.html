@@ -1,14 +1,4 @@
-<mat-toolbar color="primary">
-  <span>{{ title }}</span>
-  <span class="spacer"></span>
-  <a class="mat-icon-button menu-link" [routerLink]="['/info']" routerLinkActive="mat-raised-button" >
-    <mat-icon class="icon">info_outline</mat-icon></a>
-  <a class="mat-icon-button menu-link" [routerLink]="['/map']" routerLinkActive="mat-raised-button" >
-    <mat-icon class="icon">room_outline</mat-icon></a>
-  <a class="mat-icon-button menu-link" [routerLink]="['/calendar']" routerLinkActive="mat-raised-button" >
-    <mat-icon class="icon">calendar_today</mat-icon></a>
-  <a class="mat-icon-button menu-link" [routerLink]="['/help']" routerLinkActive="mat-raised-button" >
-    <mat-icon class="icon">help_outline</mat-icon></a>
-</mat-toolbar>
-
-<router-outlet></router-outlet>
+<app-toolbar></app-toolbar>
+<div class="main-panel">
+  <router-outlet></router-outlet>
+</div>

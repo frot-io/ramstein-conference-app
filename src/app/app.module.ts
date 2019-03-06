@@ -8,12 +8,20 @@ import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InfoComponent } from './info/info.component';
+import { HelpComponent } from './help/help.component';
+import { MapComponent } from './map/map.component';
+import { CalendarComponent } from './calendar/calendar.component';
+import { ToolbarComponent } from './toolbar/toolbar.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    InfoComponent
+    InfoComponent,
+    HelpComponent,
+    MapComponent,
+    CalendarComponent,
+    ToolbarComponent
   ],
   imports: [
     BrowserModule,
