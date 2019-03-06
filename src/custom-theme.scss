@@ -2,21 +2,114 @@
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
 @import '~@angular/material/theming';
-// Plus imports for other components in your app.
-
-// Include the common styles for Angular Material. We include this here so that you only
-// have to load a single css file for Angular Material in your app.
-// Be sure that you only ever include this mixin once!
 @include mat-core();
 
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$ramstein-conference-app-primary: mat-palette($mat-indigo);
-$ramstein-conference-app-accent: mat-palette($mat-pink, A200, A100, A400);
+/* https://stackoverflow.com/a/41446746/2725515 */
+$ramstein-conference-app-primary-palette: (
+    50 : #e7f3fb,
+    100 : #c2e0f4,
+    200 : #9acced,
+    300 : #71b7e6,
+    400 : #52a7e0,
+    500 : #3498db,
+    600 : #2f90d7,
+    700 : #2785d2,
+    800 : #217bcd,
+    900 : #156ac4,
+    A100 : #f5f9ff,
+    A200 : #c2ddff,
+    A400 : #8fc1ff,
+    A700 : #75b3ff,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
 
-// The warn palette is optional (defaults to red).
-$ramstein-conference-app-warn: mat-palette($mat-red);
+$ramstein-conference-app-accent-palette: (
+    50 : #fdfdfd,
+    100 : #fbfbfb,
+    200 : #f9f9f9,
+    300 : #f6f6f6,
+    400 : #f4f4f4,
+    500 : #f2f2f2,
+    600 : #f0f0f0,
+    700 : #eeeeee,
+    800 : #ececec,
+    900 : #e8e8e8,
+    A100 : #ffffff,
+    A200 : #ffffff,
+    A400 : #ffffff,
+    A700 : #ffffff,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #000000,
+        900 : #000000,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+$ramstein-conference-app-warn-palette: (
+    50 : #f9f2e0,
+    100 : #f0dfb3,
+    200 : #e6ca80,
+    300 : #dbb44d,
+    400 : #d4a426,
+    500 : #cc9400,
+    600 : #c78c00,
+    700 : #c08100,
+    800 : #b97700,
+    900 : #ad6500,
+    A100 : #ffecd7,
+    A200 : #ffd3a4,
+    A400 : #ffbb71,
+    A700 : #ffaf58,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+$ramstein-conference-app-primary: mat-palette($ramstein-conference-app-primary-palette);
+$ramstein-conference-app-accent: mat-palette($ramstein-conference-app-accent-palette, A200, A100, A400);
+$ramstein-conference-app-warn: mat-palette($ramstein-conference-app-warn-palette);
 
 // Create the theme object (a Sass map containing all of the palettes).
 $ramstein-conference-app-theme: mat-light-theme($ramstein-conference-app-primary, $ramstein-conference-app-accent, $ramstein-conference-app-warn);
