@@ -1,21 +1,16 @@
 import { NgModule } from '@angular/core';
-import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { EffectsModule } from '@ngrx/effects';
+import { StoreModule } from '@ngrx/store';
 import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { InfoComponent } from './info/info.component';
-import { HelpComponent } from './help/help.component';
-import { MapComponent } from './map/map.component';
-import { CalendarComponent } from './calendar/calendar.component';
-import { ToolbarComponent } from './toolbar/toolbar.component';
-import { StoreModule } from '@ngrx/store';
-import { reducers, metaReducers } from './reducers';
-import { EffectsModule } from '@ngrx/effects';
-import { AppEffects } from './app.effects';
+import { AppComponent, CalendarComponent, HelpComponent, InfoComponent, MapComponent, ToolbarComponent } from './components';
+import { AppEffects } from './effects';
+import { metaReducers, reducers } from './reducers';
 
 
 @NgModule({
