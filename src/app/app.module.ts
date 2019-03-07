@@ -12,6 +12,10 @@ import { HelpComponent } from './help/help.component';
 import { MapComponent } from './map/map.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { StoreModule } from '@ngrx/store';
+import { reducers, metaReducers } from './reducers';
+import { EffectsModule } from '@ngrx/effects';
+import { AppEffects } from './app.effects';
 
 
 @NgModule({
@@ -29,7 +33,9 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    StoreModule.forRoot(reducers, { metaReducers }),
+    EffectsModule.forRoot([AppEffects])
   ],
   providers: [],
   bootstrap: [AppComponent]
