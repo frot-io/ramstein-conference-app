@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -9,10 +10,15 @@ import { EffectsModule } from '@ngrx/effects';
 import { StoreModule } from '@ngrx/store';
 import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent, CalendarComponent, HelpComponent, InfoComponent, MapComponent, ToolbarComponent } from './components';
+import { AppComponent } from './components/app.component';
+import { CalendarComponent } from './components/calendar/calendar.component';
+import { HelpComponent } from './components/help/help.component';
+import { InfoComponent } from './components/info/info.component';
+import { LocationComponent } from './components/location/location.component';
+import { MapComponent } from './components/map/map.component';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { AppEffects } from './effects';
 import { metaReducers, reducers } from './reducers';
-
 
 @NgModule({
   declarations: [
@@ -21,13 +27,15 @@ import { metaReducers, reducers } from './reducers';
     HelpComponent,
     MapComponent,
     CalendarComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    LocationComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     BrowserAnimationsModule,
+    FlexLayoutModule,
     MatToolbarModule,
     MatIconModule,
     MatCardModule,
