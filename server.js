@@ -12,3 +12,4 @@ res.sendFile(path.join(__dirname+'/dist/ramstein-conference-app/index.html'));
 });
 
 app.listen(process.env.PORT || 8080);
+console.log('Listening...');
