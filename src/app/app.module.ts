@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
@@ -19,7 +20,6 @@ import { InfoComponent } from './components/info/info.component';
 import { LocationComponent } from './components/location/location.component';
 import { MapComponent } from './components/map/map.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
-import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { AppEffects } from './effects';
 import { metaReducers, reducers } from './reducers';
 
@@ -30,7 +30,6 @@ import { metaReducers, reducers } from './reducers';
     HelpComponent,
     MapComponent,
     CalendarComponent,
-    ToolbarComponent,
     LocationComponent,
     SidenavComponent
   ],
@@ -40,6 +39,7 @@ import { metaReducers, reducers } from './reducers';
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     BrowserAnimationsModule,
     FlexLayoutModule,
+    MatButtonModule,
     MatCardModule,
     MatIconModule,
     MatListModule,

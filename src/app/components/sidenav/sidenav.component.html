@@ -1,6 +1,6 @@
-<mat-toolbar color="warn">
+<mat-toolbar color="primary">
   <mat-toolbar-row>
-    <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()" color="primary">
+    <button class="menu-toggle-btn" type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()">
       <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
     </button>
     <span>Ramstein</span>
@@ -9,8 +9,18 @@
 <mat-sidenav-container class="example-container">
   <mat-sidenav #drawer mode="side" opened role="navigation">
     <mat-nav-list>
-      <a mat-list-item routerLink='/info'>First Component</a>
-      <a mat-list-item routerLink='/map'>Second Component</a>
+      <a mat-list-item routerLink='/info'>
+        <mat-icon class="icon">info</mat-icon>Info
+      </a>
+      <a mat-list-item routerLink='/map'>
+        <mat-icon class="icon">room</mat-icon>Map
+      </a>
+      <a mat-list-item routerLink='/calendar'>
+        <mat-icon class="icon">calendar_today</mat-icon>Calendar
+      </a>
+      <a mat-list-item routerLink='/help'>
+        <mat-icon class="icon">help</mat-icon>Help
+      </a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
