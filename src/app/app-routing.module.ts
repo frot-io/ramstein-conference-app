@@ -5,8 +5,10 @@ import { HelpComponent } from './components/help/help.component';
 import { InfoComponent } from './components/info/info.component';
 import { LocationComponent } from './components/location/location.component';
 import { MapComponent } from './components/map/map.component';
+import { StartpageComponent } from './components/startpage/startpage.component';
 
 const routes: Routes = [
+  { path: '', component: StartpageComponent, pathMatch: 'full' },
   { path: 'info', component: InfoComponent },
   { path: 'map', component: MapComponent },
   { path: 'location', redirectTo: 'map' },

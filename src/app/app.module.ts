@@ -22,6 +22,7 @@ import { MapComponent } from './components/map/map.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { AppEffects } from './effects';
 import { metaReducers, reducers } from './reducers';
+import { StartpageComponent } from './components/startpage/startpage.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { metaReducers, reducers } from './reducers';
     MapComponent,
     CalendarComponent,
     LocationComponent,
-    SidenavComponent
+    SidenavComponent,
+    StartpageComponent
   ],
   imports: [
     BrowserModule,
