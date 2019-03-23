@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
+import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -16,6 +18,7 @@ import { HelpComponent } from './components/help/help.component';
 import { InfoComponent } from './components/info/info.component';
 import { LocationComponent } from './components/location/location.component';
 import { MapComponent } from './components/map/map.component';
+import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { AppEffects } from './effects';
 import { metaReducers, reducers } from './reducers';
@@ -28,7 +31,8 @@ import { metaReducers, reducers } from './reducers';
     MapComponent,
     CalendarComponent,
     ToolbarComponent,
-    LocationComponent
+    LocationComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,
@@ -36,9 +40,11 @@ import { metaReducers, reducers } from './reducers';
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     BrowserAnimationsModule,
     FlexLayoutModule,
-    MatToolbarModule,
-    MatIconModule,
     MatCardModule,
+    MatIconModule,
+    MatListModule,
+    MatSidenavModule,
+    MatToolbarModule,
     StoreModule.forRoot(reducers, { metaReducers }),
     EffectsModule.forRoot([AppEffects])
   ],
