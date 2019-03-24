@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatButtonModule } from '@angular/material/button';
@@ -40,6 +41,7 @@ import { PushNotificationService } from './services/push-notification/push-notif
     BrowserModule,
     AppRoutingModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    HttpClient,
     BrowserAnimationsModule,
     FlexLayoutModule,
     MatButtonModule,
@@ -51,9 +53,7 @@ import { PushNotificationService } from './services/push-notification/push-notif
     StoreModule.forRoot(reducers, { metaReducers }),
     EffectsModule.forRoot([AppEffects])
   ],
-  providers: [
-    PushNotificationService
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
