@@ -24,6 +24,6 @@ export class InfoComponent {
   }
 
   sendNotification() {
-    this.pushNotificationService.send();
+    this.pushNotificationService.send().subscribe();
   }
 }
