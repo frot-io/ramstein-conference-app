@@ -24,7 +24,6 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { StartpageComponent } from './components/startpage/startpage.component';
 import { AppEffects } from './effects';
 import { metaReducers, reducers } from './reducers';
-import { AngularOpenlayersModule } from 'ngx-openlayers';
 
 
 @NgModule({
@@ -44,7 +43,6 @@ import { AngularOpenlayersModule } from 'ngx-openlayers';
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     HttpClientModule,
     BrowserAnimationsModule,
-    AngularOpenlayersModule,
     FlexLayoutModule,
     MatButtonModule,
     MatCardModule,
