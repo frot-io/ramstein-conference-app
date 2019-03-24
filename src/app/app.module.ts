@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatButtonModule } from '@angular/material/button';
@@ -21,10 +21,9 @@ import { InfoComponent } from './components/info/info.component';
 import { LocationComponent } from './components/location/location.component';
 import { MapComponent } from './components/map/map.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
+import { StartpageComponent } from './components/startpage/startpage.component';
 import { AppEffects } from './effects';
 import { metaReducers, reducers } from './reducers';
-import { StartpageComponent } from './components/startpage/startpage.component';
-import { PushNotificationService } from './services/push-notification/push-notification.service';
 
 @NgModule({
   declarations: [
@@ -41,7 +40,7 @@ import { PushNotificationService } from './services/push-notification/push-notif
     BrowserModule,
     AppRoutingModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
-    HttpClient,
+    HttpClientModule,
     BrowserAnimationsModule,
     FlexLayoutModule,
     MatButtonModule,
