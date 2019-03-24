@@ -11,7 +11,7 @@ const routes: Routes = [
   { path: '', component: StartpageComponent, pathMatch: 'full' },
   { path: 'info', component: InfoComponent },
   { path: 'map', component: MapComponent },
-  { path: 'location', redirectTo: 'map' },
+  { path: 'location', component: LocationComponent },
   { path: 'location/:locationId', component: LocationComponent },
   { path: 'calendar', component: CalendarComponent },
   { path: 'help', component: HelpComponent },
