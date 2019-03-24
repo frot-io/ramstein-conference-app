@@ -1,7 +1,7 @@
 {
-  "name": "ramstein-conference-app",
-  "short_name": "ramstein-conference-app",
-  "theme_color": "#1976d2",
+  "name": "Stopp Ramstein Aktionswoche",
+  "short_name": "Ramstein",
+  "theme_color": "#3498db",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "/",
