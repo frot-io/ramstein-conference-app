@@ -44,8 +44,8 @@ function handleError(res, reason, message, code) {
 
 /* Add subscribers */
 app.post("/api/notifications", function(req, res) {
-  console.log('Handling request for /api/notifications with payload');
-  console.log(req);
+  console.log('Handling request for /api/notifications with body');
+  console.log(req.body);
   var notification = req.body;
   db.collection(NOTIFICATIONS_COLLECTION).insertOne(notification, function(err, doc) {
     if (err) {
