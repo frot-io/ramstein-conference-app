@@ -4,14 +4,16 @@
       <mat-card-title>{{ event.title }}</mat-card-title>
       <mat-card-subtitle><a [routerLink]="['/location', event.location.id]">{{ event.location.name }}</a></mat-card-subtitle>
     </mat-card-header>
-    <img mat-card-image [src]="event.image.src" [alt]="event.image.alt">
+    <img *ngIf="event.image" mat-card-image [src]="event.image.src" [alt]="event.image.alt">
     <mat-card-content>
       <p>
         {{ event.description }}
       </p>
     </mat-card-content>
     <mat-card-actions>
-      <button mat-button>MERKEN</button>
+      <button mat-stroked-button (click)="favorite(event)">
+          <mat-icon class="icon">favorite_outline</mat-icon>&nbsp;Favorite
+      </button>
     </mat-card-actions>
   </mat-card>
 </div>

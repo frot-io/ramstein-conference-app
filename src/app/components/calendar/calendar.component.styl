@@ -1,7 +1,14 @@
 .card
+  // workaround: https://github.com/angular/material2/issues/661#issuecomment-345356896
+  display flex
+  flex-direction column
+  flex-shrink 0
   margin-bottom 16px
+  max-height 500px
   @media (min-width: 560px)
     width 200px
-  a
-    color inherit
-    text-decoration none
+
+  mat-card-content
+    display flex
+    flex 1
+    overflow hidden
