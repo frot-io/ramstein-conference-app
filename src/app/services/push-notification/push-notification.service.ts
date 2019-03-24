@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 @Injectable({
   providedIn: 'root'
 })
-export class PushNotificationServiceService {
+export class PushNotificationService {
 
   constructor(private http: HttpClient) {}
 

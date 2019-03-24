@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { SwPush } from '@angular/service-worker';
-import { PushNotificationServiceService } from './../../services/push-notification/push-notification-service.service';
+import { PushNotificationService } from './../../services/push-notification/push-notification.service';
 
 @Component({
   selector: 'app-info',
@@ -13,7 +13,7 @@ export class InfoComponent {
 
   constructor(
     private swPush: SwPush,
-    private pushNotificationService: PushNotificationServiceService) {}
+    private pushNotificationService: PushNotificationService) {}
 
   subscribeToNotifications() {
     this.swPush.requestSubscription({

@@ -23,6 +23,7 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { AppEffects } from './effects';
 import { metaReducers, reducers } from './reducers';
 import { StartpageComponent } from './components/startpage/startpage.component';
+import { PushNotificationService } from './services/push-notification/push-notification.service';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,9 @@ import { StartpageComponent } from './components/startpage/startpage.component';
     StoreModule.forRoot(reducers, { metaReducers }),
     EffectsModule.forRoot([AppEffects])
   ],
-  providers: [],
+  providers: [
+    PushNotificationService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
