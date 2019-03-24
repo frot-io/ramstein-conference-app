@@ -44,8 +44,9 @@ function handleError(res, reason, message, code) {
 
 /* Add subscribers */
 app.post("/api/notifications", function(req, res) {
+  console.log('Handling request for /api/notifications with payload');
+  console.log(req);
   var notification = req.body;
-
   db.collection(NOTIFICATIONS_COLLECTION).insertOne(notification, function(err, doc) {
     if (err) {
       handleError(res, err.message, "Failed to add subscriber");
@@ -56,7 +57,8 @@ app.post("/api/notifications", function(req, res) {
 });
 
 /* Send push notification to subscribers */
-app.route('/api/newsletter').post(function(req, res) {
+app.post('/api/newsletter', function(req, res) {
+  console.log('Handling request for /api/newsletter');
   db.collection(NOTIFICATIONS_COLLECTION).find({}).toArray(function(err, subscribers) {
     if (err) {
       handleError(res, err.message, "Failed to get subscribers.");
