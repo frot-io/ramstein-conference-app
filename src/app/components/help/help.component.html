@@ -1,3 +1,45 @@
+<h1>Help section</h1>
 <p>
-  help works!
+  The functions explained below are tested with firefox and Chrome, both on Android and MacOS.
+  They should work on other browsers too, but no guarantee for that :)
+</p>
+<p>
+  PS: If you tested it on Safari and/or Edge, let me know!
+</p>
+
+<h2>Push-Notifications</h2>
+<p>
+  The buttons below trigger push notifications. If you accidentally clicked "Deny" on the browser
+  popup asking to allow Notifications, you can re-enable them inside the site-settings (click on
+  the lock left of the URL). Note that the second button sends a notification to ALL subscribers.
+</p>
+<p>
+  Please not that there is a limit in sending notifications that is managed by the browser, so
+  don't send too much or too shortly after one another because there is a good chance you will
+  be blocked by some browsers...
+</p>
+<p>These buttons are for showcase purpose only and will not be part of the final application.</p>
+<div fxLayout="row wrap" fxLayoutGap="32px" fxLayoutAlign="center">
+  <button mat-raised-button color="primary" (click)="subscribeToNotifications()">
+    Subscribe to Notifications
+  </button>
+  <button mat-raised-button color="secondary" (click)="sendNotification()">
+    Send Notification to all Subscribers
+  </button>
+</div>
+
+<h2>Add to homescreen</h2>
+<p>
+  You should see a "Add to Homescreen" Bar in mobile browsers. By clicking on it, you can (surprise)
+  add the app to your homescreen or list of apps. It should then also work offline.
+</p>
+
+<h2>Language</h2>
+<p>
+  This app is planned to be released in English and German but right now, there is no German version ;)
+</p>
+
+<h2>Bugs & Feature-requests & Feedback</h2>
+<p>
+  Send it to <a href="mailto:moin@frot.io">moin@frot.io</a>
 </p>
