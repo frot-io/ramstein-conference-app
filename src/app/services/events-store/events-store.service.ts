@@ -21,7 +21,7 @@ export class EventsStoreService {
     this._events.next(events);
   }
 
-  favorite(event: Event) {
+  private favorite(event: Event) {
     const index = this.events.map(e => e.id).indexOf(event.id);
     this.events = [
       ...this.events.slice(0, index),
@@ -30,12 +30,20 @@ export class EventsStoreService {
     ];
   }
 
-  unfavorite(event: Event) {
+  private unfavorite(event: Event) {
     const index = this.events.map(e => e.id).indexOf(event.id);
     this.events = [
       ...this.events.slice(0, index),
       { ...this.events[index], favorite: false },
       ...this.events.slice(index + 1)
     ];
+  }
+
+  toggleFavorite(event: Event) {
+    if (event.favorite) {
+      this.unfavorite(event);
+    } else {
+      this.favorite(event);
+    }
   }
 }

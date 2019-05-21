@@ -13,6 +13,6 @@ export class CalendarComponent implements OnInit {
   }
 
   favorite(event) {
-    alert('This does not work yet (but will be working in the future :)');
+    this.eventsStoreService.toggleFavorite(event);
   }
 }
