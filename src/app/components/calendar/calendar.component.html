@@ -1,5 +1,5 @@
 <div fxLayout="row wrap" fxLayoutGap="32px" fxLayoutAlign="center">
-  <mat-card *ngFor="let event of events" class="card">
+  <mat-card *ngFor="let event of eventsStoreService.events$ | async" class="card">
     <mat-card-header>
       <mat-card-title>{{ event.title }}</mat-card-title>
       <mat-card-subtitle><a [routerLink]="['/location', event.location.id]">{{ event.location.name }}</a></mat-card-subtitle>
