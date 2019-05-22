@@ -24,6 +24,7 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { StartpageComponent } from './components/startpage/startpage.component';
 import { AppEffects } from './effects';
 import { metaReducers, reducers } from './reducers';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { metaReducers, reducers } from './reducers';
     CalendarComponent,
     LocationComponent,
     SidenavComponent,
-    StartpageComponent
+    StartpageComponent,
+    ToolbarComponent
   ],
   imports: [
     BrowserModule,
