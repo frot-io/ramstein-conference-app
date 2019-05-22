@@ -1,5 +1,5 @@
 <div fxLayout="row wrap" fxLayoutGap="32px" fxLayoutAlign="center">
-  <mat-card *ngFor="let event of events" class="card">
+  <mat-card *ngFor="let event of eventsStoreService.events$ | async" class="card">
     <mat-card-header>
       <mat-card-title>{{ event.title }}</mat-card-title>
       <mat-card-subtitle><a [routerLink]="['/location', event.location.id]">{{ event.location.name }}</a></mat-card-subtitle>
@@ -11,8 +11,11 @@
       </p>
     </mat-card-content>
     <mat-card-actions>
-      <button mat-stroked-button (click)="favorite(event)">
-          <mat-icon class="icon">favorite_outline</mat-icon>&nbsp;Favorite
+      <button *ngIf="!event.favorite" mat-stroked-button (click)="eventsStoreService.favorite(event)">
+        <mat-icon class="icon">favorite_outline</mat-icon>
+      </button>
+      <button *ngIf="event.favorite" mat-stroked-button (click)="eventsStoreService.unfavorite(event)">
+        <mat-icon class="icon">favorite</mat-icon>
       </button>
     </mat-card-actions>
   </mat-card>
