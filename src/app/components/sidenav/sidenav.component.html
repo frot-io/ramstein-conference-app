@@ -1,16 +1,5 @@
-<mat-toolbar color="primary">
-  <mat-toolbar-row>
-    <button class="menu-toggle-btn" type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()">
-      <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
-    </button>
-    <img routerLink="/" class="toolbar-logo" src="./assets/logo-toolbar.png">
-    <a routerLink="/" class="toolbar-header">Aktionswoche
-      <span class="title-extended">Stopp Air Base Ramstein 2019</span>
-    </a>
-  </mat-toolbar-row>
-</mat-toolbar>
-<mat-sidenav-container class="example-container">
-  <mat-sidenav #drawer opened mode="side" role="navigation">
+<mat-sidenav-container>
+  <mat-sidenav #drawer mode="over" role="navigation">
     <mat-nav-list>
       <a mat-list-item routerLink='/'>
         <mat-icon class="icon">home</mat-icon>Home
@@ -33,8 +22,6 @@
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
-    <div class="content">
-      <router-outlet></router-outlet>
-    </div>
+    <ng-content></ng-content>
   </mat-sidenav-content>
 </mat-sidenav-container>

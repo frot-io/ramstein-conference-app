@@ -20,7 +20,7 @@ import { LocationComponent } from './components/location/location.component';
 import { MapComponent } from './components/map/map.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { StartpageComponent } from './components/startpage/startpage.component';
-
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +31,8 @@ import { StartpageComponent } from './components/startpage/startpage.component';
     CalendarComponent,
     LocationComponent,
     SidenavComponent,
-    StartpageComponent
+    StartpageComponent,
+    ToolbarComponent
   ],
   imports: [
     BrowserModule,
