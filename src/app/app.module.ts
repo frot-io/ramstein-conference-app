@@ -21,6 +21,7 @@ import { MapComponent } from './components/map/map.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { StartpageComponent } from './components/startpage/startpage.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
+import { PushNotificationBarComponent } from './components/push-notification-bar/push-notification-bar.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
     LocationComponent,
     SidenavComponent,
     StartpageComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    PushNotificationBarComponent
   ],
   imports: [
     BrowserModule,
