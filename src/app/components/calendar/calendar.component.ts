@@ -11,8 +11,4 @@ export class CalendarComponent implements OnInit {
 
   ngOnInit() {
   }
-
-  favorite(event) {
-    this.eventsStoreService.toggleFavorite(event);
-  }
 }

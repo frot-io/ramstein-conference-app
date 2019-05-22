@@ -11,10 +11,11 @@
       </p>
     </mat-card-content>
     <mat-card-actions>
-      <button mat-stroked-button (click)="favorite(event)">
-          <mat-icon *ngIf="!event.favorite" class="icon">favorite_outline</mat-icon>
-          <mat-icon *ngIf="event.favorite" class="icon">favorite</mat-icon>
-          &nbsp;Favorite
+      <button *ngIf="!event.favorite" mat-stroked-button (click)="eventsStoreService.favorite(event)">
+        <mat-icon class="icon">favorite_outline</mat-icon>
+      </button>
+      <button *ngIf="event.favorite" mat-stroked-button (click)="eventsStoreService.unfavorite(event)">
+        <mat-icon class="icon">favorite</mat-icon>
       </button>
     </mat-card-actions>
   </mat-card>
