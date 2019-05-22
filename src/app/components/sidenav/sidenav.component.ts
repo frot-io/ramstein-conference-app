@@ -1,5 +1,4 @@
-import { Component, OnDestroy, ChangeDetectorRef } from '@angular/core';
-import { MediaMatcher } from '@angular/cdk/layout';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-sidenav',
