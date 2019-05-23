@@ -44,6 +44,10 @@ export class PushNotificationStoreService {
     this._state.next('dismissed');
   }
 
+  disallow() {
+    this._state.next('denied');
+  }
+
   subscribe() {
     this.swPush.requestSubscription({
       serverPublicKey: this.VAPID_PUBLIC_KEY

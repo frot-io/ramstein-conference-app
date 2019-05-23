@@ -1,5 +1,5 @@
 .bar
-  background-color red
+  background-color darken(#cc9400, 10) // warn
   width 100%
   display flex
   align-items center
@@ -8,11 +8,8 @@
   margin 0.5rem
   font-style italic
 
-.confirm
+.btn
   flex 0 0 auto
   margin 0.5rem
-  margin-left auto
-
-.dismiss
-  flex 0 0 auto
-  margin 0.5rem
+  &.push-right
+    margin-left auto
