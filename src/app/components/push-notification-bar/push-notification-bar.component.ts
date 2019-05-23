@@ -1,3 +1,4 @@
+import { PushNotificationStoreService } from './../../services/push-notification/push-notification-store.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PushNotificationBarComponent implements OnInit {
 
-  constructor() { }
+  constructor(public pushNotificationStoreService: PushNotificationStoreService) { }
 
   ngOnInit() {
   }

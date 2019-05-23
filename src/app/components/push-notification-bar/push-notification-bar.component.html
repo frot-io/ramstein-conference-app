@@ -1,5 +1,5 @@
 <div class="bar">
-  <div class="text">Please allow Push-Notifications</div>
-  <button mat-raised-button color="warn" class="confirm">Confirm</button>
-  <button mat-raised-button class="dismiss">Dismiss</button>
+  <div class="text">{{ pushNotificationStoreService.state$ | async }}</div>
+  <button mat-raised-button color="warn" class="confirm" (click)="pushNotificationStoreService.subscribe()">Confirm</button>
+  <button mat-raised-button class="dismiss" (click)="pushNotificationStoreService.dismiss()">Dismiss</button>
 </div>
