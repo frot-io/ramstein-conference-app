@@ -1,31 +1,19 @@
 import { Component, OnInit } from '@angular/core';
-
-declare var ol: any;
+import { tileLayer, latLng } from 'leaflet';
 
 @Component({
   selector: 'app-map',
   templateUrl: './map.component.html',
   styleUrls: ['./map.component.styl']
 })
-export class MapComponent implements OnInit {
-  // https://medium.com/@balramchavan/using-openstreetmap-inside-angular-v6-3d42cbf03e57
+export class MapComponent {
   latitude = 49.4684328;
   longitude = 7.5256019;
-
-  map: any;
-
-  ngOnInit() {
-    this.map = new ol.Map({
-      target: 'map',
-      layers: [
-        new ol.layer.Tile({
-          source: new ol.source.OSM()
-        })
-      ],
-      view: new ol.View({
-        center: ol.proj.fromLonLat([this.longitude, this.latitude]),
-        zoom: 14
-      })
-    });
-  }
+  options = {
+    layers: [
+      tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '...' })
+    ],
+    zoom: 15,
+    center: latLng(this.latitude, this.longitude)
+  };
 }
