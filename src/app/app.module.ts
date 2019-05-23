@@ -1,6 +1,7 @@
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
@@ -18,6 +19,7 @@ import { HelpComponent } from './components/help/help.component';
 import { InfoComponent } from './components/info/info.component';
 import { LocationComponent } from './components/location/location.component';
 import { MapComponent } from './components/map/map.component';
+import { PushNotificationDialogComponent } from './components/push-notification-dialog/push-notification-dialog.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { StartpageComponent } from './components/startpage/startpage.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
@@ -32,7 +34,8 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
     LocationComponent,
     SidenavComponent,
     StartpageComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    PushNotificationDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -47,6 +50,10 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
     MatListModule,
     MatSidenavModule,
     MatToolbarModule,
+    MatBottomSheetModule,
+  ],
+  entryComponents: [
+    PushNotificationDialogComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
