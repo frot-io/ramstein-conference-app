@@ -29,7 +29,8 @@
             ],
             "styles": [
               "src/custom-theme.scss",
-              "src/styles.styl"
+              "src/styles.styl",
+              "./node_modules/leaflet/dist/leaflet.css"
             ],
             "scripts": [],
             "es5BrowserSupport": true

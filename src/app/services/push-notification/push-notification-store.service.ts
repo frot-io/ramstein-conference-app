@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
+import { Injectable, OnInit } from '@angular/core';
 import { SwPush } from '@angular/service-worker';
 import { BehaviorSubject } from 'rxjs';
 
@@ -17,31 +17,40 @@ export type PushNotificationState =
 export class PushNotificationStoreService {
   // from https://blog.angular-university.io/angular-push-notifications/
   readonly VAPID_PUBLIC_KEY = 'BBqTVCz44SYRYuFLopkKdG_rT2izyEMsRbZmluXBAVYM25TmQvVz3tTd18a-02GZmiiYBUZHGq7LmD5qGbs0mMo';
+  readonly LOCAL_STORAGE_KEY = 'pushNotificationDismissed';
+
   // tslint:disable-next-line: variable-name
-  private _state = new BehaviorSubject<PushNotificationState>(null);
+  private _state = new BehaviorSubject<PushNotificationState>(undefined);
   public state$ = this._state.asObservable();
 
   constructor(private swPush: SwPush,
               private http: HttpClient) {
-    if (swPush.isEnabled) {
-      switch (Notification.permission) {
-        // https://developer.mozilla.org/en-US/docs/Web/API/Notification/permission
-        case 'granted':
-          this._state.next('granted');
-          break;
-        case 'denied':
-          this._state.next('denied');
-          break;
-        default:
-          this._state.next('supported');
-      }
+    if (localStorage.getItem(this.LOCAL_STORAGE_KEY)) {
+      this._state.next('dismissed');
     } else {
-      this._state.next('notSupported');
+      // required, otherwise there is an ExpressionChangedAfterItHasBeenCheckedError
+      setTimeout(() => {
+        if (this.swPush.isEnabled) {
+          switch (Notification.permission) {
+            case 'granted':
+              this._state.next('granted');
+              break;
+            case 'denied':
+              this._state.next('denied');
+              break;
+            default:
+              this._state.next('supported');
+          }
+        } else {
+          this._state.next('notSupported');
+        }
+      }, 1000);
     }
   }
 
   dismiss() {
     this._state.next('dismissed');
+    localStorage.setItem(this.LOCAL_STORAGE_KEY, 'true');
   }
 
   disallow() {

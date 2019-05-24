@@ -11,6 +11,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { LeafletModule } from '@asymmetrik/ngx-leaflet';
 import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './components/app.component';
@@ -43,6 +44,7 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     HttpClientModule,
     BrowserAnimationsModule,
+    LeafletModule.forRoot(),
     FlexLayoutModule,
     MatButtonModule,
     MatCardModule,

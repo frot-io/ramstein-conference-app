@@ -21,7 +21,14 @@ export class AppComponent implements OnInit {
       this.sidenavService.close();
     });
 
-    this.pushNotificationStoreService.state$.subscribe(state =>
-      state === 'dismissed' ? this.bottomSheet.dismiss() : this.bottomSheet.open(PushNotificationDialogComponent));
+    this.pushNotificationStoreService.state$.subscribe(state => {
+      if (state) {
+        if (state === 'dismissed') {
+          this.bottomSheet.dismiss();
+        } else {
+          this.bottomSheet.open(PushNotificationDialogComponent);
+        }
+      }
+    });
   }
 }
