@@ -1,23 +1,35 @@
 <div fxLayout="column" fxLayoutAlign="center">
   <ng-container *ngIf="(store.state$ | async) === 'notSupported'">
-    <p class="text">Push Notifications are not supported by this browser</p>
-    <button mat-raised-button class="btn" (click)="store.dismiss()">Hide</button>
+    <p class="text" [innerHTML]="'PUSH_NOTIFICATION_DIALOG.NOT_SUPPORTED.TEXT' | translate"></p>
+    <button mat-raised-button class="btn" (click)="store.dismiss()">
+        {{ 'PUSH_NOTIFICATION_DIALOG.NOT_SUPPORTED.BUTTON_DISMISS' | translate }}
+    </button>
   </ng-container>
   <ng-container *ngIf="(store.state$ | async) === 'supported'">
-    <p class="text">Enable Push-Notifications?</p>
-    <button mat-raised-button color="primary" class="btn" (click)="store.subscribe()">Yes</button>
-    <button mat-raised-button class="btn" (click)="store.disallow()">No</button>
+    <p class="text" [innerHTML]="'PUSH_NOTIFICATION_DIALOG.SUPPORTED.TEXT' | translate"></p>
+    <button mat-raised-button color="primary" class="btn" (click)="store.subscribe()">
+        {{ 'PUSH_NOTIFICATION_DIALOG.SUPPORTED.BUTTON_AGREE' | translate }}
+    </button>
+    <button mat-raised-button class="btn" (click)="store.disallow()">
+        {{ 'PUSH_NOTIFICATION_DIALOG.SUPPORTED.BUTTON_DISALLOW' | translate }}
+    </button>
   </ng-container>
   <ng-container *ngIf="(store.state$ | async) === 'error'">
-    <p class="text">There was an error enabling Push Notifications!</p>
-    <button mat-raised-button class="btn" (click)="store.dismiss()">Hide</button>
+    <p class="text" [innerHTML]="'PUSH_NOTIFICATION_DIALOG.ERROR.TEXT' | translate"></p>
+    <button mat-raised-button class="btn" (click)="store.dismiss()">
+        {{ 'PUSH_NOTIFICATION_DIALOG.ERROR.BUTTON_DISMISS' | translate }}
+    </button>
   </ng-container>
   <ng-container *ngIf="(store.state$ | async) === 'denied'">
-    <p class="text">Push Notifications have been denied.</p>
-    <button mat-raised-button class="btn" (click)="store.dismiss()">Hide</button>
+    <p class="text" [innerHTML]="'PUSH_NOTIFICATION_DIALOG.DENIED.TEXT' | translate"></p>
+    <button mat-raised-button class="btn" (click)="store.dismiss()">
+        {{ 'PUSH_NOTIFICATION_DIALOG.DENIED.BUTTON_DISMISS' | translate }}
+    </button>
   </ng-container>
   <ng-container *ngIf="(store.state$ | async) === 'granted'">
-    <p class="text">Push Notifications are enabled.</p>
-    <button mat-raised-button class="btn" (click)="store.dismiss()">Hide</button>
+    <p class="text" [innerHTML]="'PUSH_NOTIFICATION_DIALOG.GRANTED.TEXT' | translate"></p>
+    <button mat-raised-button class="btn" (click)="store.dismiss()">
+      {{ 'PUSH_NOTIFICATION_DIALOG.NOT_SUPPORTED.BUTTON_DISMISS' | translate }}
+    </button>
   </ng-container>
 </div>
