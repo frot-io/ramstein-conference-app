@@ -1,4 +1,6 @@
+import { TranslateService } from '@ngx-translate/core';
 import { Component } from '@angular/core';
+import { LocalStorageService } from 'src/app/services/local-storage/local-storage.service';
 
 @Component({
   selector: 'app-help',
@@ -6,7 +8,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./help.component.styl']
 })
 export class HelpComponent {
-  selectionChanged(item) {
-    console.log(item);
+  constructor(public translateService: TranslateService,
+              private localStorageService: LocalStorageService) {}
+
+  changeLanguage(lang) {
+    this.translateService.use(lang);
+    this.localStorageService.setLanguage(lang);
   }
 }

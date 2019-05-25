@@ -24,11 +24,11 @@
 <p>
   You can switch the language with the buttons below:
 </p>
-<mat-button-toggle-group #group="matButtonToggleGroup">
-  <mat-button-toggle value="de" (change)="selectionChanged($event)">
+<mat-button-toggle-group [value]="translateService.currentLang">
+  <mat-button-toggle value="de" (change)="changeLanguage($event.value)">
     German
   </mat-button-toggle>
-  <mat-button-toggle value="en" (change)="selectionChanged($event)">
+  <mat-button-toggle value="en" (change)="changeLanguage($event.value)">
     English
   </mat-button-toggle>
 </mat-button-toggle-group>
