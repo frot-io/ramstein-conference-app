@@ -21,5 +21,19 @@
       "TITLE": "Feedback",
       "CONTENT": "<p>For Bugs, Feature-requests or praise, write me an Email: <a href=\"mailto:moin@frot.io\">moin@frot.io</a></p><p>Please do not forget to include your Operating System (Android, MacOS, Windows, iOS...) and the Browser you are using.</p>"
     }
+  },
+  "INFO_PAGE": {
+    "TITLE": "Info",
+    "CONTACT": {
+      "TITLE": "Contact",
+      "CONTENT": "<ul><li><a href=\"mailto:info@ramstein-kampagne.eu\">info@ramstein-kampagne.eu</a></li><li><a href=\"mailto:camp@ramstein-kampagne.eu\">camp@ramstein-kampagne.eu</a></li></ul>"
+    },
+    "EMERGENCY": {
+      "TITLE": "On Emergencies",
+      "CONTENT": "<ul><li>During the Demonstration: <a href=\"tel:+490000000000\">+490000000000</a> (Paramedic)</li><li>In the Camp: <a href=\"tel:+491111111111\">+491111111111</a></li></ul>"
+    },
+    "RECENT_PUSH_NOTIFICATIONS": {
+      "TITLE": "Recent Push-Notifications"
+    }
   }
 }
