@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { PushNotificationStoreService } from '../services/push-notification/push-notification-store.service';
 import { SidenavService } from '../services/sidenav/sidenav.service';
 import { PushNotificationDialogComponent } from './push-notification-dialog/push-notification-dialog.component';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +15,11 @@ export class AppComponent implements OnInit {
   constructor(private router: Router,
               private sidenavService: SidenavService,
               private bottomSheet: MatBottomSheet,
-              public pushNotificationStoreService: PushNotificationStoreService) {}
+              public pushNotificationStoreService: PushNotificationStoreService,
+              private translate: TranslateService) {
+    translate.setDefaultLang('de');
+    translate.use('de');
+  }
 
   ngOnInit() {
     this.router.events.subscribe(_ => {
