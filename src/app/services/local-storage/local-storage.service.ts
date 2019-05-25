@@ -22,13 +22,13 @@ export class LocalStorageService {
   }
 
   setPushNotificationDismissed(dismissed: boolean) {
-    localStorage.setItem(KEYS.PUSH_NOTIFICATION_DISMISSED, String(dismissed));
+    localStorage.setItem(KEYS.PUSH_NOTIFICATION_DISMISSED, JSON.stringify(dismissed));
   }
 
   getPushNotificationDismissed(): boolean | undefined {
     const stringValue = localStorage.getItem(KEYS.PUSH_NOTIFICATION_DISMISSED);
     if (stringValue) {
-      return Boolean(stringValue);
+      return JSON.parse(stringValue);
     }
     return undefined;
   }

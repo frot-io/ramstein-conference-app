@@ -1,18 +1,10 @@
-<h1>Help section</h1>
-<p>
-  The functions explained below are tested with firefox and Chrome, both on Android and MacOS.
-  They should work on other browsers too, but no guarantee for that :)
-</p>
-<p>
-  PS: If you tested it on Safari and/or Edge, let me know!
-</p>
+<h1 [innerHTML]="'HELP_PAGE.TITLE' | translate"></h1>
+<div [innerHTML]="'HELP_PAGE.CONTENT' | translate"></div>
 
-<h2>Push-Notifications</h2>
-<p>
-  On the first load, a dialog box at the bottom asks you for enabling push-notifications. If
-  you accidentally clicked "Deny", you can re-enable them inside the site-settings (click on
-  the lock left of the URL).
-</p>
+<h2 [innerHTML]="'HELP_PAGE.PUSH_NOTIFICATIONS.TITLE' | translate"></h2>
+<div [innerHTML]="'HELP_PAGE.PUSH_NOTIFICATIONS.CONTENT' | translate"></div>
+<button mat-raised-button (click)="resetNotificationStateAndReload()"
+  [innerHTML]="'HELP_PAGE.PUSH_NOTIFICATIONS.BUTTON_LABEL' | translate"></button>
 
 <h2>Add to homescreen</h2>
 <p>

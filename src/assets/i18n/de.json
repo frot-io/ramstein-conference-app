@@ -1,3 +1,11 @@
 {
-  "HELLO": "hallo"
+  "HELP_PAGE": {
+    "TITLE": "Einstellungen & Hilfe",
+    "CONTENT": "<p>Die App wurde mit Chrome und Firefox auf Android und MacOS getestet. Support für andere Browser ist nicht garantiert! Falls du einen anderen Browser verwendest und auf Probleme stößt, schreib mir eine Email an <a href=\"mailto:moin@frot.io\">moin@frot.io</a></p>",
+    "PUSH_NOTIFICATIONS": {
+      "TITLE": "Push-Notifications",
+      "CONTENT": "<p>Beim ersten Besuch erscheint eine Dialogbox am unteren Bildschirmrand und fragt dich nach der Berechtigung für Push-Notifications. Falls du aus Versehen 'Ablehnen' geklickt hast, kannst du diese zurücksetzen:<ol><li>Wenn du einen Browser benutzt: Klicke auf das Schloss in der Adresszeile und setze 'Benachrichtigung' auf 'Fragen'.</li><li>Wenn du die App installiert hast: Gehe in die App-Einstellungen deines Betriebssystems (Android oder iOS) und aktiviere Push-Notifications für diese App.</li><li>Klicke auf diesen Button:</li></ol></p>",
+      "BUTTON_LABEL": "Berechtigungen zurücksetzen und Seite neu laden"
+    }
+  }
 }

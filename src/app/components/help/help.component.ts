@@ -11,6 +11,11 @@ export class HelpComponent {
   constructor(public translateService: TranslateService,
               private localStorageService: LocalStorageService) {}
 
+  resetNotificationStateAndReload() {
+    this.localStorageService.setPushNotificationDismissed(false);
+    window.location.reload();
+  }
+
   changeLanguage(lang) {
     this.translateService.use(lang);
     this.localStorageService.setLanguage(lang);
