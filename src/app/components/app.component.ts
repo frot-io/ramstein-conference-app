@@ -5,6 +5,7 @@ import { PushNotificationStoreService } from '../services/push-notification/push
 import { SidenavService } from '../services/sidenav/sidenav.service';
 import { PushNotificationDialogComponent } from './push-notification-dialog/push-notification-dialog.component';
 import { TranslateService } from '@ngx-translate/core';
+import { LocalStorageService } from '../services/local-storage/local-storage.service';
 
 @Component({
   selector: 'app-root',
@@ -16,9 +17,10 @@ export class AppComponent implements OnInit {
               private sidenavService: SidenavService,
               private bottomSheet: MatBottomSheet,
               public pushNotificationStoreService: PushNotificationStoreService,
-              private translate: TranslateService) {
+              private translate: TranslateService,
+              private localStorageService: LocalStorageService) {
     translate.setDefaultLang('de');
-    translate.use('de');
+    translate.use(localStorageService.getLanguage() || 'de');
   }
 
   ngOnInit() {
