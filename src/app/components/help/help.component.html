@@ -1,31 +1,26 @@
 <h1 [innerHTML]="'HELP_PAGE.TITLE' | translate"></h1>
 <div [innerHTML]="'HELP_PAGE.CONTENT' | translate"></div>
 
+<h2 [innerHTML]="'HELP_PAGE.ADD_TO_HOMESCREEN.TITLE' | translate">Add to homescreen</h2>
+<div [innerHTML]="'HELP_PAGE.PUSH_NOTIFICATIONS.CONTENT' | translate"></div>
+
 <h2 [innerHTML]="'HELP_PAGE.PUSH_NOTIFICATIONS.TITLE' | translate"></h2>
 <div [innerHTML]="'HELP_PAGE.PUSH_NOTIFICATIONS.CONTENT' | translate"></div>
 <button mat-raised-button (click)="resetNotificationStateAndReload()"
   [innerHTML]="'HELP_PAGE.PUSH_NOTIFICATIONS.BUTTON_LABEL' | translate"></button>
 
-<h2>Add to homescreen</h2>
-<p>
-  You should see a "Add to Homescreen" Bar in mobile browsers. By clicking on it, you can (surprise)
-  add the app to your homescreen or list of apps. It should then also work offline.
-</p>
 
-<h2>Language</h2>
-<p>
-  You can switch the language with the buttons below:
-</p>
+
+<h2 [innerHTML]="'HELP_PAGE.LANGUAGE_SELECT.TITLE' | translate"></h2>
+<div [innerHTML]="'HELP_PAGE.LANGUAGE_SELECT.CONTENT' | translate"></div>
 <mat-button-toggle-group [value]="translateService.currentLang">
   <mat-button-toggle value="de" (change)="changeLanguage($event.value)">
-    German
+    {{ 'HELP_PAGE.LANGUAGE_SELECT.BUTTON_LABEL_GERMAN' | translate }}
   </mat-button-toggle>
   <mat-button-toggle value="en" (change)="changeLanguage($event.value)">
-    English
+    {{ 'HELP_PAGE.LANGUAGE_SELECT.BUTTON_LABEL_ENGLISH' | translate}}
   </mat-button-toggle>
 </mat-button-toggle-group>
 
-<h2>Bugs & Feature-requests & Feedback</h2>
-<p>
-  Send it to <a href="mailto:moin@frot.io">moin@frot.io</a>
-</p>
+<h2 [innerHTML]="'HELP_PAGE.FEEDBACK.TITLE' | translate"></h2>
+<div [innerHTML]="'HELP_PAGE.FEEDBACK.CONTENT' | translate"></div>

@@ -2,10 +2,24 @@
   "HELP_PAGE": {
     "TITLE": "Einstellungen & Hilfe",
     "CONTENT": "<p>Die App wurde mit Chrome und Firefox auf Android und MacOS getestet. Support für andere Browser ist nicht garantiert! Falls du einen anderen Browser verwendest und auf Probleme stößt, schreib mir eine Email an <a href=\"mailto:moin@frot.io\">moin@frot.io</a></p>",
+    "ADD_TO_HOMESCREEN": {
+      "TITLE": "Zum Startbildschirm hinzufügen",
+      "CONTENT": "<p>In mobilen Browsern (Chrome und Firefox) solltest du eine Benachrichtigung am unteren Bildschirmrand sehen: 'Zum Startbildschirm hinzufügen?' wenn du 'Ja' klickst, wird die App heruntergeladen und funktioniert auch offline.</p>"
+    },
     "PUSH_NOTIFICATIONS": {
       "TITLE": "Push-Notifications",
       "CONTENT": "<p>Beim ersten Besuch erscheint eine Dialogbox am unteren Bildschirmrand und fragt dich nach der Berechtigung für Push-Notifications. Falls du aus Versehen 'Ablehnen' geklickt hast, kannst du diese zurücksetzen:<ol><li>Wenn du einen Browser benutzt: Klicke auf das Schloss in der Adresszeile und setze 'Benachrichtigung' auf 'Fragen'.</li><li>Wenn du die App installiert hast: Gehe in die App-Einstellungen deines Betriebssystems (Android oder iOS) und aktiviere Push-Notifications für diese App.</li><li>Klicke auf diesen Button:</li></ol></p>",
       "BUTTON_LABEL": "Berechtigungen zurücksetzen und Seite neu laden"
+    },
+    "LANGUAGE_SELECT": {
+      "TITLE": "Spracheinstellungen",
+      "CONTENT": "<p>Hier kannst du die Sprache der App ändern.</p>",
+      "BUTTON_LABEL_GERMAN": "Deutsch",
+      "BUTTON_LABEL_ENGLISH": "Englisch"
+    },
+    "FEEDBACK": {
+      "TITLE": "Feedback",
+      "CONTENT": "<p>Bei Anregungen, Lob oder Kritik, schreib mir eine Mail an <a href=\"mailto:moin@frot.io\">moin@frot.io</a></p><p>Bitte füge an, welches Betriebsystem (Android, MacOS, Windows, iOS...) und welchen Browser du benutzt.</p>"
     }
   }
 }

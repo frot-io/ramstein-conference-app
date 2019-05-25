@@ -2,10 +2,24 @@
   "HELP_PAGE": {
     "TITLE": "Settings & Help",
     "CONTENT": "<p>The app has been tested on Firefox and Chrome, both on Android and MacOS. There is no guarantee that it works on other Browsers! If you tested it on any other browser and encounter problems, let me know: <a href=\"mailto:moin@frot.io\">moin@frot.io</a> </p>",
+    "ADD_TO_HOMESCREEN": {
+      "TITLE": "Add to homescreen",
+      "CONTENT": "<p>You should see an 'Add to Homescreen' Notification at the bottom on mobile browsers (Chrome & Firefox). By clicking 'Yes', the App gets downloaded and then also works offline!</p>"
+    },
     "PUSH_NOTIFICATIONS": {
       "TITLE": "Push-Notifications",
       "CONTENT": "<p>On the first startup, a dialog box at the bottom asks you for enabling push-notifications. If you accidentally clicked 'Deny', you can re-enable them with:<ol><li>If you use a browser: Click on the lock left of the URL and set 'Notification' to 'Ask'.</li><li>If you installed the app: Go to the app settings of your Operating System (Android or iOS) and re-enable Notifications.</li><li>Click the button below.</li></ol></p>",
       "BUTTON_LABEL": "Clear Permissions an Reload"
+    },
+    "LANGUAGE_SELECT": {
+      "TITLE": "Language",
+      "CONTENT": "<p>You can switch the language with the buttons below.</p>",
+      "BUTTON_LABEL_GERMAN": "German",
+      "BUTTON_LABEL_ENGLISH": "English"
+    },
+    "FEEDBACK": {
+      "TITLE": "Feedback",
+      "CONTENT": "<p>For Bugs, Feature-requests or praise, write me an Email: <a href=\"mailto:moin@frot.io\">moin@frot.io</a></p><p>Please do not forget to include your Operating System (Android, MacOS, Windows, iOS...) and the Browser you are using.</p>"
     }
   }
 }
