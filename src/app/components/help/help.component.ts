@@ -5,4 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './help.component.html',
   styleUrls: ['./help.component.styl']
 })
-export class HelpComponent {}
+export class HelpComponent {
+  selectionChanged(item) {
+    console.log(item);
+  }
+}

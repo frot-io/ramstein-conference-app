@@ -22,8 +22,16 @@
 
 <h2>Language</h2>
 <p>
-  This app is planned to be released in English and German but right now, there is no German version ;)
+  You can switch the language with the buttons below:
 </p>
+<mat-button-toggle-group #group="matButtonToggleGroup">
+  <mat-button-toggle value="de" (change)="selectionChanged($event)">
+    German
+  </mat-button-toggle>
+  <mat-button-toggle value="en" (change)="selectionChanged($event)">
+    English
+  </mat-button-toggle>
+</mat-button-toggle-group>
 
 <h2>Bugs & Feature-requests & Feedback</h2>
 <p>
