@@ -1,7 +1,7 @@
 {
   "HELP_PAGE": {
     "TITLE": "Settings & Help",
-    "CONTENT": "<p>The app has been tested on Firefox and Chrome, both on Android and MacOS. There is no guarantee that it works on other Browsers! If you tested it on any other browser and encounter problems, let me know: <a href=\"mailto:moin@frot.io\">moin@frot.io</a> </p>",
+    "CONTENT": "<p>The app has been tested with:<ul><li><strong>Google Chrome</strong> for <a class=\"link\" href=\"https://play.google.com/store/apps/details?id=com.android.chrome&hl=de\">Android</a> and <a class=\"link\" href=\"https://itunes.apple.com/de/app/google-chrome/id535886823?mt=8\">iOS</a></li><li><strong>Firefox</strong> for <a class=\"link\" href=\"https://play.google.com/store/apps/details?id=org.mozilla.firefox&hl=de\">Android</a> and <a class=\"link\" href=\"https://itunes.apple.com/de/app/internet-browser-firefox/id989804926?mt=8\">iOS</a></li><li>Desktop-Versions of <a class=\"link\" href=\"https://www.google.com/intl/de/chrome/\">Chrome</a> and <a class=\"link\" href=\"https://www.mozilla.org/de/firefox/new/\">Firefox</a></li></ul> There is no guarantee that it works on other Browsers! If you tested it on any other browser and encounter problems, let me know: <a href=\"mailto:moin@frot.io\">moin@frot.io</a> </p>",
     "ADD_TO_HOMESCREEN": {
       "TITLE": "Add to homescreen",
       "CONTENT": "<p>You should see an 'Add to Homescreen' Notification at the bottom on mobile browsers (Chrome & Firefox). By clicking 'Yes', the App gets downloaded and then also works offline!</p>"
@@ -13,7 +13,7 @@
     },
     "LANGUAGE_SELECT": {
       "TITLE": "Language",
-      "CONTENT": "<p>You can switch the language with the buttons below.</p>",
+      "CONTENT": "<p>You can switch the language with the buttons below. <a class=\"link\" href=\"https://unitedlanguagegroup.com/blog/inside-design-a-language-selector-is-no-place-for-flags/\">Here</a> you can read, why labels instead of country flags are used on the buttons.</a></p></p>",
       "BUTTON_LABEL_GERMAN": "German",
       "BUTTON_LABEL_ENGLISH": "English"
     },
