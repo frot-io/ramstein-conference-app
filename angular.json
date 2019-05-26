@@ -69,8 +69,8 @@
           "options": {
             "browserTarget": "ramstein-conference-app:build",
             "ssl": true,
-            "sslKey": "/node_modules/browser-sync/lib/server/certs/server.key",
-            "sslCert": "/node_modules/browser-sync/lib/server/certs/server.crt"
+            "sslKey": "/certs/localhost-key.pem",
+            "sslCert": "/certs/localhost.pem"
           },
           "configurations": {
             "production": {
