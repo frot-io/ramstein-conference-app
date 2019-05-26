@@ -2,22 +2,22 @@
   <mat-sidenav #drawer mode="over" role="navigation">
     <mat-nav-list>
       <a mat-list-item routerLink='/'>
-        <mat-icon class="icon">home</mat-icon>Home
+        <mat-icon class="icon">home</mat-icon>{{ 'NAVIGATION.HOME' | translate }}
       </a>
       <a mat-list-item routerLink='/info'>
-        <mat-icon class="icon">info</mat-icon>Info
+        <mat-icon class="icon">info</mat-icon>{{ 'NAVIGATION.INFO' | translate }}
       </a>
       <a mat-list-item routerLink='/map'>
-        <mat-icon class="icon">room</mat-icon>Map
+        <mat-icon class="icon">room</mat-icon>{{ 'NAVIGATION.MAP' | translate }}
       </a>
       <a mat-list-item routerLink='/calendar'>
-        <mat-icon class="icon">calendar_today</mat-icon>Calendar
+        <mat-icon class="icon">calendar_today</mat-icon>{{ 'NAVIGATION.CALENDAR' | translate }}
       </a>
       <a mat-list-item routerLink='/location'>
-        <mat-icon class="icon">room</mat-icon>Locations
+        <mat-icon class="icon">room</mat-icon>{{ 'NAVIGATION.LOCATIONS' | translate }}
       </a>
       <a mat-list-item routerLink='/help'>
-        <mat-icon class="icon">help</mat-icon>Help
+        <mat-icon class="icon">settings</mat-icon>{{ 'NAVIGATION.HELP' | translate }}
       </a>
     </mat-nav-list>
   </mat-sidenav>

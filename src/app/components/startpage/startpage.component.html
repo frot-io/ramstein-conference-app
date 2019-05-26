@@ -1,13 +1,6 @@
 <div class="heading">
-  <h1>
-    Drohnenkrieg stoppen!
-  </h1>
+  <h1 [innerHTML]="'HOME_PAGE.TITLE' | translate"></h1>
   <img alt="Ramstein Logo" src="./assets/logo-startpage.png">
 </div>
-<h2>Herzlich willkommen!</h2>
-<p>
-  Hier ist mir noch nicht´s gutes eingefallen: ich dachte an der Stelle so etwas zu schreiben wie: vielen
-  Dank das ihr die App runtergeladen habt und bei der Aktionswoche mitmacht! Mit dieser App wollen
-  wir euch helfen den Überblick zu behalten und euch durch das Gesamte Programm führen. (vielleicht
-  könntest du ja Lisann mal fragen ob sie da Textlich etwas Schönes basteln kann?)
-</p>
+<h2 [innerHTML]="'HOME_PAGE.WELCOME.TITLE' | translate"></h2>
+<div [innerHTML]="'HOME_PAGE.WELCOME.CONTENT' | translate"></div>

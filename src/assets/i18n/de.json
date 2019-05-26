@@ -1,0 +1,77 @@
+{
+  "NAVIGATION": {
+    "HOME": "Startseite",
+    "INFO": "Info",
+    "MAP": "Übersichtskarte",
+    "CALENDAR": "Kalender",
+    "LOCATIONS": "Orte",
+    "HELP": "Einstellungen & Hilfe"
+  },
+  "HOME_PAGE": {
+    "TITLE": "Stop Drone Wars!",
+    "WELCOME": {
+      "TITLE": "Herzlich Willkommen!",
+      "CONTENT": "<p>TODO</p>"
+    }
+  },
+  "HELP_PAGE": {
+    "TITLE": "Einstellungen & Hilfe",
+    "CONTENT": "<p>Die App wurde mit folgenden Browsern getestet:<ul><li><strong>Google Chrome</strong> für <a class=\"link\" href=\"https://play.google.com/store/apps/details?id=com.android.chrome&hl=de\">Android</a> und <a class=\"link\" href=\"https://itunes.apple.com/de/app/google-chrome/id535886823?mt=8\">iOS</a></li><li><strong>Firefox</strong> für <a class=\"link\" href=\"https://play.google.com/store/apps/details?id=org.mozilla.firefox&hl=de\">Android</a> und <a class=\"link\" href=\"https://itunes.apple.com/de/app/internet-browser-firefox/id989804926?mt=8\">iOS</a></li><li>Desktop-Versionen von <a class=\"link\" href=\"https://www.google.com/intl/de/chrome/\">Chrome</a> und <a class=\"link\" href=\"https://www.mozilla.org/de/firefox/new/\">Firefox</a></li></ul> Support für andere Browser ist nicht garantiert! Falls du einen anderen Browser verwendest und auf Probleme stößt, schreib mir eine Email an <a href=\"mailto:moin@frot.io\">moin@frot.io</a></p>",
+    "ADD_TO_HOMESCREEN": {
+      "TITLE": "Zum Startbildschirm hinzufügen",
+      "CONTENT": "<p>In mobilen Browsern (Chrome und Firefox) solltest du eine Benachrichtigung am unteren Bildschirmrand sehen: 'Zum Startbildschirm hinzufügen?' wenn du 'Ja' klickst, wird die App heruntergeladen und funktioniert auch offline.</p>"
+    },
+    "PUSH_NOTIFICATIONS": {
+      "TITLE": "Push-Notifications",
+      "CONTENT": "<p>Beim ersten Besuch erscheint eine Dialogbox am unteren Bildschirmrand und fragt dich nach der Berechtigung für Push-Notifications. Falls du aus Versehen 'Ablehnen' geklickt hast, kannst du diese zurücksetzen:<ol><li>Wenn du einen Browser benutzt: Klicke auf das Schloss in der Adresszeile und setze 'Benachrichtigung' auf 'Fragen'.</li><li>Wenn du die App installiert hast: Gehe in die App-Einstellungen deines Betriebssystems (Android oder iOS) und aktiviere Push-Notifications für diese App.</li><li>Klicke auf diesen Button:</li></ol></p>",
+      "BUTTON_LABEL": "Berechtigungen zurücksetzen und Seite neu laden"
+    },
+    "LANGUAGE_SELECT": {
+      "TITLE": "Spracheinstellungen",
+      "CONTENT": "<p>Hier kannst du die Sprache der App ändern. <a class=\"link\" href=\"https://unitedlanguagegroup.com/blog/inside-design-a-language-selector-is-no-place-for-flags/\">Hier</a> kannst du nachlesen, warum Text anstelle von Landesflaggen verwendet wird</a></p>",
+      "BUTTON_LABEL_GERMAN": "Deutsch",
+      "BUTTON_LABEL_ENGLISH": "Englisch"
+    },
+    "FEEDBACK": {
+      "TITLE": "Feedback",
+      "CONTENT": "<p>Bei Anregungen, Lob oder Kritik, schreib mir eine Mail an <a href=\"mailto:moin@frot.io\">moin@frot.io</a></p><p>Bitte füge an, welches Betriebsystem (Android, MacOS, Windows, iOS...) und welchen Browser du benutzt.</p>"
+    }
+  },
+  "INFO_PAGE": {
+    "TITLE": "Info",
+    "CONTACT": {
+      "TITLE": "Kontakt",
+      "CONTENT": "<ul><li><a href=\"mailto:info@ramstein-kampagne.eu\">info@ramstein-kampagne.eu</a></li><li><a href=\"mailto:camp@ramstein-kampagne.eu\">camp@ramstein-kampagne.eu</a></li></ul>"
+    },
+    "EMERGENCY": {
+      "TITLE": "Bei Notfällen",
+      "CONTENT": "<ul><li>Während der Demo: <a href=\"tel:+490000000000\">+490000000000</a> (Sanitäter)</li><li>Im Camp: <a href=\"tel:+491111111111\">+491111111111</a></li></ul>"
+    },
+    "RECENT_PUSH_NOTIFICATIONS": {
+      "TITLE": "Vergangene Push-Notifications"
+    }
+  },
+  "PUSH_NOTIFICATION_DIALOG": {
+    "NOT_SUPPORTED": {
+      "TEXT": "Push-Notifications werden von diesem Browser leider nicht unterstützt.",
+      "BUTTON_DISMISS": "OK"
+    },
+    "SUPPORTED": {
+      "TEXT": "Push-Notifications aktivieren?",
+      "BUTTON_AGREE": "Ja",
+      "BUTTON_DISALLOW": "Nein"
+    },
+    "ERROR": {
+      "TEXT": "Fehler beim Aktivieren von Push-Notifications!",
+      "BUTTON_DISMISS": "OK"
+    },
+    "DENIED": {
+      "TEXT": "Push-Notifications wurden abgelehnt.",
+      "BUTTON_DISMISS": "OK"
+    },
+    "GRANTED": {
+      "TEXT": "Du erhälst ab jetzt Push-Notifications!",
+      "BUTTON_DISMISS": "OK"
+    }
+  }
+}

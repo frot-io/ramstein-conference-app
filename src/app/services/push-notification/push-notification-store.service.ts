@@ -1,3 +1,4 @@
+import { LocalStorageService } from 'src/app/services/local-storage/local-storage.service';
 import { HttpClient } from '@angular/common/http';
 import { Injectable, OnInit } from '@angular/core';
 import { SwPush } from '@angular/service-worker';
@@ -17,15 +18,16 @@ export type PushNotificationState =
 export class PushNotificationStoreService {
   // from https://blog.angular-university.io/angular-push-notifications/
   readonly VAPID_PUBLIC_KEY = 'BBqTVCz44SYRYuFLopkKdG_rT2izyEMsRbZmluXBAVYM25TmQvVz3tTd18a-02GZmiiYBUZHGq7LmD5qGbs0mMo';
-  readonly LOCAL_STORAGE_KEY = 'pushNotificationDismissed';
 
   // tslint:disable-next-line: variable-name
   private _state = new BehaviorSubject<PushNotificationState>(undefined);
   public state$ = this._state.asObservable();
 
   constructor(private swPush: SwPush,
-              private http: HttpClient) {
-    if (localStorage.getItem(this.LOCAL_STORAGE_KEY)) {
+              private http: HttpClient,
+              private localStorageService: LocalStorageService) {
+
+    if (this.localStorageService.getPushNotificationDismissed()) {
       this._state.next('dismissed');
     } else {
       // required, otherwise there is an ExpressionChangedAfterItHasBeenCheckedError
@@ -50,7 +52,7 @@ export class PushNotificationStoreService {
 
   dismiss() {
     this._state.next('dismissed');
-    localStorage.setItem(this.LOCAL_STORAGE_KEY, 'true');
+    this.localStorageService.setPushNotificationDismissed(true);
   }
 
   disallow() {

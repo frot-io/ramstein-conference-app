@@ -1,0 +1,77 @@
+{
+  "NAVIGATION": {
+    "HOME": "Home",
+    "INFO": "Info",
+    "MAP": "Map",
+    "CALENDAR": "Calendar",
+    "LOCATIONS": "Locations",
+    "HELP": "Settings & Help"
+  },
+  "HOME_PAGE": {
+    "TITLE": "Stop Drone Wars!",
+    "WELCOME": {
+      "TITLE": "Welcome!",
+      "CONTENT": "<p>TODO</p>"
+    }
+  },
+  "INFO_PAGE": {
+    "TITLE": "Info",
+    "CONTACT": {
+      "TITLE": "Contact",
+      "CONTENT": "<ul><li><a href=\"mailto:info@ramstein-kampagne.eu\">info@ramstein-kampagne.eu</a></li><li><a href=\"mailto:camp@ramstein-kampagne.eu\">camp@ramstein-kampagne.eu</a></li></ul>"
+    },
+    "EMERGENCY": {
+      "TITLE": "On Emergencies",
+      "CONTENT": "<ul><li>During the Demonstration: <a href=\"tel:+490000000000\">+490000000000</a> (Paramedic)</li><li>In the Camp: <a href=\"tel:+491111111111\">+491111111111</a></li></ul>"
+    },
+    "RECENT_PUSH_NOTIFICATIONS": {
+      "TITLE": "Recent Push-Notifications"
+    }
+  },
+  "HELP_PAGE": {
+    "TITLE": "Settings & Help",
+    "CONTENT": "<p>The app has been tested with:<ul><li><strong>Google Chrome</strong> for <a class=\"link\" href=\"https://play.google.com/store/apps/details?id=com.android.chrome&hl=de\">Android</a> and <a class=\"link\" href=\"https://itunes.apple.com/de/app/google-chrome/id535886823?mt=8\">iOS</a></li><li><strong>Firefox</strong> for <a class=\"link\" href=\"https://play.google.com/store/apps/details?id=org.mozilla.firefox&hl=de\">Android</a> and <a class=\"link\" href=\"https://itunes.apple.com/de/app/internet-browser-firefox/id989804926?mt=8\">iOS</a></li><li>Desktop-Versions of <a class=\"link\" href=\"https://www.google.com/intl/de/chrome/\">Chrome</a> and <a class=\"link\" href=\"https://www.mozilla.org/de/firefox/new/\">Firefox</a></li></ul> There is no guarantee that it works on other Browsers! If you tested it on any other browser and encounter problems, let me know: <a href=\"mailto:moin@frot.io\">moin@frot.io</a> </p>",
+    "ADD_TO_HOMESCREEN": {
+      "TITLE": "Add to homescreen",
+      "CONTENT": "<p>You should see an 'Add to Homescreen' Notification at the bottom on mobile browsers (Chrome & Firefox). By clicking 'Yes', the App gets downloaded and then also works offline!</p>"
+    },
+    "PUSH_NOTIFICATIONS": {
+      "TITLE": "Push-Notifications",
+      "CONTENT": "<p>On the first startup, a dialog box at the bottom asks you for enabling push-notifications. If you accidentally clicked 'Deny', you can re-enable them with:<ol><li>If you use a browser: Click on the lock left of the URL and set 'Notification' to 'Ask'.</li><li>If you installed the app: Go to the app settings of your Operating System (Android or iOS) and re-enable Notifications.</li><li>Click the button below.</li></ol></p>",
+      "BUTTON_LABEL": "Clear Permissions an Reload"
+    },
+    "LANGUAGE_SELECT": {
+      "TITLE": "Language",
+      "CONTENT": "<p>You can switch the language with the buttons below. <a class=\"link\" href=\"https://unitedlanguagegroup.com/blog/inside-design-a-language-selector-is-no-place-for-flags/\">Here</a> you can read, why labels instead of country flags are used on the buttons.</a></p></p>",
+      "BUTTON_LABEL_GERMAN": "German",
+      "BUTTON_LABEL_ENGLISH": "English"
+    },
+    "FEEDBACK": {
+      "TITLE": "Feedback",
+      "CONTENT": "<p>For Bugs, Feature-requests or praise, write me an Email: <a href=\"mailto:moin@frot.io\">moin@frot.io</a></p><p>Please do not forget to include your Operating System (Android, MacOS, Windows, iOS...) and the Browser you are using.</p>"
+    }
+  },
+  "PUSH_NOTIFICATION_DIALOG": {
+    "NOT_SUPPORTED": {
+      "TEXT": "Push Notifications are not supported by this browser.",
+      "BUTTON_DISMISS": "Dismiss"
+    },
+    "SUPPORTED": {
+      "TEXT": "Enable Push Notifications?",
+      "BUTTON_AGREE": "Yes",
+      "BUTTON_DISALLOW": "No"
+    },
+    "ERROR": {
+      "TEXT": "There was an error enabling Push Notifications!",
+      "BUTTON_DISMISS": "Dismiss"
+    },
+    "DENIED": {
+      "TEXT": "Push Notifications have been denied.",
+      "BUTTON_DISMISS": "Dismiss"
+    },
+    "GRANTED": {
+      "TEXT": "Push Notifications are enabled!",
+      "BUTTON_DISMISS": "Dismiss"
+    }
+  }
+}
