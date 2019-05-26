@@ -1,12 +1,12 @@
-import { Component, OnInit } from '@angular/core';
-import { tileLayer, latLng, marker, icon } from 'leaflet';
+import { Component } from '@angular/core';
+import { icon, latLng, marker, tileLayer } from 'leaflet';
 
 @Component({
-  selector: 'app-map',
-  templateUrl: './map.component.html',
-  styleUrls: ['./map.component.styl']
+  selector: 'app-locations',
+  templateUrl: './locations.component.html',
+  styleUrls: ['./locations.component.styl']
 })
-export class MapComponent {
+export class LocationsComponent {
   // Defaults
   private defaultLat = 49.4684328;
   private defaultLng = 7.6256019;

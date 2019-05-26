@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
 
 @Component({
-  selector: 'app-location',
-  templateUrl: './location.component.html',
-  styleUrls: ['./location.component.styl']
+  selector: 'app-location-details',
+  templateUrl: './location-details.component.html',
+  styleUrls: ['./location-details.component.styl']
 })
-export class LocationComponent implements OnInit {
+export class LocationDetailsComponent implements OnInit {
   public location: string;
 
   constructor(private route: ActivatedRoute) { }
