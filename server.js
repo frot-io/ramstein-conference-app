@@ -6,11 +6,13 @@ const mongodb = require("mongodb");
 const path = require('path');
 const webpush = require('web-push');
 
+const env = process.env.NODE_ENV || 'development';
+
 const NOTIFICATIONS_COLLECTION = 'notifications';
 
 webpush.setVapidDetails(
     'mailto:moin@frot.io',
-    'BBqTVCz44SYRYuFLopkKdG_rT2izyEMsRbZmluXBAVYM25TmQvVz3tTd18a-02GZmiiYBUZHGq7LmD5qGbs0mMo',
+    process.env.VAPID_PUBLIC_KEY,
     process.env.VAPID_PRIVATE_KEY
 );
 
@@ -18,6 +20,15 @@ const app = express();
 app.use(bodyParser.json());
 
 app.use(express.static(__dirname + '/dist/ramstein-conference-app'));
+
+if (env === 'production') {
+  app.use(function (req, res, next) {
+    if (req.headers['x-forwarded-proto'] !== 'https') {
+        return res.redirect(['https://', req.get('Host'), req.url].join(''));
+    }
+    return next();
+  });
+}
 
 var db;
 
@@ -94,7 +105,7 @@ app.post('/api/newsletter', function(req, res) {
   });
 });
 
-/* Everything else (e.g. assets) */
+/* Everything else */
 app.get('/*', function(req,res) {
   res.sendFile(path.join(__dirname+'/dist/ramstein-conference-app/index.html'));
 });
