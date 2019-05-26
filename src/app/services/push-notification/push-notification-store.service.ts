@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable, OnInit } from '@angular/core';
 import { SwPush } from '@angular/service-worker';
 import { BehaviorSubject } from 'rxjs';
+import { environment } from '../../../environments/environment';
 
 export type PushNotificationState =
   'notSupported' |
@@ -16,9 +17,6 @@ export type PushNotificationState =
   providedIn: 'root'
 })
 export class PushNotificationStoreService {
-  // from https://blog.angular-university.io/angular-push-notifications/
-  readonly VAPID_PUBLIC_KEY = 'BBqTVCz44SYRYuFLopkKdG_rT2izyEMsRbZmluXBAVYM25TmQvVz3tTd18a-02GZmiiYBUZHGq7LmD5qGbs0mMo';
-
   // tslint:disable-next-line: variable-name
   private _state = new BehaviorSubject<PushNotificationState>(undefined);
   public state$ = this._state.asObservable();
@@ -61,7 +59,7 @@ export class PushNotificationStoreService {
 
   subscribe() {
     this.swPush.requestSubscription({
-      serverPublicKey: this.VAPID_PUBLIC_KEY
+      serverPublicKey: environment.vapidPublicKey
     })
     .then(sub => this.http.post('/api/notifications', sub).subscribe())
     .catch(err => {
