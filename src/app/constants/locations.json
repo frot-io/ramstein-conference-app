@@ -1,0 +1,41 @@
+[
+  {
+    "id": "friedenscamp",
+    "name": "Friedenscamp",
+    "address": "K9 zwischen 66879 Steinwenden und 66879 Kottweiler-Schwanden",
+    "lat": 49.468336,
+    "lng": 7.525594,
+    "translationKey": "FRIEDENSCAMP"
+  },
+  {
+    "id": "svotterberg",
+    "name": "SV Otterberg",
+    "address": "SV Otterberg, Am Stadion 1, 67697 Otterberg",
+    "lat": 49.509176,
+    "lng": 7.780170,
+    "translationKey": "SV_OTTERBERG"
+  },
+  {
+    "id": "apostelkirche",
+    "name": "Abendveranstaltung",
+    "address": "Pariser Str. 22, 67659 Kaiserslautern",
+    "lat": 49.444297,
+    "lng": 7.761579,
+    "translationKey": "APOSTELKIRCHE"
+  },
+  {
+    "id": "auftaktkundgebung",
+    "name": "Auftaktkundgebung",
+    "address": "Haus des Bürgers (Prometheus-Platz), Am neuen Markt 4, 66977 Ramstein-Miesenbach",
+    "lat": 49.447888,
+    "lng": 7.555465,
+    "translationKey": "AUFTAKTKUNDGEBUNG"
+  },
+  {
+    "id": "abschlusskundgebung",
+    "name": "Abschlusskundgebung",
+    "lat": 49.438392,
+    "lng": 7.568276,
+    "translationKey": "ABSCHLUSSKUNDGEBUNG"
+  }
+]

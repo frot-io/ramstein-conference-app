@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { icon, latLng, marker, tileLayer } from 'leaflet';
+import locationsList from '../../constants/locations.json';
+import { Location } from 'src/app/classes/location.class.js';
+
 
 @Component({
   selector: 'app-locations',
@@ -26,14 +29,5 @@ export class LocationsComponent {
     shadowUrl: 'assets/leaflet/marker-shadow.png'
   });
   private locationOptions = { icon: this.locationIcon };
-  public locations = [
-    marker([ 49.468336, 7.525594 ], this.locationOptions).bindPopup('Friedenscamp'),
-    marker([ 49.509176, 7.780170 ], this.locationOptions).bindPopup('Werner Liebrich Friedensfußballturnier'),
-    marker([ 49.468336, 7.525594 ], this.locationOptions).bindPopup('Friedenswerkstatt'),
-    marker([ 49.444297, 7.761579 ], this.locationOptions).bindPopup('Anti-Basen Kongress'),
-    marker([ 49.444297, 7.761579 ], this.locationOptions).bindPopup('Abendveranstaltung'),
-    marker([ 49.447888, 7.555465 ], this.locationOptions).bindPopup('Demonstration und Festival Aufakt'),
-    marker([ 49.438392, 7.568276 ], this.locationOptions).bindPopup('Abschluß + Festival'),
-    marker([ 49.468336, 7.525594 ], this.locationOptions).bindPopup('Friedensfest im Camp'),
-  ];
+  public locations = locationsList.map(l => marker([l.lat, l.lng], this.locationOptions).bindPopup(l.name));
 }
