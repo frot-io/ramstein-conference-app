@@ -43,7 +43,8 @@
       "TITLE": "Demonstration",
       "SUBTITLE": "The big demonstration on saturday",
       "CONTENT": "TODO"
-    }
+    },
+    "BACK_BUTTON_LABEL": "Back to list"
   },
   "LOCATIONS_PAGE": {
     "ADDRESS": "Address",
