@@ -61,7 +61,9 @@ export class PushNotificationStoreService {
     this.swPush.requestSubscription({
       serverPublicKey: environment.vapidPublicKey
     })
-    .then(sub => this.http.post('/api/notifications', sub).subscribe())
+    .then(sub => this.http.post('/api/notifications', sub).subscribe(
+      this._state.next('granted');
+    ))
     .catch(err => {
       if (err.name === 'NotAllowedError') {
         this._state.next('denied');
