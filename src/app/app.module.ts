@@ -27,6 +27,7 @@ import { PushNotificationDialogComponent } from './components/push-notification-
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { StartpageComponent } from './components/startpage/startpage.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
+import { InfoDetailsComponent } from './components/info-details/info-details.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -42,7 +43,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     SidenavComponent,
     StartpageComponent,
     ToolbarComponent,
-    PushNotificationDialogComponent
+    PushNotificationDialogComponent,
+    InfoDetailsComponent
   ],
   imports: [
     BrowserModule,
