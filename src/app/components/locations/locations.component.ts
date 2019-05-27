@@ -1,8 +1,6 @@
-import { Component, ChangeDetectorRef } from '@angular/core';
-import { icon, latLng, LeafletEvent, marker, tileLayer } from 'leaflet';
-import { Location } from 'src/app/classes/location.class.js';
+import { ChangeDetectorRef, Component } from '@angular/core';
+import { icon, latLng, marker, tileLayer } from 'leaflet';
 import locationsJson from '../../constants/locations.json';
-
 
 @Component({
   selector: 'app-locations',
@@ -45,16 +43,4 @@ export class LocationsComponent {
   public openedExpansionPanelId: string;
 
   constructor(private changeDetector: ChangeDetectorRef) {}
-
-  // openExpansionPanel(e: LeafletEvent) {
-  //   console.log(e);
-  //   console.log(this.locations);
-  //   this.openedExpansionPanel = e.target.options.title;
-  // }
-
-  setCurrentLocation(location: Location) {
-    // this.currentLocation = location.id;
-    // const index = this.locations.map(l => l.id).indexOf(location.id);
-    // this.mapLocations[index].fire('click');
-  }
 }

@@ -28,7 +28,30 @@
     }
   },
   "LOCATIONS_PAGE": {
-
+    "ADDRESS": "Address",
+    "READ_MORE": "Read more...",
+    "OPEN_GOOGLE_MAPS": "Show in Google Maps",
+    "OPEN_OSM": "Show in OpenStreetMap",
+    "FRIEDENSCAMP": {
+      "TITLE": "Peace Camp",
+      "DESCRIPTION": "TODO: Description of the <a class=\"link\" href=\"https://www.ramstein-kampagne.eu/friedenscamp-2019/\">Peace Camp 2019</a>"
+    },
+    "SV_OTTERBERG": {
+      "TITLE": "Sports Club Otterberg",
+      "DESCRIPTION": "TODO: Description"
+    },
+    "APOSTELKIRCHE": {
+      "TITLE": "Apostle Church",
+      "DESCRIPTION": "TODO: Description"
+    },
+    "AUFTAKTKUNDGEBUNG": {
+      "TITLE": "Upbeat Rally",
+      "DESCRIPTION": "TODO: Description"
+    },
+    "ABSCHLUSSKUNDGEBUNG": {
+      "TITLE": "Closing Demo",
+      "DESCRIPTION": "TODO: Description"
+    }
   },
   "HELP_PAGE": {
     "TITLE": "Settings & Help",

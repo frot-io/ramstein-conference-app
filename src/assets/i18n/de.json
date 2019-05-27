@@ -13,6 +13,32 @@
       "CONTENT": "<p>TODO</p>"
     }
   },
+  "LOCATIONS_PAGE": {
+    "ADDRESS": "Adresse",
+    "READ_MORE": "Mehr lesen...",
+    "OPEN_GOOGLE_MAPS": "In Google Maps anzeigen",
+    "OPEN_OSM": "In OpenStreetMap anzeigen",
+    "FRIEDENSCAMP": {
+      "TITLE": "Friedenscamp",
+      "DESCRIPTION": "TODO: Beschreibung des <a class=\"link\" href=\"https://www.ramstein-kampagne.eu/friedenscamp-2019/\">Friedenscamp</a>"
+    },
+    "SV_OTTERBERG": {
+      "TITLE": "SV Otterberg",
+      "DESCRIPTION": "TODO: Beschreibung"
+    },
+    "APOSTELKIRCHE": {
+      "TITLE": "Apostelkirche",
+      "DESCRIPTION": "TODO: Beschreibung"
+    },
+    "AUFTAKTKUNDGEBUNG": {
+      "TITLE": "Auftaktkundgebung",
+      "DESCRIPTION": "TODO: Beschreibung"
+    },
+    "ABSCHLUSSKUNDGEBUNG": {
+      "TITLE": "Abschlusskundgebung",
+      "DESCRIPTION": "TODO: Beschreibung"
+    }
+  },
   "HELP_PAGE": {
     "TITLE": "Einstellungen & Hilfe",
     "CONTENT": "<p>Die App wurde mit folgenden Browsern getestet:<ul><li><strong>Google Chrome</strong> für <a class=\"link\" href=\"https://play.google.com/store/apps/details?id=com.android.chrome&hl=de\">Android</a> und <a class=\"link\" href=\"https://itunes.apple.com/de/app/google-chrome/id535886823?mt=8\">iOS</a></li><li><strong>Firefox</strong> für <a class=\"link\" href=\"https://play.google.com/store/apps/details?id=org.mozilla.firefox&hl=de\">Android</a> und <a class=\"link\" href=\"https://itunes.apple.com/de/app/internet-browser-firefox/id989804926?mt=8\">iOS</a></li><li>Desktop-Versionen von <a class=\"link\" href=\"https://www.google.com/intl/de/chrome/\">Chrome</a> und <a class=\"link\" href=\"https://www.mozilla.org/de/firefox/new/\">Firefox</a></li></ul> Support für andere Browser ist nicht garantiert! Falls du einen anderen Browser verwendest und auf Probleme stößt, schreib mir eine Email an <a href=\"mailto:moin@frot.io\">moin@frot.io</a></p>",

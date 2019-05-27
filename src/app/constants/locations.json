@@ -5,7 +5,8 @@
     "address": "K9 zwischen 66879 Steinwenden und 66879 Kottweiler-Schwanden",
     "lat": 49.468336,
     "lng": 7.525594,
-    "translationKey": "FRIEDENSCAMP"
+    "translationKey": "FRIEDENSCAMP",
+    "readMoreLink": "/info/friedenscamp"
   },
   {
     "id": "svotterberg",
@@ -13,15 +14,17 @@
     "address": "Am Stadion 1, 67697 Otterberg",
     "lat": 49.509176,
     "lng": 7.780170,
-    "translationKey": "SV_OTTERBERG"
+    "translationKey": "SV_OTTERBERG",
+    "readMoreLink": "/info/friedensfussballturnier"
   },
   {
     "id": "apostelkirche",
-    "name": "Abendveranstaltung",
+    "name": "Apostelkirche",
     "address": "Pariser Str. 22, 67659 Kaiserslautern",
     "lat": 49.444297,
     "lng": 7.761579,
-    "translationKey": "APOSTELKIRCHE"
+    "translationKey": "APOSTELKIRCHE",
+    "readMoreLink": "/info/apostelkirche"
   },
   {
     "id": "auftaktkundgebung",
@@ -29,7 +32,8 @@
     "address": "Haus des Bürgers (Prometheus-Platz), Am neuen Markt 4, 66977 Ramstein-Miesenbach",
     "lat": 49.447888,
     "lng": 7.555465,
-    "translationKey": "AUFTAKTKUNDGEBUNG"
+    "translationKey": "AUFTAKTKUNDGEBUNG",
+    "readMoreLink": "/events/auftaktkundgebung"
   },
   {
     "id": "abschlusskundgebung",
@@ -37,6 +41,7 @@
     "address": "",
     "lat": 49.438392,
     "lng": 7.568276,
-    "translationKey": "ABSCHLUSSKUNDGEBUNG"
+    "translationKey": "ABSCHLUSSKUNDGEBUNG",
+    "readMoreLink": "/events/abschlusskundgebung"
   }
 ]
