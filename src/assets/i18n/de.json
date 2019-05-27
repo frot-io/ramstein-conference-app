@@ -13,6 +13,38 @@
       "CONTENT": "<p>TODO</p>"
     }
   },
+  "INFO_PAGE": {
+    "ALLGEMEIN": {
+      "TITLE": "Allgemeine Infos",
+      "SUBTITLE": "Infos über die Bewegung",
+      "CONTENT": "TODO"
+    },
+    "NOTFAELLE": {
+      "TITLE": "Bei Notfällen",
+      "SUBTITLE": "Notfallnummern und Ansprechpartner*innen",
+      "CONTENT": "<ul><li>Während der Demo: <a href=\"tel:+490000000000\">+490000000000</a> (Sanitäter)</li><li>Im Camp: <a href=\"tel:+491111111111\">+491111111111</a></li></ul>"
+    },
+    "FRIEDENSCAMP": {
+      "TITLE": "Friedenscamp",
+      "SUBTITLE": "Campingregeln und mehr",
+      "CONTENT": "TODO"
+    },
+    "FRIEDENSFUSSBALLTURNIER": {
+      "TITLE": "Friedensfußballturnier",
+      "SUBTITLE": "Sport für den Frieden",
+      "CONTENT": "TODO"
+    },
+    "APOSTELKIRCHE": {
+      "TITLE": "Apostelkirche",
+      "SUBTITLE": "Veranstaltungsort in Kaiserslautern",
+      "CONTENT": "TODO"
+    },
+    "DEMONSTRATION": {
+      "TITLE": "Demonstration",
+      "SUBTITLE": "Die große Demo am Samstag",
+      "CONTENT": "TODO"
+    }
+  },
   "LOCATIONS_PAGE": {
     "ADDRESS": "Adresse",
     "READ_MORE": "Mehr lesen...",
@@ -60,20 +92,6 @@
     "FEEDBACK": {
       "TITLE": "Feedback",
       "CONTENT": "<p>Bei Anregungen, Lob oder Kritik, schreib mir eine Mail an <a href=\"mailto:moin@frot.io\">moin@frot.io</a></p><p>Bitte füge an, welches Betriebsystem (Android, MacOS, Windows, iOS...) und welchen Browser du benutzt.</p>"
-    }
-  },
-  "INFO_PAGE": {
-    "TITLE": "Info",
-    "CONTACT": {
-      "TITLE": "Kontakt",
-      "CONTENT": "<ul><li><a href=\"mailto:info@ramstein-kampagne.eu\">info@ramstein-kampagne.eu</a></li><li><a href=\"mailto:camp@ramstein-kampagne.eu\">camp@ramstein-kampagne.eu</a></li></ul>"
-    },
-    "EMERGENCY": {
-      "TITLE": "Bei Notfällen",
-      "CONTENT": "<ul><li>Während der Demo: <a href=\"tel:+490000000000\">+490000000000</a> (Sanitäter)</li><li>Im Camp: <a href=\"tel:+491111111111\">+491111111111</a></li></ul>"
-    },
-    "RECENT_PUSH_NOTIFICATIONS": {
-      "TITLE": "Vergangene Push-Notifications"
     }
   },
   "PUSH_NOTIFICATION_DIALOG": {

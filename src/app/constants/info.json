@@ -1,0 +1,26 @@
+[
+  {
+    "id": "allgemein",
+    "translationKey": "ALLGEMEIN"
+  },
+  {
+    "id": "notfaelle",
+    "translationKey": "NOTFAELLE"
+  },
+  {
+    "id": "friedenscamp",
+    "translationKey": "FRIEDENSCAMP"
+  },
+  {
+    "id": "friedenfussbalturnier",
+    "translationKey": "FRIEDENSFUSSBALLTURNIER"
+  },
+  {
+    "id": "apostelkirche",
+    "translationKey": "APOSTELKIRCHE"
+  },
+  {
+    "id": "demonstration",
+    "translationKey": "DEMONSTRATION"
+  }
+]

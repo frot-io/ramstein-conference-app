@@ -5,4 +5,5 @@ export class Location {
   lat?: number;
   lng?: number;
   translationKey?: string;
+  readMoreLink?: string;
 }

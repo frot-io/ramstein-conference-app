@@ -14,17 +14,35 @@
     }
   },
   "INFO_PAGE": {
-    "TITLE": "Info",
-    "CONTACT": {
-      "TITLE": "Contact",
-      "CONTENT": "<ul><li><a href=\"mailto:info@ramstein-kampagne.eu\">info@ramstein-kampagne.eu</a></li><li><a href=\"mailto:camp@ramstein-kampagne.eu\">camp@ramstein-kampagne.eu</a></li></ul>"
+    "ALLGEMEIN": {
+      "TITLE": "General Informations",
+      "SUBTITLE": "Infos about the Peace Movement",
+      "CONTENT": "TODO"
     },
-    "EMERGENCY": {
+    "NOTFAELLE": {
       "TITLE": "On Emergencies",
+      "SUBTITLE": "Emergency Numbers and Contact Persons",
       "CONTENT": "<ul><li>During the Demonstration: <a href=\"tel:+490000000000\">+490000000000</a> (Paramedic)</li><li>In the Camp: <a href=\"tel:+491111111111\">+491111111111</a></li></ul>"
     },
-    "RECENT_PUSH_NOTIFICATIONS": {
-      "TITLE": "Recent Push-Notifications"
+    "FRIEDENSCAMP": {
+      "TITLE": "Peace Camp",
+      "SUBTITLE": "Camping Rules and more",
+      "CONTENT": "TODO"
+    },
+    "FRIEDENSFUSSBALLTURNIER": {
+      "TITLE": "Peace Soccer Tournament",
+      "SUBTITLE": "Sport for Peace",
+      "CONTENT": "TODO"
+    },
+    "APOSTELKIRCHE": {
+      "TITLE": "Apostle Church",
+      "SUBTITLE": "Event location in Kaiserslautern",
+      "CONTENT": "TODO"
+    },
+    "DEMONSTRATION": {
+      "TITLE": "Demonstration",
+      "SUBTITLE": "The big demonstration on saturday",
+      "CONTENT": "TODO"
     }
   },
   "LOCATIONS_PAGE": {

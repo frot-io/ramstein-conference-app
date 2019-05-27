@@ -1,4 +1,4 @@
-<h1 [innerHTML]="'INFO_PAGE.TITLE' | translate"></h1>
+<!-- <h1 [innerHTML]="'INFO_PAGE.TITLE' | translate"></h1>
 
 <h2 [innerHTML]="'INFO_PAGE.CONTACT.TITLE' | translate"></h2>
 <div [innerHTML]="'INFO_PAGE.CONTACT.CONTENT' | translate"></div>
@@ -7,4 +7,13 @@
 <div [innerHTML]="'INFO_PAGE.EMERGENCY.CONTENT' | translate"></div>
 
 <h2 [innerHTML]="'INFO_PAGE.RECENT_PUSH_NOTIFICATIONS.TITLE' | translate"></h2>
-<strong>TODO</strong>
+<strong>TODO</strong> -->
+
+<mat-nav-list>
+  <ng-container *ngFor="let info of infos">
+    <a mat-list-item [routerLink]="['/info', info.id]">
+      <span class="strong" mat-line [innerHtml]="('INFO_PAGE.' + info.translationKey + '.TITLE') | translate"></span>
+      <span mat-line [innerHtml]="('INFO_PAGE.' + info.translationKey + '.SUBTITLE') | translate"></span>
+    </a>
+  </ng-container>
+</mat-nav-list>
