@@ -1,0 +1,39 @@
+<div class="map"
+     leaflet
+     [leafletOptions]="options"
+     [leafletLayers]="mapMarkers">
+</div>
+<mat-accordion>
+  <ng-container *ngFor="let location of locations">
+    <mat-expansion-panel [expanded]="openedExpansionPanelId === location.id"
+    (opened)="location.marker.fire('click')">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          {{ location.name }}
+        </mat-panel-title>
+        <mat-panel-description class="panel-description">
+          {{ location.address }}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <h2 [innerHtml]="('LOCATIONS_PAGE.' + location.translationKey + '.TITLE') | translate"></h2>
+      <p class="address">
+        <strong>{{ 'LOCATIONS_PAGE.ADDRESS' | translate }}:</strong>
+        {{ location.address }}
+      </p>
+      <p [innerHtml]="('LOCATIONS_PAGE.' + location.translationKey + '.DESCRIPTION') | translate"></p>
+      <div fxLayout="row wrap" fxLayoutAlign="space-around center">
+        <a mat-raised-button class="btn" [routerLink]="location.readMoreLink">
+          <mat-icon class="icon">more</mat-icon>{{ 'LOCATIONS_PAGE.READ_MORE' | translate }}
+        </a>
+        <a mat-raised-button class="btn" target="_blank"
+        [href]="'http://www.google.com/maps/place/' + location.lat + ',' + location.lng">
+          <mat-icon class="icon">map</mat-icon>{{ 'LOCATIONS_PAGE.OPEN_GOOGLE_MAPS' | translate }}
+        </a>
+        <a mat-raised-button class="btn" target="_blank"
+        [href]="'http://www.openstreetmap.org/?mlat=' + location.lat + '&mlon=' + location.lng">
+          <mat-icon class="icon">layers</mat-icon>{{ 'LOCATIONS_PAGE.OPEN_OSM' | translate }}
+        </a>
+      </div>
+    </mat-expansion-panel>
+  </ng-container>
+</mat-accordion>

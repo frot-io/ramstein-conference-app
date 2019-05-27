@@ -1,0 +1,7 @@
+<h1 [innerHTML]="'INFO_PAGE.' + translationKey + '.TITLE' | translate"></h1>
+<h3 [innerHTML]="'INFO_PAGE.' + translationKey + '.SUBTITLE' | translate"></h3>
+<div [innerHTML]="'INFO_PAGE.' + translationKey + '.CONTENT' | translate"></div>
+<a mat-button routerLink="/info" class="back-button">
+  <mat-icon class="icon">arrow_back_ios</mat-icon>
+  {{ 'INFO_PAGE.BACK_BUTTON_LABEL' | translate }}
+</a>
