@@ -22,7 +22,6 @@ import { AppComponent } from './components/app.component';
 import { CalendarComponent } from './components/calendar/calendar.component';
 import { HelpComponent } from './components/help/help.component';
 import { InfoComponent } from './components/info/info.component';
-import { LocationDetailsComponent } from './components/location-details/location-details.component';
 import { LocationsComponent } from './components/locations/locations.component';
 import { PushNotificationDialogComponent } from './components/push-notification-dialog/push-notification-dialog.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
@@ -40,7 +39,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     HelpComponent,
     LocationsComponent,
     CalendarComponent,
-    LocationDetailsComponent,
     SidenavComponent,
     StartpageComponent,
     ToolbarComponent,
