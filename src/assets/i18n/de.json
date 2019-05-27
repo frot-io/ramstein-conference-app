@@ -43,7 +43,8 @@
       "TITLE": "Demonstration",
       "SUBTITLE": "Die große Demo am Samstag",
       "CONTENT": "TODO"
-    }
+    },
+    "BACK_BUTTON_LABEL": "Zurück zur Liste"
   },
   "LOCATIONS_PAGE": {
     "ADDRESS": "Adresse",
