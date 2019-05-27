@@ -10,7 +10,7 @@
   {
     "id": "svotterberg",
     "name": "SV Otterberg",
-    "address": "SV Otterberg, Am Stadion 1, 67697 Otterberg",
+    "address": "Am Stadion 1, 67697 Otterberg",
     "lat": 49.509176,
     "lng": 7.780170,
     "translationKey": "SV_OTTERBERG"
@@ -34,6 +34,7 @@
   {
     "id": "abschlusskundgebung",
     "name": "Abschlusskundgebung",
+    "address": "",
     "lat": 49.438392,
     "lng": 7.568276,
     "translationKey": "ABSCHLUSSKUNDGEBUNG"

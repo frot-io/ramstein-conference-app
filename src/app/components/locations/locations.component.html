@@ -1,5 +1,22 @@
-<div style="height: 65vh;"
+<div class="map"
      leaflet
      [leafletOptions]="options"
-     [leafletLayers]="locations">
+     [leafletLayers]="mapLocations">
 </div>
+<mat-accordion>
+  <ng-container *ngFor="let location of locations">
+    <mat-expansion-panel [expanded]="currentLocation === location.id"
+    (opened)="setCurrentLocation(location)">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          {{ location.name }}
+        </mat-panel-title>
+        <mat-panel-description class="panel-description">
+          {{ location.address }}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <p class="address">{{ location.address }}</p>
+      <p>Some other stuff...</p>
+    </mat-expansion-panel>
+  </ng-container>
+</mat-accordion>

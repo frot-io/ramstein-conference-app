@@ -5,6 +5,7 @@ import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import { MatButtonModule } from '@angular/material/button';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatCardModule } from '@angular/material/card';
+import { MatExpansionModule } from '@angular/material/expansion';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
@@ -68,6 +69,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatSidenavModule,
     MatToolbarModule,
     MatBottomSheetModule,
+    MatExpansionModule
   ],
   entryComponents: [
     PushNotificationDialogComponent

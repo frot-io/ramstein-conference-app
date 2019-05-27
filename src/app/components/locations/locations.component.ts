@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { icon, latLng, marker, tileLayer } from 'leaflet';
-import locationsList from '../../constants/locations.json';
+import { icon, latLng, LeafletEvent, marker, tileLayer } from 'leaflet';
 import { Location } from 'src/app/classes/location.class.js';
+import locationsList from '../../constants/locations.json';
 
 
 @Component({
@@ -10,7 +10,7 @@ import { Location } from 'src/app/classes/location.class.js';
   styleUrls: ['./locations.component.styl']
 })
 export class LocationsComponent {
-  // Defaults
+  // MapDefaults
   private defaultLat = 49.4684328;
   private defaultLng = 7.6256019;
   public options = {
@@ -21,7 +21,7 @@ export class LocationsComponent {
     center: latLng(this.defaultLat, this.defaultLng)
   };
 
-  // Locations
+  // MapLocations
   private locationIcon = icon({
     iconSize: [ 25, 41 ],
     iconAnchor: [ 13, 16 ],
@@ -29,5 +29,19 @@ export class LocationsComponent {
     shadowUrl: 'assets/leaflet/marker-shadow.png'
   });
   private locationOptions = { icon: this.locationIcon };
-  public locations = locationsList.map(l => marker([l.lat, l.lng], this.locationOptions).bindPopup(l.name));
+  public mapLocations = locationsList.map(l => marker([l.lat, l.lng], this.locationOptions)
+    .bindPopup(l.name).on('click', this.openExpansionPanel));
+
+  public locations = locationsList;
+  public currentLocation: string;
+
+  openExpansionPanel(e: LeafletEvent) {
+    console.log(e);
+  }
+
+  setCurrentLocation(location: Location) {
+    this.currentLocation = location.id;
+    const index = this.locations.map(l => l.id).indexOf(location.id);
+    this.mapLocations[index].fire('click');
+  }
 }
