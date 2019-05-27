@@ -21,14 +21,16 @@
         {{ location.address }}
       </p>
       <p [innerHtml]="('LOCATIONS_PAGE.' + location.translationKey + '.DESCRIPTION') | translate"></p>
-      <div fxLayout="row wrap" fxLayoutAlign="space-between">
-        <a mat-raised-button [routerLink]="location.readMoreLink">
+      <div fxLayout="row wrap" fxLayoutAlign="space-around center">
+        <a mat-raised-button class="btn" [routerLink]="location.readMoreLink">
           <mat-icon class="icon">more</mat-icon>{{ 'LOCATIONS_PAGE.READ_MORE' | translate }}
         </a>
-        <a mat-raised-button target="_blank" [href]="'http://www.google.com/maps/place/' + location.lat + ',' + location.lng">
+        <a mat-raised-button class="btn" target="_blank"
+        [href]="'http://www.google.com/maps/place/' + location.lat + ',' + location.lng">
           <mat-icon class="icon">map</mat-icon>{{ 'LOCATIONS_PAGE.OPEN_GOOGLE_MAPS' | translate }}
         </a>
-        <a mat-raised-button target="_blank" [href]="'http://www.openstreetmap.org/?mlat=' + location.lat + '&mlon=' + location.lng">
+        <a mat-raised-button class="btn" target="_blank"
+        [href]="'http://www.openstreetmap.org/?mlat=' + location.lat + '&mlon=' + location.lng">
           <mat-icon class="icon">layers</mat-icon>{{ 'LOCATIONS_PAGE.OPEN_OSM' | translate }}
         </a>
       </div>
