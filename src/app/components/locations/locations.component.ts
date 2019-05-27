@@ -1,7 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectorRef } from '@angular/core';
 import { icon, latLng, LeafletEvent, marker, tileLayer } from 'leaflet';
 import { Location } from 'src/app/classes/location.class.js';
-import locationsList from '../../constants/locations.json';
+import locationsJson from '../../constants/locations.json';
 
 
 @Component({
@@ -10,38 +10,51 @@ import locationsList from '../../constants/locations.json';
   styleUrls: ['./locations.component.styl']
 })
 export class LocationsComponent {
-  // MapDefaults
+  // Defaults
   private defaultLat = 49.4684328;
   private defaultLng = 7.6256019;
   public options = {
     layers: [
-      tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap contributors' })
+      tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+      { attribution: '© OpenStreetMap contributors' })
     ],
     zoom: 11,
     center: latLng(this.defaultLat, this.defaultLng)
   };
 
-  // MapLocations
-  private locationIcon = icon({
-    iconSize: [ 25, 41 ],
-    iconAnchor: [ 13, 16 ],
-    iconUrl: 'assets/leaflet/marker-icon.png',
-    shadowUrl: 'assets/leaflet/marker-shadow.png'
-  });
-  private locationOptions = { icon: this.locationIcon };
-  public mapLocations = locationsList.map(l => marker([l.lat, l.lng], this.locationOptions)
-    .bindPopup(l.name).on('click', this.openExpansionPanel));
+  // Locations
+  private locationOptions = {
+    icon: icon({
+      iconSize: [ 25, 41 ],
+      iconAnchor: [ 13, 16 ],
+      iconUrl: 'assets/leaflet/marker-icon.png',
+      shadowUrl: 'assets/leaflet/marker-shadow.png'
+    })
+  };
+  public locations = locationsJson.map(location => ({
+    ...location,
+    marker: marker([location.lat, location.lng], { ...this.locationOptions, title: location.id })
+      .bindPopup(location.name).on('click', e => {
+        this.openedExpansionPanelId = e.target.options.title;
+        this.changeDetector.detectChanges();
+      })
+    })
+  );
+  public mapMarkers = this.locations.map(l => l.marker);
 
-  public locations = locationsList;
-  public currentLocation: string;
+  public openedExpansionPanelId: string;
 
-  openExpansionPanel(e: LeafletEvent) {
-    console.log(e);
-  }
+  constructor(private changeDetector: ChangeDetectorRef) {}
+
+  // openExpansionPanel(e: LeafletEvent) {
+  //   console.log(e);
+  //   console.log(this.locations);
+  //   this.openedExpansionPanel = e.target.options.title;
+  // }
 
   setCurrentLocation(location: Location) {
-    this.currentLocation = location.id;
-    const index = this.locations.map(l => l.id).indexOf(location.id);
-    this.mapLocations[index].fire('click');
+    // this.currentLocation = location.id;
+    // const index = this.locations.map(l => l.id).indexOf(location.id);
+    // this.mapLocations[index].fire('click');
   }
 }

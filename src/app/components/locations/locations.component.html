@@ -1,11 +1,11 @@
 <div class="map"
      leaflet
      [leafletOptions]="options"
-     [leafletLayers]="mapLocations">
+     [leafletLayers]="mapMarkers">
 </div>
 <mat-accordion>
   <ng-container *ngFor="let location of locations">
-    <mat-expansion-panel [expanded]="currentLocation === location.id"
+    <mat-expansion-panel [expanded]="openedExpansionPanelId === location.id"
     (opened)="setCurrentLocation(location)">
       <mat-expansion-panel-header>
         <mat-panel-title>
