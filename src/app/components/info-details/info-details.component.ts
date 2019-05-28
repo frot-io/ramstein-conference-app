@@ -1,6 +1,8 @@
 import { ActivatedRoute, ParamMap } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import infoJson from '../../constants/info.json';
+import { TranslateService } from '@ngx-translate/core';
+import { Info } from 'src/app/classes/info.class.js';
 
 @Component({
   selector: 'app-info-details',
@@ -8,13 +10,14 @@ import infoJson from '../../constants/info.json';
   styleUrls: ['./info-details.component.styl']
 })
 export class InfoDetailsComponent implements OnInit {
-  public translationKey: string;
+  public info: Info;
 
-  constructor(private route: ActivatedRoute) { }
+  constructor(private route: ActivatedRoute,
+              public translateService: TranslateService) { }
 
   ngOnInit() {
     this.route.paramMap.subscribe((params: ParamMap) =>  {
-      this.translationKey = infoJson.find(i => i.id === params.get('infoId')).translationKey;
+      this.info = infoJson.find(i => i.id === params.get('infoId'));
     });
   }
 }
