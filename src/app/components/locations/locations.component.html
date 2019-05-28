@@ -6,7 +6,7 @@
 <mat-accordion>
   <ng-container *ngFor="let location of locations">
     <mat-expansion-panel [expanded]="openedExpansionPanelId === location.id"
-    (opened)="location.marker.fire('click')" [id]="location.id">
+    (opened)="router.navigate(['/locations', location.id])" [id]="location.id">
       <mat-expansion-panel-header>
         <mat-panel-title>
           {{ location.name }}
