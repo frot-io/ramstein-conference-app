@@ -12,12 +12,16 @@
     "translationKey": "FRIEDENSCAMP"
   },
   {
-    "id": "friedenfussbalturnier",
+    "id": "friedensfussballturnier",
     "translationKey": "FRIEDENSFUSSBALLTURNIER"
   },
   {
-    "id": "apostelkirche",
-    "translationKey": "APOSTELKIRCHE"
+    "id": "antibasenkongress",
+    "translationKey": "ANTIBASENKONGRESS"
+  },
+  {
+    "id": "abendveranstaltung",
+    "translationKey": "ABENDVERANSTALTUNG"
   },
   {
     "id": "demonstration",

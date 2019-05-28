@@ -32,7 +32,9 @@
               "src/styles.styl",
               "./node_modules/leaflet/dist/leaflet.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/marked/lib/marked.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
@@ -94,7 +96,9 @@
             "styles": [
               "src/styles.styl"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/marked/lib/marked.js"
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets",

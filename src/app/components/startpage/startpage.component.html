@@ -1,6 +1,1 @@
-<div class="heading">
-  <h1 [innerHTML]="'HOME_PAGE.TITLE' | translate"></h1>
-  <img alt="Ramstein Logo" src="./assets/logo-startpage.png">
-</div>
-<h2 [innerHTML]="'HOME_PAGE.WELCOME.TITLE' | translate"></h2>
-<div [innerHTML]="'HOME_PAGE.WELCOME.CONTENT' | translate"></div>
+<markdown [src]="'./assets/pages/startpage_' + translateService.currentLang + '.md'"></markdown>
