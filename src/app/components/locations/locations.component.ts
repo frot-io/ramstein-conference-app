@@ -1,4 +1,5 @@
-import { ChangeDetectorRef, Component } from '@angular/core';
+import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
+import { ActivatedRoute, ParamMap } from '@angular/router';
 import { icon, latLng, marker, tileLayer } from 'leaflet';
 import locationsJson from '../../constants/locations.json';
 
@@ -7,7 +8,7 @@ import locationsJson from '../../constants/locations.json';
   templateUrl: './locations.component.html',
   styleUrls: ['./locations.component.styl']
 })
-export class LocationsComponent {
+export class LocationsComponent implements OnInit {
   // Defaults
   private defaultLat = 49.4684328;
   private defaultLng = 7.6256019;
@@ -42,5 +43,16 @@ export class LocationsComponent {
 
   public openedExpansionPanelId: string;
 
-  constructor(private changeDetector: ChangeDetectorRef) {}
+  constructor(private changeDetector: ChangeDetectorRef,
+              private route: ActivatedRoute) {}
+
+  ngOnInit() {
+    this.route.paramMap.subscribe((params: ParamMap) =>  {
+      const id = params.get('locationId');
+      this.openedExpansionPanelId = id;
+      this.locations.find(l => l.id === id).marker.fire('click');
+    });
+  }
+
+
 }
