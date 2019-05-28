@@ -1,5 +1,5 @@
-import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
-import { ActivatedRoute, ParamMap } from '@angular/router';
+import { ChangeDetectorRef, Component, OnInit, NgZone } from '@angular/core';
+import { ActivatedRoute, ParamMap, Router } from '@angular/router';
 import { icon, latLng, marker, tileLayer } from 'leaflet';
 import locationsJson from '../../constants/locations.json';
 
@@ -33,9 +33,11 @@ export class LocationsComponent implements OnInit {
   public locations = locationsJson.map(location => ({
     ...location,
     marker: marker([location.lat, location.lng], { ...this.locationOptions, title: location.id })
-      .bindPopup(location.name).on('click', e => {
-        this.openedExpansionPanelId = e.target.options.title;
-        this.changeDetector.detectChanges();
+      .bindPopup('<a href="/locations/' + location.id + '#' + location.id + '">' + location.name + '</a>')
+      .on('click', e => {
+        this.ngZone.run(() => {
+          this.router.navigate(['/locations', e.target.options.title]);
+        });
       })
     })
   );
@@ -44,6 +46,8 @@ export class LocationsComponent implements OnInit {
   public openedExpansionPanelId: string;
 
   constructor(private changeDetector: ChangeDetectorRef,
+              private ngZone: NgZone,
+              private router: Router,
               private route: ActivatedRoute) {}
 
   ngOnInit() {
