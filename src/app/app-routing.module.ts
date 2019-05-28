@@ -12,12 +12,13 @@ const routes: Routes = [
   { path: 'info', component: InfoComponent },
   { path: 'info/:infoId', component: InfoDetailsComponent },
   { path: 'locations', component: LocationsComponent },
+  { path: 'locations/:locationId', component: LocationsComponent },
   { path: 'calendar', component: CalendarComponent },
   { path: 'help', component: HelpComponent },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { anchorScrolling: 'enabled' })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
