@@ -28,6 +28,7 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { StartpageComponent } from './components/startpage/startpage.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { InfoDetailsComponent } from './components/info-details/info-details.component';
+import { MarkdownModule } from 'ngx-markdown';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -60,6 +61,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     HttpClientModule,
     BrowserAnimationsModule,
     LeafletModule.forRoot(),
+    MarkdownModule.forRoot(),
     FlexLayoutModule,
     MatButtonModule,
     MatButtonToggleModule,
