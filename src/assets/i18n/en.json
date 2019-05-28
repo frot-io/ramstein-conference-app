@@ -20,28 +20,27 @@
     },
     "NOTFAELLE": {
       "TITLE": "On Emergencies",
-      "SUBTITLE": "Emergency Numbers and Contact Persons",
-      "CONTENT": "<ul><li>During the Demonstration: <a href=\"tel:+490000000000\">+490000000000</a> (Paramedic)</li><li>In the Camp: <a href=\"tel:+491111111111\">+491111111111</a></li></ul>"
+      "SUBTITLE": "Emergency Numbers and Contact Persons"
     },
     "FRIEDENSCAMP": {
       "TITLE": "Peace Camp",
-      "SUBTITLE": "Camping Rules and more",
-      "CONTENT": "TODO"
+      "SUBTITLE": "Camping Rules and more"
     },
     "FRIEDENSFUSSBALLTURNIER": {
       "TITLE": "Peace Soccer Tournament",
-      "SUBTITLE": "Sport for Peace",
-      "CONTENT": "TODO"
+      "SUBTITLE": "Sport for Peace"
     },
-    "APOSTELKIRCHE": {
-      "TITLE": "Apostle Church",
-      "SUBTITLE": "Event location in Kaiserslautern",
-      "CONTENT": "TODO"
+    "ANTIBASENKONGRESS": {
+      "TITLE": "Anti-Basen Kongress",
+      "SUBTITLE": "3. International Conference \"No to Military Bases & Wars\""
+    },
+    "ABENDVERANSTALTUNG": {
+      "TITLE": "Evening Event",
+      "SUBTITLE": "28.06.2019 from 19.00"
     },
     "DEMONSTRATION": {
       "TITLE": "Demonstration",
-      "SUBTITLE": "The big demonstration on saturday",
-      "CONTENT": "TODO"
+      "SUBTITLE": "The big demonstration on saturday"
     },
     "BACK_BUTTON_LABEL": "Back to list"
   },
