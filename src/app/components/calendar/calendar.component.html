@@ -1,10 +1,14 @@
 <!-- <div fxLayout="row wrap" fxLayoutGap="32px" fxLayoutAlign="center"> -->
-<ng-masonry-grid [masonryOptions]="{ transitionDuration: '0.8s', gutter: 5 }">
+<ng-masonry-grid [masonryOptions]="{ transitionDuration: '0.2s', gutter: 10 }">
   <ng-masonry-grid-item *ngFor="let event of eventsStoreService.events" >
     <mat-card class="card">
       <mat-card-header>
         <mat-card-title>{{ event.title }}</mat-card-title>
-        <mat-card-subtitle><a [routerLink]="['/location', event.location.id]">{{ event.location.name }}</a></mat-card-subtitle>
+        <mat-card-subtitle>
+          <a [routerLink]="['/locations', event.location.id]" class="unstyled-link">
+            {{ event.location.name }}
+          </a>
+        </mat-card-subtitle>
       </mat-card-header>
       <img *ngIf="event.image" mat-card-image [src]="event.image.src" [alt]="event.image.alt">
       <mat-card-content>
