@@ -4,7 +4,10 @@ import { EventsStoreService } from 'src/app/services/events-store/events-store.s
 @Component({
   selector: 'app-calendar',
   templateUrl: './calendar.component.html',
-  styleUrls: ['./calendar.component.styl']
+  styleUrls: [
+    './calendar.component.styl',
+    '../../../../node_modules/ng-masonry-grid/ng-masonry-grid.css'
+  ]
 })
 export class CalendarComponent implements OnInit {
   constructor(public eventsStoreService: EventsStoreService) { }

@@ -1,22 +1,30 @@
-<div fxLayout="row wrap" fxLayoutGap="32px" fxLayoutAlign="center">
-  <mat-card *ngFor="let event of eventsStoreService.events$ | async" class="card">
-    <mat-card-header>
-      <mat-card-title>{{ event.title }}</mat-card-title>
-      <mat-card-subtitle><a [routerLink]="['/location', event.location.id]">{{ event.location.name }}</a></mat-card-subtitle>
-    </mat-card-header>
-    <img *ngIf="event.image" mat-card-image [src]="event.image.src" [alt]="event.image.alt">
-    <mat-card-content>
-      <p>
-        {{ event.description }}
-      </p>
-    </mat-card-content>
-    <mat-card-actions>
-      <button *ngIf="!event.favorite" mat-stroked-button (click)="eventsStoreService.favorite(event)">
-        <mat-icon class="icon">favorite_outline</mat-icon>
-      </button>
-      <button *ngIf="event.favorite" mat-stroked-button (click)="eventsStoreService.unfavorite(event)">
-        <mat-icon class="icon">favorite</mat-icon>
-      </button>
-    </mat-card-actions>
-  </mat-card>
-</div>
+<!-- <div fxLayout="row wrap" fxLayoutGap="32px" fxLayoutAlign="center"> -->
+<ng-masonry-grid [masonryOptions]="{ transitionDuration: '0.2s', gutter: 10 }">
+  <ng-masonry-grid-item *ngFor="let event of eventsStoreService.events" >
+    <mat-card class="card">
+      <mat-card-header>
+        <mat-card-title>{{ event.title }}</mat-card-title>
+        <mat-card-subtitle>
+          <a [routerLink]="['/locations', event.location.id]" class="unstyled-link">
+            {{ event.location.name }}
+          </a>
+        </mat-card-subtitle>
+      </mat-card-header>
+      <img *ngIf="event.image" mat-card-image [src]="event.image.src" [alt]="event.image.alt">
+      <mat-card-content>
+        <p>
+          {{ event.description }}
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button *ngIf="!(eventsStoreService.favorites$ | async).includes(event.id)" mat-stroked-button (click)="eventsStoreService.favorite(event)">
+          <mat-icon class="icon">favorite_outline</mat-icon>
+        </button>
+        <button *ngIf="(eventsStoreService.favorites$ | async).includes(event.id)" mat-stroked-button (click)="eventsStoreService.unfavorite(event)">
+          <mat-icon class="icon">favorite</mat-icon>
+        </button>
+      </mat-card-actions>
+    </mat-card>
+  </ng-masonry-grid-item>
+</ng-masonry-grid>
+<!-- </div> -->

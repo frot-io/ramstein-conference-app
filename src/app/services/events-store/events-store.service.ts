@@ -1,41 +1,31 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 import { Event } from 'src/app/classes/event.class';
-import mockEvents from '../../constants/mock-events.json';
+import eventsJson from '../../constants/mock-events.json';
 
 @Injectable({providedIn: 'root'})
 export class EventsStoreService {
+  readonly events: Event[];
   // tslint:disable-next-line: variable-name
-  private readonly _events = new BehaviorSubject<Event[]>([]);
-  readonly events$ = this._events.asObservable();
+  private favoritesSet = new Set<number>();
+  private readonly favoritesSubject = new BehaviorSubject<Array<number>>([]);
+  readonly favorites$ = this.favoritesSubject.asObservable();
 
   constructor() {
-    this.events = mockEvents;
-  }
-
-  private get events(): Event[] {
-    return this._events.getValue();
-  }
-
-  private set events(events: Event[]) {
-    this._events.next(events);
+    this.events = eventsJson;
   }
 
   favorite(event: Event) {
-    const index = this.events.map(e => e.id).indexOf(event.id);
-    this.events = [
-      ...this.events.slice(0, index),
-      { ...this.events[index], favorite: true },
-      ...this.events.slice(index + 1)
-    ];
+    if (!this.favoritesSet.has(event.id)) {
+      this.favoritesSet.add(event.id);
+      this.favoritesSubject.next(Array.from(this.favoritesSet));
+    }
   }
 
   unfavorite(event: Event) {
-    const index = this.events.map(e => e.id).indexOf(event.id);
-    this.events = [
-      ...this.events.slice(0, index),
-      { ...this.events[index], favorite: false },
-      ...this.events.slice(index + 1)
-    ];
+    if (this.favoritesSet.has(event.id)) {
+      this.favoritesSet.delete(event.id);
+      this.favoritesSubject.next(Array.from(this.favoritesSet));
+    }
   }
 }
