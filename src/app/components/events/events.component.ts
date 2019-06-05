@@ -1,3 +1,4 @@
+import { FavoritesStoreService } from './../../services/favorites-store/favorites-store.service';
 import { Component } from '@angular/core';
 import { EventsStoreService } from 'src/app/services/events-store/events-store.service';
 
@@ -10,5 +11,6 @@ import { EventsStoreService } from 'src/app/services/events-store/events-store.s
   ]
 })
 export class EventsComponent {
-  constructor(public eventsStoreService: EventsStoreService) { }
+  constructor(public eventsStore: EventsStoreService,
+              public favoritesStore: FavoritesStoreService) { }
 }
