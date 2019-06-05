@@ -1,6 +1,7 @@
-import { EventsComponent } from './components/events/events.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { EventsComponent } from './components/events/events.component';
+import { FavoritesComponent } from './components/favorites/favorites.component';
 import { HelpComponent } from './components/help/help.component';
 import { InfoDetailsComponent } from './components/info-details/info-details.component';
 import { InfoComponent } from './components/info/info.component';
@@ -11,9 +12,10 @@ const routes: Routes = [
   { path: '', component: StartpageComponent, pathMatch: 'full' },
   { path: 'info', component: InfoComponent },
   { path: 'info/:infoId', component: InfoDetailsComponent },
+  { path: 'events', component: EventsComponent },
+  { path: 'favorites', component: FavoritesComponent },
   { path: 'locations', component: LocationsComponent },
   { path: 'locations/:locationId', component: LocationsComponent },
-  { path: 'events', component: EventsComponent },
   { path: 'help', component: HelpComponent },
 ];
 

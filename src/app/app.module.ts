@@ -30,6 +30,7 @@ import { PushNotificationDialogComponent } from './components/push-notification-
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { StartpageComponent } from './components/startpage/startpage.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
+import { FavoritesComponent } from './components/favorites/favorites.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -46,7 +47,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     StartpageComponent,
     ToolbarComponent,
     PushNotificationDialogComponent,
-    InfoDetailsComponent
+    InfoDetailsComponent,
+    FavoritesComponent
   ],
   imports: [
     BrowserModule,
