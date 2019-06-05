@@ -18,4 +18,8 @@ export class EventsStoreService {
       map(([events, favoritesIds]) => events.filter(event => favoritesIds.includes(event.id)))
     );
   }
+
+  getEvent(id: number): Event {
+    return eventsJson.find(e => e.id === id);
+  }
 }

@@ -2,7 +2,11 @@
   <ng-masonry-grid-item *ngFor="let event of (eventsStore.events$ | async)" >
     <mat-card class="card">
       <mat-card-header>
-        <mat-card-title>{{ event.title }}</mat-card-title>
+        <mat-card-title>
+          <a [routerLink]="['/events', event.id]" class="unstyled-link">
+            {{ event.title }}
+          </a>
+        </mat-card-title>
         <mat-card-subtitle>
           <a [routerLink]="['/locations', event.location.id]" class="unstyled-link">
             {{ event.location.name }}
