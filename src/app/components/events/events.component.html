@@ -1,5 +1,5 @@
 <ng-masonry-grid [masonryOptions]="{ transitionDuration: '0.2s', gutter: 10 }">
-  <ng-masonry-grid-item *ngFor="let event of eventsStore.events" >
+  <ng-masonry-grid-item *ngFor="let event of (eventsStore.events$ | async)" >
     <mat-card class="card">
       <mat-card-header>
         <mat-card-title>{{ event.title }}</mat-card-title>

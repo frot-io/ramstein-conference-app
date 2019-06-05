@@ -4,7 +4,6 @@ import { Event } from 'src/app/classes/event.class';
 
 @Injectable({providedIn: 'root'})
 export class FavoritesStoreService {
-  // tslint:disable-next-line: variable-name
   private favoritesSet = new Set<number>();
   private readonly favoritesSubject = new BehaviorSubject<Array<number>>([]);
   readonly favorites$ = this.favoritesSubject.asObservable();
