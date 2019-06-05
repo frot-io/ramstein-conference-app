@@ -1,4 +1,4 @@
-import { ChangeDetectorRef, Component, OnInit, NgZone } from '@angular/core';
+import { Component, NgZone, OnInit } from '@angular/core';
 import { ActivatedRoute, ParamMap, Router } from '@angular/router';
 import { icon, latLng, marker, tileLayer } from 'leaflet';
 import locationsJson from '../../constants/locations.json';

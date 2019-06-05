@@ -1,6 +1,6 @@
+import { EventsComponent } from './components/events/events.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CalendarComponent } from './components/calendar/calendar.component';
 import { HelpComponent } from './components/help/help.component';
 import { InfoDetailsComponent } from './components/info-details/info-details.component';
 import { InfoComponent } from './components/info/info.component';
@@ -13,7 +13,7 @@ const routes: Routes = [
   { path: 'info/:infoId', component: InfoDetailsComponent },
   { path: 'locations', component: LocationsComponent },
   { path: 'locations/:locationId', component: LocationsComponent },
-  { path: 'calendar', component: CalendarComponent },
+  { path: 'events', component: EventsComponent },
   { path: 'help', component: HelpComponent },
 ];
 

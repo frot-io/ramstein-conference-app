@@ -1,17 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { EventsStoreService } from 'src/app/services/events-store/events-store.service';
 
 @Component({
-  selector: 'app-calendar',
-  templateUrl: './calendar.component.html',
+  selector: 'app-events',
+  templateUrl: './events.component.html',
   styleUrls: [
-    './calendar.component.styl',
+    './events.component.styl',
     '../../../../node_modules/ng-masonry-grid/ng-masonry-grid.css'
   ]
 })
-export class CalendarComponent implements OnInit {
+export class EventsComponent {
   constructor(public eventsStoreService: EventsStoreService) { }
-
-  ngOnInit() {
-  }
 }

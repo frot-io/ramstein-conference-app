@@ -21,7 +21,7 @@ import { MarkdownModule } from 'ngx-markdown';
 import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './components/app.component';
-import { CalendarComponent } from './components/calendar/calendar.component';
+import { EventsComponent } from './components/events/events.component';
 import { HelpComponent } from './components/help/help.component';
 import { InfoDetailsComponent } from './components/info-details/info-details.component';
 import { InfoComponent } from './components/info/info.component';
@@ -41,7 +41,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     InfoComponent,
     HelpComponent,
     LocationsComponent,
-    CalendarComponent,
+    EventsComponent,
     SidenavComponent,
     StartpageComponent,
     ToolbarComponent,
