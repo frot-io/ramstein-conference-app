@@ -38,6 +38,9 @@
     },
     "BACK_BUTTON_LABEL": "Zurück zur Liste"
   },
+  "FAVORITES_PAGE": {
+    "NO_FAVORITE": "Bitte wähle Favoriten auf der Seite <strong>Veranstaltungen</strong> aus"
+  },
   "LOCATIONS_PAGE": {
     "ADDRESS": "Adresse",
     "READ_MORE": "Mehr lesen...",
