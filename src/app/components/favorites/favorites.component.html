@@ -1,8 +1,14 @@
-<mat-nav-list>
+<mat-nav-list *ngIf="(eventsStore.favoriteEvents$ | async)?.length; else noFavoriteEventsRef">
   <ng-container *ngFor="let event of (eventsStore.favoriteEvents$ | async)">
     <a mat-list-item [routerLink]="['/events', event.id]">
       <h4 mat-line>{{event.title}}</h4>
       <p mat-line> {{event.id}} </p>
+      <button mat-stroked-button (click)="unfavorite(event, $event)">
+        <mat-icon class="icon">clear</mat-icon>
+      </button>
     </a>
   </ng-container>
 </mat-nav-list>
+<ng-template #noFavoriteEventsRef>
+  <h1>Please select events</h1>
+</ng-template>

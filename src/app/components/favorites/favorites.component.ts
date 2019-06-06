@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Event } from './../../classes/event.class';
+import { FavoritesStoreService } from './../../services/favorites-store/favorites-store.service';
+import { Component } from '@angular/core';
 import { EventsStoreService } from 'src/app/services/events-store/events-store.service';
 
 @Component({
@@ -6,11 +8,14 @@ import { EventsStoreService } from 'src/app/services/events-store/events-store.s
   templateUrl: './favorites.component.html',
   styleUrls: ['./favorites.component.styl']
 })
-export class FavoritesComponent implements OnInit {
+export class FavoritesComponent {
 
-  constructor(public eventsStore: EventsStoreService) { }
+  constructor(public eventsStore: EventsStoreService,
+              public favoritesStore: FavoritesStoreService) { }
 
-  ngOnInit() {
+  unfavorite(event: Event, clickEvent) {
+    clickEvent.preventDefault();
+    clickEvent.stopImmediatePropagation();
+    this.favoritesStore.unfavorite(event);
   }
-
 }

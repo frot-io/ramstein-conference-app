@@ -1,9 +1,9 @@
-import { FavoritesStoreService } from './../favorites-store/favorites-store.service';
-import { BehaviorSubject } from 'rxjs';
-import { withLatestFrom, filter, map } from 'rxjs/operators';
 import { Injectable } from '@angular/core';
+import { BehaviorSubject } from 'rxjs';
+import { map } from 'rxjs/operators';
 import { Event } from 'src/app/classes/event.class';
 import eventsJson from '../../constants/mock-events.json';
+import { FavoritesStoreService } from './../favorites-store/favorites-store.service';
 
 @Injectable({providedIn: 'root'})
 export class EventsStoreService {
@@ -13,9 +13,8 @@ export class EventsStoreService {
 
   constructor(private favoritesStore: FavoritesStoreService) {
     this.eventsSubject.next(eventsJson);
-    this.favoriteEvents$ = this.events$.pipe(
-      withLatestFrom(favoritesStore.favorites$),
-      map(([events, favoritesIds]) => events.filter(event => favoritesIds.includes(event.id)))
+    this.favoriteEvents$ = favoritesStore.favorites$.pipe(
+      map(favoritesIds => eventsJson.filter(event => favoritesIds.includes(event.id)))
     );
   }
 
