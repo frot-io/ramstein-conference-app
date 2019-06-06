@@ -1,11 +1,9 @@
-import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { SwPush } from '@angular/service-worker';
-import { BehaviorSubject } from 'rxjs';
 
 const KEYS = {
   LANGUAGE: 'Lang',
-  PUSH_NOTIFICATION_DISMISSED: 'PushNotificationDismissed'
+  PUSH_NOTIFICATION_DISMISSED: 'PushNotificationDismissed',
+  FAVORITES_ARRAY: 'FavoritesArray'
 };
 
 @Injectable({
@@ -33,5 +31,15 @@ export class LocalStorageService {
     return undefined;
   }
 
+  setFavoritesArray(favoritesIds: Array<number>) {
+    localStorage.setItem(KEYS.FAVORITES_ARRAY, JSON.stringify(favoritesIds));
+  }
 
+  getFavoritesArray(): Array<number> {
+    const array = localStorage.getItem(KEYS.FAVORITES_ARRAY);
+    if (array) {
+      return JSON.parse(array);
+    }
+    return undefined;
+  }
 }
