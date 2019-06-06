@@ -1,30 +1,34 @@
-<!-- <div fxLayout="row wrap" fxLayoutGap="32px" fxLayoutAlign="center"> -->
 <ng-masonry-grid [masonryOptions]="{ transitionDuration: '0.2s', gutter: 10 }">
-  <ng-masonry-grid-item *ngFor="let event of eventsStoreService.events" >
+  <ng-masonry-grid-item *ngFor="let event of (eventsStore.events$ | async)" >
     <mat-card class="card">
       <mat-card-header>
-        <mat-card-title>{{ event.title }}</mat-card-title>
+        <mat-card-title>
+          <a [routerLink]="['/events', event.id]" class="unstyled-link">
+            {{ event.title }}
+          </a>
+        </mat-card-title>
         <mat-card-subtitle>
           <a [routerLink]="['/locations', event.location.id]" class="unstyled-link">
             {{ event.location.name }}
           </a>
         </mat-card-subtitle>
       </mat-card-header>
-      <img *ngIf="event.image" mat-card-image [src]="event.image.src" [alt]="event.image.alt">
+      <a *ngIf="event.image" [routerLink]="['/events', event.id]">
+        <img mat-card-image [src]="event.image.src" [alt]="event.image.alt">
+      </a>
       <mat-card-content>
         <p>
           {{ event.description }}
         </p>
       </mat-card-content>
       <mat-card-actions>
-        <button *ngIf="!(eventsStoreService.favorites$ | async).includes(event.id)" mat-stroked-button (click)="eventsStoreService.favorite(event)">
+        <button *ngIf="!(favoritesStore.favorites$ | async).includes(event.id)" mat-stroked-button (click)="favoritesStore.favorite(event)">
           <mat-icon class="icon">favorite_outline</mat-icon>
         </button>
-        <button *ngIf="(eventsStoreService.favorites$ | async).includes(event.id)" mat-stroked-button (click)="eventsStoreService.unfavorite(event)">
+        <button *ngIf="(favoritesStore.favorites$ | async).includes(event.id)" mat-stroked-button (click)="favoritesStore.unfavorite(event)">
           <mat-icon class="icon">favorite</mat-icon>
         </button>
       </mat-card-actions>
     </mat-card>
   </ng-masonry-grid-item>
 </ng-masonry-grid>
-<!-- </div> -->

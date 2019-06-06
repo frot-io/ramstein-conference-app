@@ -2,7 +2,8 @@
   "NAVIGATION": {
     "HOME": "Startseite",
     "INFO": "Info",
-    "CALENDAR": "Kalender",
+    "EVENTS": "Veranstaltungen",
+    "FAVORITES": "Favoriten",
     "LOCATIONS": "Orte",
     "HELP": "Einstellungen & Hilfe"
   },
@@ -36,6 +37,9 @@
       "SUBTITLE": "Die große Demo am Samstag"
     },
     "BACK_BUTTON_LABEL": "Zurück zur Liste"
+  },
+  "FAVORITES_PAGE": {
+    "NO_FAVORITE": "Bitte wähle Favoriten auf der Seite <strong>Veranstaltungen</strong> aus"
   },
   "LOCATIONS_PAGE": {
     "ADDRESS": "Adresse",

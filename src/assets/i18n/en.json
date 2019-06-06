@@ -2,7 +2,8 @@
   "NAVIGATION": {
     "HOME": "Home",
     "INFO": "Info",
-    "CALENDAR": "Calendar",
+    "EVENTS": "Events",
+    "FAVORITES": "Favorites",
     "LOCATIONS": "Locations",
     "HELP": "Settings & Help"
   },
@@ -36,6 +37,9 @@
       "SUBTITLE": "The big demonstration on saturday"
     },
     "BACK_BUTTON_LABEL": "Back to list"
+  },
+  "FAVORITES_PAGE": {
+    "NO_FAVORITE": "Please favorite events on the page <strong>Events</strong>"
   },
   "LOCATIONS_PAGE": {
     "ADDRESS": "Address",

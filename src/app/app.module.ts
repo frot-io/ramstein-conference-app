@@ -21,7 +21,7 @@ import { MarkdownModule } from 'ngx-markdown';
 import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './components/app.component';
-import { CalendarComponent } from './components/calendar/calendar.component';
+import { EventsComponent } from './components/events/events.component';
 import { HelpComponent } from './components/help/help.component';
 import { InfoDetailsComponent } from './components/info-details/info-details.component';
 import { InfoComponent } from './components/info/info.component';
@@ -30,6 +30,8 @@ import { PushNotificationDialogComponent } from './components/push-notification-
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { StartpageComponent } from './components/startpage/startpage.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
+import { FavoritesComponent } from './components/favorites/favorites.component';
+import { EventsDetailsComponent } from './components/events-details/events-details.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -41,12 +43,14 @@ export function HttpLoaderFactory(http: HttpClient) {
     InfoComponent,
     HelpComponent,
     LocationsComponent,
-    CalendarComponent,
+    EventsComponent,
     SidenavComponent,
     StartpageComponent,
     ToolbarComponent,
     PushNotificationDialogComponent,
-    InfoDetailsComponent
+    InfoDetailsComponent,
+    FavoritesComponent,
+    EventsDetailsComponent
   ],
   imports: [
     BrowserModule,
