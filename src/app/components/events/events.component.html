@@ -13,7 +13,9 @@
           </a>
         </mat-card-subtitle>
       </mat-card-header>
-      <img *ngIf="event.image" mat-card-image [src]="event.image.src" [alt]="event.image.alt">
+      <a *ngIf="event.image" [routerLink]="['/events', event.id]">
+        <img mat-card-image [src]="event.image.src" [alt]="event.image.alt">
+      </a>
       <mat-card-content>
         <p>
           {{ event.description }}
