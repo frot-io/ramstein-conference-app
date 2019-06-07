@@ -39,6 +39,10 @@
     "BACK_BUTTON_LABEL": "Zurück zur Liste"
   },
   "EVENTS_PAGE": {
+    "TIME": "Zeit",
+    "LOCATION": "Ort",
+    "CATEGORY": "Kategorie",
+    "DETAILS": "Details",
     "CATEGORIES": {
       "Int": "International",
       "Umw": "Umweltpolitik",
