@@ -3,7 +3,7 @@
     <mat-card class="card">
       <mat-card-header>
         <mat-card-title>
-          <a [routerLink]="['/events', event.id]" class="unstyled-link">
+          <a [routerLink]="['/events', event['ID']]" class="unstyled-link">
             {{ event['Titel'] }}
           </a>
         </mat-card-title>
@@ -14,8 +14,8 @@
           TODO: Location
         </mat-card-subtitle>
       </mat-card-header>
-      <a *ngIf="event.image" [routerLink]="['/events', event.id]">
-        <img mat-card-image [src]="event.image.src" [alt]="event.image.alt">
+      <a *ngIf="event['Bild']" [routerLink]="['/events', event['ID']]">
+        <img mat-card-image [src]="event['Bild']">
       </a>
       <mat-card-content>
         <p>
@@ -23,10 +23,10 @@
         </p>
       </mat-card-content>
       <mat-card-actions>
-        <button *ngIf="!(favoritesStore.favorites$ | async).includes(event.id)" mat-stroked-button (click)="favoritesStore.favorite(event)">
+        <button *ngIf="!(favoritesStore.favorites$ | async).includes(event['ID'])" mat-stroked-button (click)="favoritesStore.favorite(event)">
           <mat-icon class="icon">favorite_outline</mat-icon>
         </button>
-        <button *ngIf="(favoritesStore.favorites$ | async).includes(event.id)" mat-stroked-button (click)="favoritesStore.unfavorite(event)">
+        <button *ngIf="(favoritesStore.favorites$ | async).includes(event['ID'])" mat-stroked-button (click)="favoritesStore.unfavorite(event)">
           <mat-icon class="icon">favorite</mat-icon>
         </button>
       </mat-card-actions>

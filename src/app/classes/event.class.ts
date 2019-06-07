@@ -1,6 +1,3 @@
-import { Image } from './image.class';
-import { Location } from './location.class';
-
 export class Event {
   'ID': number;
   'Tag': string;
