@@ -4,13 +4,14 @@
       <mat-card-header>
         <mat-card-title>
           <a [routerLink]="['/events', event.id]" class="unstyled-link">
-            {{ event.title }}
+            {{ event['Titel'] }}
           </a>
         </mat-card-title>
         <mat-card-subtitle>
-          <a [routerLink]="['/locations', event.location.id]" class="unstyled-link">
+          <!-- <a [routerLink]="['/locations', event.location.id]" class="unstyled-link">
             {{ event.location.name }}
-          </a>
+          </a> -->
+          TODO: Location
         </mat-card-subtitle>
       </mat-card-header>
       <a *ngIf="event.image" [routerLink]="['/events', event.id]">
@@ -18,7 +19,7 @@
       </a>
       <mat-card-content>
         <p>
-          {{ event.description }}
+          {{ event['Beschreibung'] }}
         </p>
       </mat-card-content>
       <mat-card-actions>

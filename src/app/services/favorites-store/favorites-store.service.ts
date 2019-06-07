@@ -16,8 +16,8 @@ export class FavoritesStoreService {
   }
 
   favorite(event: Event) {
-    if (!this.favoritesSet.has(event.id)) {
-      this.favoritesSet.add(event.id);
+    if (!this.favoritesSet.has(event['ID'])) {
+      this.favoritesSet.add(event['ID']);
       const favoritesArray = Array.from(this.favoritesSet);
       this.localStorage.setFavoritesArray(favoritesArray);
       this.favoritesSubject.next(favoritesArray);
@@ -25,8 +25,8 @@ export class FavoritesStoreService {
   }
 
   unfavorite(event: Event) {
-    if (this.favoritesSet.has(event.id)) {
-      this.favoritesSet.delete(event.id);
+    if (this.favoritesSet.has(event['ID'])) {
+      this.favoritesSet.delete(event['ID']);
       const favoritesArray = Array.from(this.favoritesSet);
       this.localStorage.setFavoritesArray(favoritesArray);
       this.favoritesSubject.next(favoritesArray);
