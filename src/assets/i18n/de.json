@@ -38,6 +38,15 @@
     },
     "BACK_BUTTON_LABEL": "Zurück zur Liste"
   },
+  "EVENTS_PAGE": {
+    "CATEGORIES": {
+      "Int": "International",
+      "Umw": "Umweltpolitik",
+      "Neo": "Neoliberalismus",
+      "Mil": "Militärmacht global und Kriege",
+      "Fri": "Friedensbewegung"
+    }
+  },
   "FAVORITES_PAGE": {
     "NO_FAVORITE": "Bitte wähle Favoriten auf der Seite <strong>Veranstaltungen</strong> aus"
   },
