@@ -15,15 +15,12 @@
           </ng-container>
         </mat-card-subtitle>
       </mat-card-header>
-      <!-- <a *ngIf="event['Bild']" [routerLink]="['/events', event['ID']]">
-        <img mat-card-image [src]="event['Bild']">
-      </a> -->
-      <a [routerLink]="['/events', event['ID']]">
-        <img mat-card-image [src]="'./assets/mock/257-540x360.jpg'">
+      <a *ngIf="event['Bild']" [routerLink]="['/events', event['ID']]">
+        <img mat-card-image [src]="'./assets/' + event['Bild']">
       </a>
       <mat-card-content>
         <p>
-          {{ 'EVENTS_PAGE.TIME' | translate }}: <strong>{{ event['Zeitblock'] }}</strong>
+          {{ 'EVENTS_PAGE.TIME' | translate }}: <strong>{{ event['Tag'] }}</strong> - <strong>{{ event['Zeitblock'] }}</strong>
         </p>
         <p><a [routerLink]="['/locations', 'friedenscamp']" class="unstyled-link">
           {{ 'EVENTS_PAGE.LOCATION' | translate }}: <strong>TODO</strong>

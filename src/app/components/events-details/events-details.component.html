@@ -1,4 +1,4 @@
-<img mat-card-image [src]="'./assets/mock/744-1080x720.jpg'">
+<img mat-card-image *ngIf="event['Bild']" [src]="'./assets/' + event['Bild']">
 
 <h1>{{ event['Titel'] }}</h1>
 
@@ -25,7 +25,7 @@
 
 <ul>
   <li>
-    {{ 'EVENTS_PAGE.TIME' | translate }}: <strong>{{ event['Zeitblock'] }}</strong>
+    {{ 'EVENTS_PAGE.TIME' | translate }}: <strong>{{ event['Tag'] }}</strong> - <strong>{{ event['Zeitblock'] }}</strong>
   </li>
   <li><a [routerLink]="['/locations', 'friedenscamp']" class="unstyled-link">
     {{ 'EVENTS_PAGE.LOCATION' | translate }}: <strong>TODO</strong>
