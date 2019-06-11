@@ -40,6 +40,6 @@ export class LocalStorageService {
     if (array) {
       return JSON.parse(array);
     }
-    return undefined;
+    return [];
   }
 }
