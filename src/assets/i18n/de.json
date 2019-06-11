@@ -20,6 +20,10 @@
       "TITLE": "Friedenscamp",
       "SUBTITLE": "23.06.2019 – 30.06.2019 ab 9.00 Uhr"
     },
+    "FRIEDENSWERKSTATT": {
+      "TITLE": "Friedenswerkstatt",
+      "SUBTITLE": "auf dem Campinggelände"
+    },
     "FRIEDENSFUSSBALLTURNIER": {
       "TITLE": "Werner Liebrich Friedensfußballturnier",
       "SUBTITLE": "Fußball für den Frieden"
@@ -37,6 +41,19 @@
       "SUBTITLE": "Die große Demo am Samstag"
     },
     "BACK_BUTTON_LABEL": "Zurück zur Liste"
+  },
+  "EVENTS_PAGE": {
+    "TIME": "Zeit",
+    "LOCATION": "Ort",
+    "CATEGORY": "Kategorie",
+    "DETAILS": "Details",
+    "CATEGORIES": {
+      "Int": "International",
+      "Umw": "Umweltpolitik",
+      "Neo": "Neoliberalismus",
+      "Mil": "Militärmacht global und Kriege",
+      "Fri": "Friedensbewegung"
+    }
   },
   "FAVORITES_PAGE": {
     "NO_FAVORITE": "Bitte wähle Favoriten auf der Seite <strong>Veranstaltungen</strong> aus"

@@ -1,4 +1,4 @@
-TODO: Link to Event Place
+Place: [Friedenscamp](/locations/friedenscamp)
 
 **The conference will be conducted in English.**
 

@@ -20,6 +20,10 @@
       "TITLE": "Peace Camp",
       "SUBTITLE": "Camping Rules and more"
     },
+    "FRIEDENSWERKSTATT": {
+      "TITLE": "Friedenswerkstatt",
+      "SUBTITLE": "on the camping ground"
+    },
     "FRIEDENSFUSSBALLTURNIER": {
       "TITLE": "Peace Soccer Tournament",
       "SUBTITLE": "Sport for Peace"
@@ -37,6 +41,19 @@
       "SUBTITLE": "The big demonstration on saturday"
     },
     "BACK_BUTTON_LABEL": "Back to list"
+  },
+  "EVENTS_PAGE": {
+    "TIME": "Time",
+    "LOCATION": "Location",
+    "CATEGORY": "Category",
+    "DETAILS": "Details",
+    "CATEGORIES": {
+      "Int": "International",
+      "Umw": "Umweltpolitik",
+      "Neo": "Neoliberalismus",
+      "Mil": "Militärmacht global und Kriege",
+      "Fri": "Friedensbewegung"
+    }
   },
   "FAVORITES_PAGE": {
     "NO_FAVORITE": "Please favorite events on the page <strong>Events</strong>"

@@ -1,5 +1,7 @@
 **23.6.2019, 10:30 Uhr**
 
+![](/assets/pictures/Fussballturnier/FT_540.jpg)
+
 ## Mannschaften
 
 * Atomkrieg FC Mannheim
