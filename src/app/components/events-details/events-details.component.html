@@ -1,2 +1,49 @@
+<img mat-card-image [src]="'./assets/mock/744-1080x720.jpg'">
+
 <h1>{{ event['Titel'] }}</h1>
-<p>{{ event['Beschreibung'] }}</p>
+
+<p class="subtitle">
+  {{ event['Referierende 1'] }}
+  <ng-container *ngIf="event['Funktion 1']">
+    -
+    <a *ngIf="event['Link 1']; else funktion1NoLink" href="event['Link 1']" target="_blank">
+      {{ event['Funktion 1'] }}
+    </a>
+    <ng-template #funktion1NoLink>{{ event['Funktion 1'] }}</ng-template>
+  </ng-container>
+</p>
+<p *ngIf="event['Referierende 2']" class="subtitle">
+  {{ event['Referierende 2'] }}
+  <ng-container *ngIf="event['Funktion 2']">
+    -
+    <a *ngIf="event['Link 2']; else funktion2NoLink" href="event['Link 2']" target="_blank">
+      {{ event['Funktion 2'] }}
+    </a>
+    <ng-template #funktion2NoLink>{{ event['Funktion 2'] }}</ng-template>
+  </ng-container>
+</p>
+
+<ul>
+  <li>
+    {{ 'EVENTS_PAGE.TIME' | translate }}: <strong>{{ event['Zeitblock'] }}</strong>
+  </li>
+  <li><a [routerLink]="['/locations', 'friedenscamp']" class="unstyled-link">
+    {{ 'EVENTS_PAGE.LOCATION' | translate }}: <strong>TODO</strong>
+  </a></li>
+  <li *ngIf="event['Stichwort']">
+    {{ 'EVENTS_PAGE.CATEGORY' | translate }}: <strong>{{ event['Stichwort'] }}</strong>
+  </li>
+</ul>
+
+<ng-container *ngIf="event['Beschreibung']">
+  <h3>Beschreibung</h3>
+  <p>{{ event['Beschreibung'] }}</p>
+  <ng-container *ngIf="event['Link']">
+    <p>Siehe auch:
+      <a href="event['Link']" target="_blank">
+        {{ event['Linktext'] ? event['Linktext'] : event['Link'] }}
+      </a>
+    </p>
+  </ng-container>
+</ng-container>
+

@@ -1,5 +1,26 @@
 [
   {
+    "ID": 0,
+    "Tag": "Mo",
+    "Zeitblock": "A",
+    "Referierende 1": "Otto Normalverbraucher",
+    "Funktion 1": "International Peace Bureau - IPB",
+    "Link 1": "https://www.ipb.org/",
+    "Referierende 2": "Jane Doe",
+    "Funktion 2": "Extinction Rebellion",
+    "Link 2": "https://rebellion.earth/",
+    "Moderation": "Angela Krampf-Knarrenbauer",
+    "Titel": "Demo-Event",
+    "Beschreibung": "Dieses Event ist nur zur Demonstration der Funktion der App",
+    "Stichwort": "Fem",
+    "Link": "https://de.wikipedia.org/wiki/Demo",
+    "Linktext": "Was ist eine Demo?",
+    "Beamer Handout": "",
+    "Aenderungsvermerk Datum": "",
+    "Kontakt zu Ref.": "",
+    "Betreuung Uebernachtung Shuttle-Service": ""
+  },
+  {
     "ID": 100,
     "Tag": "Mo",
     "Zeitblock": "A",
