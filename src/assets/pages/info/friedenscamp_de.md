@@ -1,3 +1,5 @@
+![](/assets/pictures/Camp/Camp_1080px.jpg)
+
 * Stellplatz für Caravan oder Zelt
 * 3 Vegane Mahlzeiten pro Tag. Frühstück, Mittag- und Abendessen mit je einem nichtalkoholischen Getränk. Für Fleischesser werden Verpflegungsmöglichkeiten bereit gestellt sein (nicht im Ticketpreis enthalten)
 * WC & Duschen auf dem Camp Gelände
