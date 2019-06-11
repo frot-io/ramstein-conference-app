@@ -1,4 +1,4 @@
-Veranstaltungsort: [Friedenscamp](/locations/friedenscamp)
+Place: [Friedenscamp](/locations/friedenscamp)
 
 **Die Konferenz wird auf Englisch abgehalten.**
 
