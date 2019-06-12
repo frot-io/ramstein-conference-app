@@ -22,11 +22,11 @@ um dieses in Aktionen für notwendige Veränderungen in der Politik einzubringen
 
 ## Zeitfenster
 
-Block A: vormittags nach separater Festlegung
-Block B: 14 Uhr
-Block C: 16 Uhr
-Block D: 19 Uhr
-Block E: 20:30 Uhr
+* Block A: vormittags nach separater Festlegung
+* Block B: 14 Uhr
+* Block C: 16 Uhr
+* Block D: 19 Uhr
+* Block E: 20:30 Uhr
 
 > [Programm >](https://ramstein-conference-app.herokuapp.com/events)
 
