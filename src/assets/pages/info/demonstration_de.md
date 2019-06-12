@@ -9,9 +9,9 @@ Enden wird der Demonstrationszug wieder vor der Air Base Ramstein. Um Euren lang
 
 ## Programmablauf
 
-* ### 12 Uhr gemeinsamer Aufzug vom Friedenscamps zur Auftaktkundgebung in Ramstein-Miesenbach
+* 12 Uhr gemeinsamer Aufzug vom Friedenscamps zur Auftaktkundgebung in Ramstein-Miesenbach
 
-* ### 13 Uhr Beginn Auftaktkundgebung Prometheusplatz in Ramstein-Miesenbach
+* 13 Uhr Beginn Auftaktkundgebung Prometheusplatz in Ramstein-Miesenbach
 
 Rednerinnen und Redner Auftaktkundgebung:
 
@@ -32,9 +32,9 @@ Moderation:
     Kristine Karch (Stopp Air Base Ramstein)
     Gunda Weidmüller (Stopp Air Base Ramstein)
 
-* ### gegen 13:45 Uhr Aufzug durch Ramstein-Miesenbach zur Air Base Ramstein
+* gegen 13:45 Uhr Aufzug durch Ramstein-Miesenbach zur Air Base Ramstein
 
-* ### gegen 14:45 Uhr Abschlusskundgebung mit Festival vor der Air Base Ramstein
+* gegen 14:45 Uhr Abschlusskundgebung mit Festival vor der Air Base Ramstein
 
 Rednerinnen und Redner Abschlusskundgebung:
 
@@ -58,7 +58,7 @@ Moderation:
     Lisann Drews (IPPNW, Stopp Air Base Ramstein)
     Reiner Braun (IPB, Stopp Air Base Ramstein)
 
-* ### gegen 18:30 Uhr gemeinsamer Aufzug ins Friedenscamp zur Abschlussparty
+* gegen 18:30 Uhr gemeinsamer Aufzug ins Friedenscamp zur Abschlussparty
 
 ![](/assets/pictures/Demo/Demo_1080.jpg)
 ![](/assets/pictures/Demo/Demo_2_1080.jpg)
