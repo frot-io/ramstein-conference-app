@@ -1,4 +1,4 @@
-Veranstaltungsorte: [Auftaktkundgebung](/locations/auftaktkundgebung);
+Veranstaltungsorte: [Auftaktkundgebung](/locations/auftaktkundgebung) ;
                     [Abschlusskundgebung](/locations/abschlusskundgebung)
                    
 ![](/assets/pictures/Demo/Demo_540.jpg)
