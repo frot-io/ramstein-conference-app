@@ -35,7 +35,7 @@ Between 23 and 30 June 2019, for the 5th year, a series of actions will be promo
  
 ### 14h – 15h30
 
-*Guest lecture:* Challenges for Peace and the Environmental Movements" by Hubert Weigert, President of the Friends of the Earth, Germany (in german, but an english translation is provided) 
+*Guest lecture:* Challenges for Peace and the Environmental Movements" by Hubert Weigert, President of the Friends of the Earth, Germany *(in german, but an english translation is provided)* 
 
 ### 16h45 – 17h45
 
