@@ -22,7 +22,7 @@ Between 23 and 30 June 2019, for the 5th year, a series of actions will be promo
 * „Where we are in our fight against the Ramstein Base?“ – Karl-Heinz Peil, Germany
 * Open discussion
  
-### 13h – 16h
+### 13h – 14h / 16h - 16h45
 
 *Actions against military bases around the world (15-minute presentations, each followed by 10-minute discussions)*
 
@@ -33,7 +33,11 @@ Between 23 and 30 June 2019, for the 5th year, a series of actions will be promo
 * „Fights against military bases in South Korea“ – Choi Hon-Yun, South Korea
 * „US Nuclear Weapons Base: Büchel“ – Marion Küpker, Germany
  
-### 16h15 – 17h25
+### 14h – 15h30
+
+*Guest lecture:* Challenges for Peace and the Environmental Movements" by Hubert Weigert, President of the Friends of the Earth, Germany (in german, but an english translation is provided) 
+
+### 16h45 – 17h45
 
 *Round table: „What can we do to oppose military bases? Proposals for further actions“*
 
@@ -41,10 +45,6 @@ Moderation: Kristine Karch
 
 Speakers: Dave Webb (UK), John Lannon, Reiner Braun, Ann Wright, Claudia Haydt 
 
-### 17h25 
+### 17h45 
 
 *Closing remarks & summary of agreements*
-
-### For participants from Germany
-
-Im Anschluss an den internationalen Kongress findet ein offenes Treffen bzw ein Erfahrungsaustausch von deutschen Anti-Basen-Initiativen und AktivistInnen statt. Weitere Informationen auf der Webseite.
