@@ -16,11 +16,12 @@ webpush.setVapidDetails(
 );
 
 const app = express();
+app.use(enforce.HTTPS({ trustProtoHeader: true }));
+
 app.use(bodyParser.json());
 
 app.use(express.static(__dirname + '/dist/ramstein-conference-app'));
 
-app.use(enforce.HTTPS({ trustProtoHeader: true }));
 
 var db;
 
@@ -99,6 +100,5 @@ app.post('/api/newsletter', function(req, res) {
 
 /* Everything else */
 app.get('/*', function(req,res) {
-  console.log(req);
   res.sendFile(path.join(__dirname+'/dist/ramstein-conference-app/index.html'));
 });
