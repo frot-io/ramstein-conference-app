@@ -1,3 +1,4 @@
+import { PrivacyComponent } from './components/privacy/privacy.component';
 import { LegalComponent } from './components/legal/legal.component';
 import { EventsDetailsComponent } from './components/events-details/events-details.component';
 import { NgModule } from '@angular/core';
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: 'locations/:locationId', component: LocationsComponent },
   { path: 'help', component: HelpComponent },
   { path: 'legal', component: LegalComponent },
+  { path: 'privacy', component: PrivacyComponent },
 ];
 
 @NgModule({

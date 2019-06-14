@@ -33,6 +33,7 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { FavoritesComponent } from './components/favorites/favorites.component';
 import { EventsDetailsComponent } from './components/events-details/events-details.component';
 import { LegalComponent } from './components/legal/legal.component';
+import { PrivacyComponent } from './components/privacy/privacy.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -52,7 +53,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     InfoDetailsComponent,
     FavoritesComponent,
     EventsDetailsComponent,
-    LegalComponent
+    LegalComponent,
+    PrivacyComponent
   ],
   imports: [
     BrowserModule,
