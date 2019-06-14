@@ -32,6 +32,8 @@ import { StartpageComponent } from './components/startpage/startpage.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { FavoritesComponent } from './components/favorites/favorites.component';
 import { EventsDetailsComponent } from './components/events-details/events-details.component';
+import { LegalComponent } from './components/legal/legal.component';
+import { PrivacyComponent } from './components/privacy/privacy.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -50,7 +52,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     PushNotificationDialogComponent,
     InfoDetailsComponent,
     FavoritesComponent,
-    EventsDetailsComponent
+    EventsDetailsComponent,
+    LegalComponent,
+    PrivacyComponent
   ],
   imports: [
     BrowserModule,

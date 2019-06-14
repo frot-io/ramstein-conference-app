@@ -5,7 +5,9 @@
     "EVENTS": "Events",
     "FAVORITES": "Favorites",
     "LOCATIONS": "Locations",
-    "HELP": "Settings & Help"
+    "HELP": "Settings & Help",
+    "LEGAL": "Legal Information",
+    "PRIVACY": "Privacy"
   },
   "INFO_PAGE": {
     "ALLGEMEIN": {
