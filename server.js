@@ -5,8 +5,7 @@ const bodyParser = require("body-parser");
 const mongodb = require("mongodb");
 const path = require('path');
 const webpush = require('web-push');
-
-const env = process.env.NODE_ENV || 'development';
+var enforce = require('express-sslify');
 
 const NOTIFICATIONS_COLLECTION = 'notifications';
 
@@ -21,14 +20,7 @@ app.use(bodyParser.json());
 
 app.use(express.static(__dirname + '/dist/ramstein-conference-app'));
 
-if (env === 'production') {
-  app.use(function (req, res, next) {
-    if (req.headers['x-forwarded-proto'] !== 'https') {
-        return res.redirect(['https://', req.get('Host'), req.url].join(''));
-    }
-    return next();
-  });
-}
+app.use(enforce.HTTPS({ trustProtoHeader: true }));
 
 var db;
 
