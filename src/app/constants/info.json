@@ -28,11 +28,11 @@
     "translationKey": "ABENDVERANSTALTUNG"
   },
   {
-    "id": "demonstration",
-    "translationKey": "DEMONSTRATION"
-  },
-  {
     "id": "blockade",
     "translationKey": "BLOCKADE"
+  },
+  {
+    "id": "demonstration",
+    "translationKey": "DEMONSTRATION"
   }
 ]
