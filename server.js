@@ -99,5 +99,6 @@ app.post('/api/newsletter', function(req, res) {
 
 /* Everything else */
 app.get('/*', function(req,res) {
+  console.log(req);
   res.sendFile(path.join(__dirname+'/dist/ramstein-conference-app/index.html'));
 });
