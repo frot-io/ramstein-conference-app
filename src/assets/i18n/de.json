@@ -41,6 +41,10 @@
     "DEMONSTRATION": {
       "TITLE": "Demonstration",
       "SUBTITLE": "Die große Demo am Samstag"
+      },
+    "BLOCKADE": {
+      "TITLE": "Blockade",
+      "SUBTITLE": "Wir blockieren die Air Base Ramstein!"
     },
     "BACK_BUTTON_LABEL": "Zurück zur Liste"
   },
