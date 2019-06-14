@@ -9,7 +9,6 @@ Wir praktizieren mit unserer Blockade zivilen Widerstand und bauen Gegenmacht au
 und das System der Drohnenkriegführung. Macht mit und nehmt an der Blockadevorbereitung am 26. und 27. Juni teil!
 
  
-##### Im Friedenscamp finden Blockadetrainings mit Renate Wanie (Werkstatt für Gewaltfreie Aktion) 
-am Mi u. Do. (26./27.6.) von 10 – 13 Uhr statt.
+#### Im Friedenscamp finden Blockadetrainings mit Renate Wanie (Werkstatt für Gewaltfreie Aktion) am Mi u. Do. (26./27.6.) von 10 – 13 Uhr statt.
 
 ### BLOCKRAMSTEIN!
