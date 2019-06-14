@@ -6,7 +6,7 @@
   {{ event['Referierende 1'] }}
   <ng-container *ngIf="event['Funktion 1']">
     -
-    <a *ngIf="event['Link 1']; else funktion1NoLink" href="event['Link 1']" target="_blank">
+    <a *ngIf="event['Link 1']; else funktion1NoLink" [href]="event['Link 1']" target="_blank">
       {{ event['Funktion 1'] }}
     </a>
     <ng-template #funktion1NoLink>{{ event['Funktion 1'] }}</ng-template>
@@ -16,7 +16,7 @@
   {{ event['Referierende 2'] }}
   <ng-container *ngIf="event['Funktion 2']">
     -
-    <a *ngIf="event['Link 2']; else funktion2NoLink" href="event['Link 2']" target="_blank">
+    <a *ngIf="event['Link 2']; else funktion2NoLink" [href]="event['Link 2']" target="_blank">
       {{ event['Funktion 2'] }}
     </a>
     <ng-template #funktion2NoLink>{{ event['Funktion 2'] }}</ng-template>
