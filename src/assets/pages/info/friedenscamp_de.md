@@ -19,20 +19,20 @@
 
 ## Camp-Regeln:
 
-* Bitte trenne Deinen Müll 
+* Bitte trenne Deinen Müll -
  *entsprechende Container sind vorhanden*
-* Keine eigenen Soundanlagen oder Megaphone
+* Keine eigenen Soundanlagen oder Megaphone -
  *unsere Camp-Bühne bietet ja schon ein volles Unterhaltungsprogramm*
-* Keine eigenen Generatoren oder Aggregate 
+* Keine eigenen Generatoren oder Aggregate -
  *zum Aufladen von Mobiltelefonen steht ein Pavillon zur Verfügung*
-* Keine Glasflaschen/Gläser  
+* Keine Glasflaschen/Gläser - 
  *nicht alle Scherben bringen Glück*
-* Keine Waffen  
+* Keine Waffen -
  *irgendwie logisch* ;-)
-* Wir bitten auf eine Selbstversorgung zu verzichten. 
+* Wir bitten auf eine Selbstversorgung zu verzichten. -
  *Wir wollen einerseits durch die Gemeinschaftsküche das Zusammengehörigkeitsgefühl stärken, zum anderen aber ist das Risiko für 
-  die Organisation des Camps und die Kampagne Stopp Air Base Ramstein kaum verantwortbar, wenn alle zwischen den Zelten mit einem 
-  eigenen Grill oder Propangas rumhantieren. Zuletzt ein Umweltargument: der Müll würde deutlich überhand nehmen.*
+  die Organisation des Camps und die Kampagne Stopp Air Base Ramstein kaum verantwortbar, wenn alle zwischen den Zelten mit 
+  einem eigenen Grill oder Propangas rumhantieren. Zuletzt ein Umweltargument: der Müll würde deutlich überhand nehmen.*
   
 Alle hier aufgeführten Regeln stehen im Sinne der Umwelt, unserer schönen Camp-Fläche und des rücksichtsvollen und solidarischen Miteinanders – wir bitten Euch also um ein entsprechendes Verhalten. Rassisten, Hetzer und Krawallmacher, sowie entsprechende Symbole werden nicht geduldet. Sollte Dir derartiges auffallen oder sollte es diesbezüglich Probleme geben, wende Dich bitte umgehend an die Camp-Orga. Wir kümmern uns darum.
 
