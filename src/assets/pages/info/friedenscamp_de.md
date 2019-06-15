@@ -36,12 +36,12 @@
   
 Alle hier aufgeführten Regeln stehen im Sinne der Umwelt, unserer schönen Camp-Fläche und des rücksichtsvollen und solidarischen Miteinanders – wir bitten Euch also um ein entsprechendes Verhalten. Rassisten, Hetzer und Krawallmacher, sowie entsprechende Symbole werden nicht geduldet. Sollte Dir derartiges auffallen oder sollte es diesbezüglich Probleme geben, wende Dich bitte umgehend an die Camp-Orga. Wir kümmern uns darum.
 
-> Am Freitag, den 29.06 um 8:00 Uhr geht es nach Büchel, wo die Amerikanischen Atomwaffen lagern zur Demo. Bitte
+> Am Freitag, den 29.06 um 8:00 Uhr geht es wieder nach Büchel wie jedes Jahr. Bitte
 meldet Euch für den Bus an - spätestens bis zum Donnerstag, den 28.06.
 
 Bitte bildet selbstorganisierte Fahrgemeinschaften zu den Demos und weiteren Aktionen während der Woche. Nehmt vor allem die älteren und weniger mobilen Aktivisten/Innen mit.
 
-## Musik gibt es Abends (Di-Sa) ab 20:30 von:
+## Musik gibt es Abends (Di-Sa) ab 20:30 Uhr mit:
 > *In der Reihenfolge wie sie Auftreten*
 
 * Glückgriff
