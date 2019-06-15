@@ -19,8 +19,8 @@
 
 ## Camp-Regeln:
 
-Bitte trenne Deinen Müll – entsprechende
-Container sind vorhanden
+* Bitte trenne Deinen Müll 
+ *entsprechende Container sind vorhanden*
 * Keine eigenen Soundanlagen oder Megaphone
  *unsere Camp-Bühne bietet ja schon ein volles Unterhaltungsprogramm*
 * Keine eigenen Generatoren oder Aggregate 
