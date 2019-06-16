@@ -1,6 +1,7 @@
-import { TranslateService } from '@ngx-translate/core';
 import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 import { LocalStorageService } from 'src/app/services/local-storage/local-storage.service';
+import { AppUpdateService } from './../../services/app-update/app-update.service';
 
 @Component({
   selector: 'app-help',
@@ -9,7 +10,8 @@ import { LocalStorageService } from 'src/app/services/local-storage/local-storag
 })
 export class HelpComponent {
   constructor(public translateService: TranslateService,
-              private localStorageService: LocalStorageService) {}
+              private localStorageService: LocalStorageService,
+              private appUpdateService: AppUpdateService) {}
 
   resetNotificationStateAndReload() {
     this.localStorageService.setPushNotificationDismissed(false);
@@ -19,5 +21,9 @@ export class HelpComponent {
   changeLanguage(lang) {
     this.translateService.use(lang);
     this.localStorageService.setLanguage(lang);
+  }
+
+  searchForUpdates() {
+    this.appUpdateService.checkForUpdates();
   }
 }

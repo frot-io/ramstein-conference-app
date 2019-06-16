@@ -100,9 +100,14 @@
     },
     "LANGUAGE_SELECT": {
       "TITLE": "Language",
-      "CONTENT": "<p>You can switch the language with the buttons below. <a class=\"link\" href=\"https://unitedlanguagegroup.com/blog/inside-design-a-language-selector-is-no-place-for-flags/\">Here</a> you can read, why labels instead of country flags are used on the buttons.</a></p></p>",
+      "CONTENT": "<p>You can switch the language with the buttons below. <a class=\"link\" target=\"_blank\" href=\"https://unitedlanguagegroup.com/blog/inside-design-a-language-selector-is-no-place-for-flags/\">Labels instead of country flags are used on the buttons.</a></p>",
       "BUTTON_LABEL_GERMAN": "German",
       "BUTTON_LABEL_ENGLISH": "English"
+    },
+    "APP_UPDATE": {
+      "TITLE": "App Update",
+      "CONTENT": "<p>Here you can manually search for a new version of the app. This happens every 6 hours automatically. In case there is an update available, a notification is shown.</p>",
+      "BUTTON_LABEL": "Search for updates"
     },
     "FEEDBACK": {
       "TITLE": "Feedback",

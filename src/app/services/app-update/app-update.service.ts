@@ -7,7 +7,7 @@ import { environment } from './../../../environments/environment';
 @Injectable({providedIn: 'root'})
 export class AppUpdateService {
   constructor(appRef: ApplicationRef,
-              swUpdate: SwUpdate) {
+              private swUpdate: SwUpdate) {
     if (environment.production) {
       console.log('Checking for updates every six hours...');
       // https://medium.com/@arjenbrandenburgh/angulars-pwa-swpush-and-swupdate-15a7e5c154ac
@@ -21,5 +21,9 @@ export class AppUpdateService {
     } else {
       console.log('No auto check for updates in dev mode');
     }
+  }
+
+  checkForUpdates() {
+    this.swUpdate.checkForUpdate();
   }
 }

@@ -9,8 +9,6 @@
 <button mat-raised-button (click)="resetNotificationStateAndReload()"
   [innerHTML]="'HELP_PAGE.PUSH_NOTIFICATIONS.BUTTON_LABEL' | translate"></button>
 
-
-
 <h2 [innerHTML]="'HELP_PAGE.LANGUAGE_SELECT.TITLE' | translate"></h2>
 <div [innerHTML]="'HELP_PAGE.LANGUAGE_SELECT.CONTENT' | translate"></div>
 <mat-button-toggle-group [value]="translateService.currentLang">
@@ -21,6 +19,11 @@
     {{ 'HELP_PAGE.LANGUAGE_SELECT.BUTTON_LABEL_ENGLISH' | translate}}
   </mat-button-toggle>
 </mat-button-toggle-group>
+
+<h2 [innerHTML]="'HELP_PAGE.APP_UPDATE.TITLE' | translate"></h2>
+<div [innerHTML]="'HELP_PAGE.APP_UPDATE.CONTENT' | translate"></div>
+<button mat-raised-button (click)="searchForUpdates()"
+  [innerHTML]="'HELP_PAGE.APP_UPDATE.BUTTON_LABEL' | translate"></button>
 
 <h2 [innerHTML]="'HELP_PAGE.FEEDBACK.TITLE' | translate"></h2>
 <div [innerHTML]="'HELP_PAGE.FEEDBACK.CONTENT' | translate"></div>
