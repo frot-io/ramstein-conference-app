@@ -42,4 +42,9 @@ export class LocalStorageService {
     }
     return [];
   }
+
+  clearLocalStorage() {
+    localStorage.clear();
+    window.location.reload();
+  }
 }

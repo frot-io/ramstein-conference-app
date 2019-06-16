@@ -26,4 +26,8 @@ export class HelpComponent {
   searchForUpdates() {
     this.appUpdateService.checkForUpdates();
   }
+
+  reset() {
+    this.localStorageService.clearLocalStorage();
+  }
 }
