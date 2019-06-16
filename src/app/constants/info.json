@@ -1,34 +1,42 @@
 [
   {
     "id": "allgemein",
-    "translationKey": "ALLGEMEIN"
+    "translationKey": "ALLGEMEIN",
+    "image": "pictures/mock/257-540x360.jpg"
   },
   {
     "id": "notfaelle",
-    "translationKey": "NOTFAELLE"
+    "translationKey": "NOTFAELLE",
+    "image": "pictures/mock/257-540x360.jpg"
   },
   {
     "id": "friedenscamp",
-    "translationKey": "FRIEDENSCAMP"
+    "translationKey": "FRIEDENSCAMP",
+    "image": "pictures/Camp/Camp_540px.jpg"
   },
   {
     "id": "friedenswerkstatt",
-    "translationKey": "FRIEDENSWERKSTATT"
+    "translationKey": "FRIEDENSWERKSTATT",
+    "image": "pictures/mock/257-540x360.jpg"
   },
   {
     "id": "friedensfussballturnier",
-    "translationKey": "FRIEDENSFUSSBALLTURNIER"
+    "translationKey": "FRIEDENSFUSSBALLTURNIER",
+    "image": "pictures/mock/257-540x360.jpg"
   },
   {
     "id": "antibasenkongress",
-    "translationKey": "ANTIBASENKONGRESS"
+    "translationKey": "ANTIBASENKONGRESS",
+    "image": "pictures/mock/257-540x360.jpg"
   },
   {
     "id": "abendveranstaltung",
-    "translationKey": "ABENDVERANSTALTUNG"
+    "translationKey": "ABENDVERANSTALTUNG",
+    "image": "pictures/mock/257-540x360.jpg"
   },
   {
     "id": "demonstration",
-    "translationKey": "DEMONSTRATION"
+    "translationKey": "DEMONSTRATION",
+    "image": "pictures/mock/257-540x360.jpg"
   }
 ]

@@ -1,8 +1,11 @@
 <mat-nav-list>
   <ng-container *ngFor="let info of infos">
     <a mat-list-item [routerLink]="['/info', info.id]">
-      <span class="strong" mat-line [innerHtml]="('INFO_PAGE.' + info.translationKey + '.TITLE') | translate"></span>
-      <span mat-line [innerHtml]="('INFO_PAGE.' + info.translationKey + '.SUBTITLE') | translate"></span>
+      <img *ngIf="info.image" [src]="'./assets/' + info.image" height="35px">
+      <div class="mat-list-text mat-list-text-after-image">
+        <span class="strong" mat-line [innerHtml]="('INFO_PAGE.' + info.translationKey + '.TITLE') | translate"></span>
+        <span mat-line [innerHtml]="('INFO_PAGE.' + info.translationKey + '.SUBTITLE') | translate"></span>
+      </div>
     </a>
   </ng-container>
 </mat-nav-list>

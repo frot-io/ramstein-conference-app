@@ -1,3 +1,5 @@
+<img *ngIf="info.image" [src]="'./assets/' + info.image">
+
 <h1 [innerHTML]="'INFO_PAGE.' + info.translationKey + '.TITLE' | translate"></h1>
 <h3 [innerHTML]="'INFO_PAGE.' + info.translationKey + '.SUBTITLE' | translate"></h3>
 
