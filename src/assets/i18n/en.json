@@ -90,8 +90,23 @@
     "TITLE": "Settings & Help",
     "CONTENT": "<p>The app has been tested with:<ul><li><strong>Google Chrome</strong> for <a class=\"link\" href=\"https://play.google.com/store/apps/details?id=com.android.chrome&hl=de\">Android</a> and <a class=\"link\" href=\"https://itunes.apple.com/de/app/google-chrome/id535886823?mt=8\">iOS</a></li><li><strong>Firefox</strong> for <a class=\"link\" href=\"https://play.google.com/store/apps/details?id=org.mozilla.firefox&hl=de\">Android</a> and <a class=\"link\" href=\"https://itunes.apple.com/de/app/internet-browser-firefox/id989804926?mt=8\">iOS</a></li><li>Desktop-Versions of <a class=\"link\" href=\"https://www.google.com/intl/de/chrome/\">Chrome</a> and <a class=\"link\" href=\"https://www.mozilla.org/de/firefox/new/\">Firefox</a></li></ul> There is no guarantee that it works on other Browsers! If you tested it on any other browser and encounter problems, let me know: <a href=\"mailto:moin@frot.io\">moin@frot.io</a> </p>",
     "ADD_TO_HOMESCREEN": {
-      "TITLE": "Add to homescreen",
-      "CONTENT": "<p>You should see an 'Add to Homescreen' Notification at the bottom on mobile browsers (Chrome & Firefox). By clicking 'Yes', the App gets downloaded and then also works offline!</p>"
+      "TITLE": "Offline Support",
+      "CONTENT": "<p>You can add this application to your homescreen on mobile devices (see below for instructions). It should then also work offline. To add it to your homescreen, your connection should be stable (e.g. Wifi).</p>",
+      "CHROME": {
+        "TITLE": "Chrome on Android",
+        "STEP1": "Click on \"Add Ramstein to Home Screen\"",
+        "DISMISSED": "If you don't see the button or dismissed it, go to <code>chrome://flags/#bypass-app-banner-engagement-checks</code>, click \"Enable\" and then \"Relaunch\"",
+        "STEP2": "Click on \"Add\"",
+        "STEP3": "\"Ramstein is being added...\" is shown",
+        "STEP4": "You can now access the app from your app drawer"
+      },
+      "FIREFOX": {
+        "TITLE": "Firefox on Android",
+        "STEP1": "Click on \"Go to Website\" when the notification about Adding to homescreen is shown",
+        "STEP2": "Click on the House-with-a-Plus-Symbol at the top and then on \"Add to Homescreen\"",
+        "STEP3": "Click on \"Add automatically\"",
+        "STEP4": "You can now access the app from your homescreen"
+      }
     },
     "PUSH_NOTIFICATIONS": {
       "TITLE": "Push-Notifications",
