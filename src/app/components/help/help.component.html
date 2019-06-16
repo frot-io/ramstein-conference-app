@@ -4,6 +4,33 @@
 <h2 [innerHTML]="'HELP_PAGE.ADD_TO_HOMESCREEN.TITLE' | translate">Add to homescreen</h2>
 <div [innerHTML]="'HELP_PAGE.ADD_TO_HOMESCREEN.CONTENT' | translate"></div>
 
+<h3 [innerHTML]="'HELP_PAGE.ADD_TO_HOMESCREEN.CHROME.TITLE' | translate"></h3>
+<ol>
+  <li>
+    <a href="./assets/browsers/Chrome1.png" target="_blank">
+      {{ 'HELP_PAGE.ADD_TO_HOMESCREEN.CHROME.STEP1' | translate }}</a>.
+    <span [innerHTML]="'HELP_PAGE.ADD_TO_HOMESCREEN.CHROME.DISMISSED' | translate"></span>
+  </li>
+  <li><a href="./assets/browsers/Chrome2.png" target="_blank">
+    {{ 'HELP_PAGE.ADD_TO_HOMESCREEN.CHROME.STEP2' | translate }}</a></li>
+  <li><a href="./assets/browsers/Chrome3.png" target="_blank">
+    {{ 'HELP_PAGE.ADD_TO_HOMESCREEN.CHROME.STEP3' | translate }}</a></li>
+  <li><a href="./assets/browsers/Chrome4.png" target="_blank">
+    {{ 'HELP_PAGE.ADD_TO_HOMESCREEN.CHROME.STEP4' | translate }}</a></li>
+</ol>
+
+<h3 [innerHTML]="'HELP_PAGE.ADD_TO_HOMESCREEN.FIREFOX.TITLE' | translate"></h3>
+<ol>
+  <li><a href="./assets/browsers/Firefox1.png" target="_blank">
+    {{ 'HELP_PAGE.ADD_TO_HOMESCREEN.FIREFOX.STEP1' | translate }}</a></li>
+  <li><a href="./assets/browsers/Firefox2.png" target="_blank">
+    {{ 'HELP_PAGE.ADD_TO_HOMESCREEN.FIREFOX.STEP2' | translate }}</a></li>
+  <li><a href="./assets/browsers/Firefox3.png" target="_blank">
+    {{ 'HELP_PAGE.ADD_TO_HOMESCREEN.FIREFOX.STEP3' | translate }}</a></li>
+  <li><a href="./assets/browsers/Firefox4.png" target="_blank">
+    {{ 'HELP_PAGE.ADD_TO_HOMESCREEN.FIREFOX.STEP4' | translate }}</a></li>
+</ol>
+
 <h2 [innerHTML]="'HELP_PAGE.PUSH_NOTIFICATIONS.TITLE' | translate"></h2>
 <div [innerHTML]="'HELP_PAGE.PUSH_NOTIFICATIONS.CONTENT' | translate"></div>
 <button mat-raised-button (click)="resetNotificationStateAndReload()"

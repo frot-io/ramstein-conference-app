@@ -94,8 +94,23 @@
     "TITLE": "Einstellungen & Hilfe",
     "CONTENT": "<p>Die App wurde mit folgenden Browsern getestet:<ul><li><strong>Google Chrome</strong> für <a class=\"link\" href=\"https://play.google.com/store/apps/details?id=com.android.chrome&hl=de\">Android</a> und <a class=\"link\" href=\"https://itunes.apple.com/de/app/google-chrome/id535886823?mt=8\">iOS</a></li><li><strong>Firefox</strong> für <a class=\"link\" href=\"https://play.google.com/store/apps/details?id=org.mozilla.firefox&hl=de\">Android</a> und <a class=\"link\" href=\"https://itunes.apple.com/de/app/internet-browser-firefox/id989804926?mt=8\">iOS</a></li><li>Desktop-Versionen von <a class=\"link\" href=\"https://www.google.com/intl/de/chrome/\">Chrome</a> und <a class=\"link\" href=\"https://www.mozilla.org/de/firefox/new/\">Firefox</a></li></ul> Support für andere Browser ist nicht garantiert! Falls du einen anderen Browser verwendest und auf Probleme stößt, schreib mir eine Email an <a href=\"mailto:moin@frot.io\">moin@frot.io</a></p>",
     "ADD_TO_HOMESCREEN": {
-      "TITLE": "Zum Startbildschirm hinzufügen",
-      "CONTENT": "<p>In mobilen Browsern (Chrome und Firefox) solltest du eine Benachrichtigung am unteren Bildschirmrand sehen: 'Zum Startbildschirm hinzufügen?' wenn du 'Ja' klickst, wird die App heruntergeladen und funktioniert auch offline.</p>"
+      "TITLE": "Offline Support",
+      "CONTENT": "<p>Diese App kann auf Mobilgeräten zu deinem Startbildschirm hinzugefügt werden (siehe unten). Sie funktioniert dann auch ohne Internetverbindung. Zum Hinzufügen solltest du eine gute Internetverbindung (z.B. WLAN) haben.</p>",
+      "CHROME": {
+        "TITLE": "Chrome auf Android",
+        "STEP1": "Tippe auf \"Ramstein zum Startbildschirm hinzufügen\"",
+        "DISMISSED": "Wenn du den Button nicht siehst oder weggeklickt hast, gehe zu <code>chrome://flags/#bypass-app-banner-engagement-checks</code>, tippe auf \"Enable\" und dann auf \"Relaunch\"",
+        "STEP2": "Tippe auf \"Hinzufügen\"",
+        "STEP3": "Die Nachricht \"Ramstein wird hinzugefügt...\" erscheint",
+        "STEP4": "Du kannst die App jetzt von deinem App Menü aus starten"
+      },
+      "FIREFOX": {
+        "TITLE": "Firefox auf Android",
+        "STEP1": "Tippe auf \"Weiter zur Website\" wenn die Benachrichtigung über das Hinzufügen zum Startbildschirm kommt",
+        "STEP2": "Tippe auf das Haus-mit-einem-Plus-Symbol am oberen Bildschirmrand und dann auf \"Zu Startbildschirm hinzufügen\"",
+        "STEP3": "Tippe auf \"Automatisch hinzufügen\"",
+        "STEP4": "Du kannst die App jetzt von deinem Startbildschirm aus starten"
+      }
     },
     "PUSH_NOTIFICATIONS": {
       "TITLE": "Push-Notifications",
