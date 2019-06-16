@@ -35,6 +35,10 @@
     "image": "pictures/Abendveranstaltung/Stopp_Air_Base_Ramstein_1080px.jpg"
   },
   {
+    "id": "blockade",
+    "translationKey": "BLOCKADE"
+  },
+  {
     "id": "demonstration",
     "translationKey": "DEMONSTRATION",
     "image": "pictures/Demo/Demo_540.jpg"
