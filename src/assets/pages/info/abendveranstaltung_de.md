@@ -1,7 +1,5 @@
 Veranstaltungsort: [Apostelkirche](/locations/apostelkirche)
 
-![](/assets/pictures/Abendveranstaltung/Stopp_Air_Base_Ramstein_1080px.jpg)
-
 Die öffentliche Abendveranstaltung findet dieses Jahr in der Apostelkirche statt. Es werden auch diesmal RednerInnen, die für ihren Einsatz für den Frieden weltberühmt sind, am Freitag, den 28.6. ab 19 Uhr für das interessierte Publikum zu friedenspolitischen Themen referieren.
 
 Achtung: Die Abendveranstaltung findet dieses Jahr nicht in der Versöhnungskirche, sondern in der Apostelkirche in der Pariser Str. 22 in 67659 Kaiserslautern statt.

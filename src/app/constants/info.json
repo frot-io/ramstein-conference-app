@@ -1,31 +1,38 @@
 [
   {
     "id": "allgemein",
-    "translationKey": "ALLGEMEIN"
+    "translationKey": "ALLGEMEIN",
+    "image": "logo-toolbar.png"
   },
   {
     "id": "notfaelle",
-    "translationKey": "NOTFAELLE"
+    "translationKey": "NOTFAELLE",
+    "image": "pictures/anderes/help-153094_640.png"
   },
   {
     "id": "friedenscamp",
-    "translationKey": "FRIEDENSCAMP"
+    "translationKey": "FRIEDENSCAMP",
+    "image": "pictures/Camp/Camp_540px.jpg"
   },
   {
     "id": "friedenswerkstatt",
-    "translationKey": "FRIEDENSWERKSTATT"
+    "translationKey": "FRIEDENSWERKSTATT",
+    "image": "pictures/Friedenswerkstatt/Friedenswerkstatt_540.jpg"
   },
   {
     "id": "friedensfussballturnier",
-    "translationKey": "FRIEDENSFUSSBALLTURNIER"
+    "translationKey": "FRIEDENSFUSSBALLTURNIER",
+    "image": "pictures/Fussballturnier/FT_540.jpg"
   },
   {
     "id": "antibasenkongress",
-    "translationKey": "ANTIBASENKONGRESS"
+    "translationKey": "ANTIBASENKONGRESS",
+    "image": "pictures/AntiBasen/no-to-military-bases_1080px.png"
   },
   {
     "id": "abendveranstaltung",
-    "translationKey": "ABENDVERANSTALTUNG"
+    "translationKey": "ABENDVERANSTALTUNG",
+    "image": "pictures/Abendveranstaltung/Stopp_Air_Base_Ramstein_1080px.jpg"
   },
   {
     "id": "blockade",
@@ -33,6 +40,7 @@
   },
   {
     "id": "demonstration",
-    "translationKey": "DEMONSTRATION"
+    "translationKey": "DEMONSTRATION",
+    "image": "pictures/Demo/Demo_540.jpg"
   }
 ]

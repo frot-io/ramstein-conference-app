@@ -1,4 +1,3 @@
-![](/assets/pictures/Camp/Camp_1080px.jpg)
 
 ## Was erwartet euch im Friedenscamp?
 
@@ -54,7 +53,7 @@ Bitte bildet selbstorganisierte Fahrgemeinschaften zu den Demos und weiteren Akt
 * Morgaine/Tjorben
 * Ashram Band, Dada
 * Äon
-* Killez More
+* Kilez More
 
 Wir freuen uns schon riesig auf das diesjährige Friedenscamp mit euch :)
     
