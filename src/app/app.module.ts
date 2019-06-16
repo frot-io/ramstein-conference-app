@@ -1,6 +1,7 @@
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import { MatButtonModule } from '@angular/material/button';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
@@ -21,19 +22,19 @@ import { MarkdownModule } from 'ngx-markdown';
 import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './components/app.component';
+import { EventsDetailsComponent } from './components/events-details/events-details.component';
 import { EventsComponent } from './components/events/events.component';
+import { FavoritesComponent } from './components/favorites/favorites.component';
 import { HelpComponent } from './components/help/help.component';
 import { InfoDetailsComponent } from './components/info-details/info-details.component';
 import { InfoComponent } from './components/info/info.component';
+import { LegalComponent } from './components/legal/legal.component';
 import { LocationsComponent } from './components/locations/locations.component';
+import { PrivacyComponent } from './components/privacy/privacy.component';
 import { PushNotificationDialogComponent } from './components/push-notification-dialog/push-notification-dialog.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { StartpageComponent } from './components/startpage/startpage.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
-import { FavoritesComponent } from './components/favorites/favorites.component';
-import { EventsDetailsComponent } from './components/events-details/events-details.component';
-import { LegalComponent } from './components/legal/legal.component';
-import { PrivacyComponent } from './components/privacy/privacy.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -54,7 +55,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     FavoritesComponent,
     EventsDetailsComponent,
     LegalComponent,
-    PrivacyComponent
+    PrivacyComponent,
   ],
   imports: [
     BrowserModule,
@@ -81,7 +82,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatSidenavModule,
     MatToolbarModule,
     MatBottomSheetModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatSnackBarModule
   ],
   entryComponents: [
     PushNotificationDialogComponent

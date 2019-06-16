@@ -104,9 +104,19 @@
     },
     "LANGUAGE_SELECT": {
       "TITLE": "Spracheinstellungen",
-      "CONTENT": "<p>Hier kannst du die Sprache der App ändern. <a class=\"link\" href=\"https://unitedlanguagegroup.com/blog/inside-design-a-language-selector-is-no-place-for-flags/\">Hier</a> kannst du nachlesen, warum Text anstelle von Landesflaggen verwendet wird</a></p>",
+      "CONTENT": "<p>Hier kannst du die Sprache der App ändern. <a class=\"link\" target=\"_blank\" href=\"https://unitedlanguagegroup.com/blog/inside-design-a-language-selector-is-no-place-for-flags/\">Es wird Text anstelle von Landesflaggen verwendet.</a></p>",
       "BUTTON_LABEL_GERMAN": "Deutsch",
       "BUTTON_LABEL_ENGLISH": "Englisch"
+    },
+    "APP_UPDATE": {
+      "TITLE": "App-Update",
+      "CONTENT": "<p>Hier kannst du manuell nach einer neueren Version der App suchen. Die Suche passiert automatisch alle 6 Stunden. Falls es ein Update gibt, wird eine Benachrichtigung angezeigt.</p>",
+      "BUTTON_LABEL": "Nach Updates suchen"
+    },
+    "RESET": {
+      "TITLE": "Reset",
+      "CONTENT": "<p>Hier kannst du die App komplett zurücksetzen. <strong>Bitte bedenke, dass dabei auch alle Favoriten gelöscht werden.</strong></p>",
+      "BUTTON_LABEL": "Die App zurücksetzen"
     },
     "FEEDBACK": {
       "TITLE": "Feedback",
@@ -135,5 +145,8 @@
       "TEXT": "Du erhälst ab jetzt Push-Notifications!",
       "BUTTON_DISMISS": "OK"
     }
+  },
+  "UPDATE_DIALOG": {
+    "AVAILABLE": "Update verfügbar! Bitte updaten, sobald die Verbindung stabil ist."
   }
 }

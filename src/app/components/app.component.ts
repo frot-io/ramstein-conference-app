@@ -1,11 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { MatBottomSheet } from '@angular/material';
+import { MatBottomSheet, MatSnackBar } from '@angular/material';
 import { Router } from '@angular/router';
-import { PushNotificationStoreService } from '../services/push-notification/push-notification-store.service';
-import { SidenavService } from '../services/sidenav/sidenav.service';
-import { PushNotificationDialogComponent } from './push-notification-dialog/push-notification-dialog.component';
+import { SwUpdate } from '@angular/service-worker';
 import { TranslateService } from '@ngx-translate/core';
 import { LocalStorageService } from '../services/local-storage/local-storage.service';
+import { PushNotificationStoreService } from '../services/push-notification/push-notification-store.service';
+import { SidenavService } from '../services/sidenav/sidenav.service';
+import { AppUpdateService } from './../services/app-update/app-update.service';
+import { PushNotificationDialogComponent } from './push-notification-dialog/push-notification-dialog.component';
 
 @Component({
   selector: 'app-root',
@@ -16,9 +18,12 @@ export class AppComponent implements OnInit {
   constructor(private router: Router,
               private sidenavService: SidenavService,
               private bottomSheet: MatBottomSheet,
-              public pushNotificationStoreService: PushNotificationStoreService,
+              private pushNotificationStoreService: PushNotificationStoreService,
+              private appUpdateService: AppUpdateService,
               private translate: TranslateService,
-              private localStorageService: LocalStorageService) {
+              private localStorageService: LocalStorageService,
+              private snackBar: MatSnackBar,
+              private swUpdate: SwUpdate) {
     translate.setDefaultLang('de');
     translate.use(localStorageService.getLanguage() || 'de');
   }
@@ -36,6 +41,17 @@ export class AppComponent implements OnInit {
           this.bottomSheet.open(PushNotificationDialogComponent);
         }
       }
+    });
+
+    this.swUpdate.available.subscribe(_ => {
+      this.translate.get('UPDATE_DIALOG.AVAILABLE').subscribe(text => {
+        const snackBarRef = this.snackBar.open(text, 'Update', { duration: 10000 }
+        );
+
+        snackBarRef.onAction().subscribe(() => {
+          this.swUpdate.activateUpdate().then(() => document.location.reload());
+        });
+      });
     });
   }
 }
