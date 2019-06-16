@@ -135,5 +135,8 @@
       "TEXT": "Du erhälst ab jetzt Push-Notifications!",
       "BUTTON_DISMISS": "OK"
     }
+  },
+  "UPDATE_DIALOG": {
+    "AVAILABLE": "Update verfügbar! Bitte updaten, sobald die Verbindung stabil ist."
   }
 }

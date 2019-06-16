@@ -131,5 +131,8 @@
       "TEXT": "Push Notifications are enabled!",
       "BUTTON_DISMISS": "Dismiss"
     }
+  },
+  "UPDATE_DIALOG": {
+    "AVAILABLE": "Update available! Please update once you have a stable connection."
   }
 }
