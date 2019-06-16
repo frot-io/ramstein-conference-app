@@ -1,3 +1,4 @@
+import { AppUpdateService } from './../services/app-update/app-update.service';
 import { Component, OnInit } from '@angular/core';
 import { MatBottomSheet } from '@angular/material';
 import { Router } from '@angular/router';
@@ -16,7 +17,8 @@ export class AppComponent implements OnInit {
   constructor(private router: Router,
               private sidenavService: SidenavService,
               private bottomSheet: MatBottomSheet,
-              public pushNotificationStoreService: PushNotificationStoreService,
+              private pushNotificationStoreService: PushNotificationStoreService,
+              private appUpdateService: AppUpdateService,
               private translate: TranslateService,
               private localStorageService: LocalStorageService) {
     translate.setDefaultLang('de');
