@@ -1,7 +1,5 @@
 Veranstaltungsort: [Friedenscamp](/locations/friedenscamp)
 
-![](/assets/pictures/Friedenswerkstatt/Friedenswerkstatt_1080.jpg)
-
 Lorem markdownum vinctorum in cognovit infans Frigus viridi umbrarumque dixit
 revertentes equis; quatiens quae precantia occupat Epaphi tua. Non posses ille
 videtur virque adimunt animus haeret cardine, sed tempora geminato temptemus et

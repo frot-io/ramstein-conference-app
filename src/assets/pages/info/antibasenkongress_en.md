@@ -8,6 +8,8 @@ We live in a time of wars and violence. The armament race has been growing, espe
 
 Between 23 and 30 June 2019, for the 5th year, a series of actions will be promoted to protest the continuation of the Ramstein Air Base – one of the biggest US-American military basis in the world, located in Germany. On this occasion, the campaign „Stopp Air Base Ramstein“ – together with the International Peace Bureau (IPB), the „No to War – No to NATO International Network“ & the European Left – invites you to the International Conference „Wars and Military Bases“, taking place on 28 June at the Apostelkirche in Kaiserslautern (Germany). The meeting will be an opportunity for the peace movement to analyse the current international political situation, to report on actions around the world, and to discuss future actions and projects.
 
+![](/assets/pictures/AntiBasen/supporters_1080px.png)
+
 ## Program
 
 ### 10h – 12h	

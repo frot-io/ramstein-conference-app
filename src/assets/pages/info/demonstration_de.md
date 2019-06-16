@@ -1,8 +1,6 @@
 Veranstaltungsorte: [Auftaktkundgebung](/locations/auftaktkundgebung) ;
                     [Abschlusskundgebung](/locations/abschlusskundgebung)
                    
-![](/assets/pictures/Demo/Demo_540.jpg)
-
 Die Aktivitäten der Stopp Air Base Ramstein Kampagne im Jahr 2019 sind etwas ganz Besonderes: Stopp Ramstein geht in das 5. Jahr der Proteste. Was klein anfing, ist mittlerweile ein fester Bestandteil der Friedensbewegung geworden. Stopp Ramstein, das sind die größten Proteste vor einer Militärbasis in Deutschland.
 Wir planen für Samstag, den 29.06.2019 wieder eine Demonstration, die um 13 Uhr am Haus des Bürgers in Ramstein-Miesenbach (Prometheus-Platz) mit einer Auftaktkundgebung beginnt und dann durch die Stadt ziehen wird. Wir wollen diesmal noch näher an die Anwohner rund um die Militärbasis.
 Enden wird der Demonstrationszug wieder vor der Air Base Ramstein. Um Euren langen Atem auch ein wenig zu feiern, werden wir den Demonstrationszug vor den Toren der Base bei einem kleinen Festival mit Reden, viel Musik und Informationsständen gegen 18:30 Uhr enden lassen. Dann ziehen wir gemeinsam ins Friedenscamp zur Abschlussparty.

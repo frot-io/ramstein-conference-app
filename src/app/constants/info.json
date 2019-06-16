@@ -1,12 +1,13 @@
 [
   {
     "id": "allgemein",
-    "translationKey": "ALLGEMEIN"
+    "translationKey": "ALLGEMEIN",
+    "image": "logo-toolbar.png"
   },
   {
     "id": "notfaelle",
     "translationKey": "NOTFAELLE",
-    "image": "pictures/mock/257-540x360.jpg"
+    "image": "pictures/anderes/help-153094_640.png"
   },
   {
     "id": "friedenscamp",
@@ -16,26 +17,26 @@
   {
     "id": "friedenswerkstatt",
     "translationKey": "FRIEDENSWERKSTATT",
-    "image": "pictures/mock/257-540x360.jpg"
+    "image": "pictures/Friedenswerkstatt/Friedenswerkstatt_540.jpg"
   },
   {
     "id": "friedensfussballturnier",
     "translationKey": "FRIEDENSFUSSBALLTURNIER",
-    "image": "pictures/mock/257-540x360.jpg"
+    "image": "pictures/Fussballturnier/FT_540.jpg"
   },
   {
     "id": "antibasenkongress",
     "translationKey": "ANTIBASENKONGRESS",
-    "image": "pictures/mock/257-540x360.jpg"
+    "image": "pictures/AntiBasen/no-to-military-bases_1080px.png"
   },
   {
     "id": "abendveranstaltung",
     "translationKey": "ABENDVERANSTALTUNG",
-    "image": "pictures/mock/257-540x360.jpg"
+    "image": "pictures/Abendveranstaltung/Stopp_Air_Base_Ramstein_1080px.jpg"
   },
   {
     "id": "demonstration",
     "translationKey": "DEMONSTRATION",
-    "image": "pictures/mock/257-540x360.jpg"
+    "image": "pictures/Demo/Demo_540.jpg"
   }
 ]

@@ -2,8 +2,6 @@ Place: [Friedenscamp](/locations/friedenscamp)
 
 **Die Konferenz wird auf Englisch abgehalten.**
 
-![](/assets/pictures/AntiBasen/no-to-military-bases_1080px.png)
-
 ## Info
 
 We live in a time of wars and violence. The armament race has been growing, especially among the NATO countries. Their goal: 2% of country’s GDP for war and war preparations. Foreign military bases play an important role in the policy of confrontation: they are a crucial element for the preparation of yet new wars, the promotion of regime changes and the nurture of repression. While the USA has, by far, the highest number of military bases outside its territory (currently over 800), countries such as the UK, France, Russia and China also rely on military bases to project and enlarge their power. We believe that sustainable peace and international security are best achieved by pursuing an approach of common security that is based on cooperation, trust, understanding, diplomacy and respect. Foreign military bases are not compatible with this vision: they represent constant threats of military action and the subsequent destruction that war casts over human life, nature, environment and infrastructure.

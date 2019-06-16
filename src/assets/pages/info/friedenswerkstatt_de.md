@@ -1,7 +1,5 @@
 Veranstaltungsort: [Friedenscamp](/locations/friedenscamp)
 
-![](/assets/pictures/Friedenswerkstatt/Friedenswerkstatt_1080.jpg)
-
 Die Ramstein-Aktionstage richten sich
 
 * gegen den US-Drohnenkrieg und die in der Großregion Kaiserslautern vorhandene Infrastruktur 
