@@ -1,8 +1,7 @@
 [
   {
     "id": "allgemein",
-    "translationKey": "ALLGEMEIN",
-    "image": "pictures/mock/257-540x360.jpg"
+    "translationKey": "ALLGEMEIN"
   },
   {
     "id": "notfaelle",
