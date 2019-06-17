@@ -2,7 +2,21 @@
   <ng-container *ngFor="let event of (eventsStore.favoriteEvents$ | async)">
     <a mat-list-item [routerLink]="['/events', event['ID']]">
       <h4 mat-line><strong>{{ event['Titel'] }}</strong></h4>
-      <p mat-line> {{ event['Zeitblock'] }} - TODO: Location </p>
+      <p mat-line>
+        <strong>
+          <span *ngIf="event['Tag'] === '24.6.'">{{ 'EVENTS_PAGE.WEEKDAYS.MO' | translate }}, </span>
+          <span *ngIf="event['Tag'] === '25.6.'">{{ 'EVENTS_PAGE.WEEKDAYS.TU' | translate }}, </span>
+          <span *ngIf="event['Tag'] === '26.6.'">{{ 'EVENTS_PAGE.WEEKDAYS.WE' | translate }}, </span>
+          <span *ngIf="event['Tag'] === '27.6.'">{{ 'EVENTS_PAGE.WEEKDAYS.TH' | translate }}, </span>
+          <span *ngIf="event['Tag'] === '28.6.'">{{ 'EVENTS_PAGE.WEEKDAYS.FR' | translate }}, </span>
+          <span *ngIf="event['Tag'] === '29.6.'">{{ 'EVENTS_PAGE.WEEKDAYS.SA' | translate }}, </span>
+          {{ event['Tag'] }}
+        </strong>
+        <ng-container *ngIf="event['Startzeit']">
+          {{ event['Startzeit'] }} - {{ event['Endzeit'] }}
+        </ng-container>,
+        {{ event['Ort'] }}
+      </p>
       <button mat-stroked-button (click)="unfavorite(event, $event)">
         <mat-icon class="icon">clear</mat-icon>
       </button>
