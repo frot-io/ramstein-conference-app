@@ -56,4 +56,7 @@ Bitte bildet selbstorganisierte Fahrgemeinschaften zu den Demos und weiteren Akt
 * Kilez More
 
 Wir freuen uns schon riesig auf das diesjährige Friedenscamp mit euch :)
+
+## Lageplan
     
+![](/assets/pictures/Camp/camp_location.jpg)
