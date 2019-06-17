@@ -1,46 +1,44 @@
-<ng-masonry-grid [masonryOptions]="{ transitionDuration: '0.2s', gutter: 10 }">
-  <ng-masonry-grid-item *ngFor="let event of (eventsStore.events$ | async)" >
-    <mat-card class="card">
-      <mat-card-header>
-        <mat-card-title>
-          <a [routerLink]="['/events', event['ID']]" class="unstyled-link">
-            {{ event['Titel'] }}
-          </a>
-        </mat-card-title>
-        <mat-card-subtitle>
-          {{ event['Referierende 1'] }}
-          <ng-container *ngIf="event['Referierende 2']">
-            <br>
-            {{ event['Referierende 2'] }}
-          </ng-container>
-        </mat-card-subtitle>
-      </mat-card-header>
-      <a *ngIf="event['Bild']" [routerLink]="['/events', event['ID']]">
-        <img mat-card-image [src]="'./assets/' + event['Bild']">
-      </a>
-      <mat-card-content>
-        <p>
-          {{ 'EVENTS_PAGE.TIME' | translate }}: <strong>{{ event['Tag'] }}</strong> - <strong>{{ event['Zeitblock'] }}</strong>
-        </p>
-        <p><a [routerLink]="['/locations', 'friedenscamp']" class="unstyled-link">
-          {{ 'EVENTS_PAGE.LOCATION' | translate }}: <strong>TODO</strong>
-        </a></p>
-        <p *ngIf="event['Stichwort']">
-          {{ 'EVENTS_PAGE.CATEGORY' | translate }}: <strong>{{ event['Stichwort'] }}</strong>
-        </p>
-      </mat-card-content>
-      <mat-card-actions>
-        <button mat-stroked-button class="details-button" [routerLink]="['/events', event['ID']]">
-          <mat-icon class="icon">more_horiz</mat-icon>{{ 'EVENTS_PAGE.DETAILS' | translate }}
-        </button>
-        <div fxFlex></div>
-        <button *ngIf="!(favoritesStore.favorites$ | async).includes(event['ID'])" mat-stroked-button (click)="favoritesStore.favorite(event)">
-          <mat-icon class="icon">favorite_outline</mat-icon>
-        </button>
-        <button *ngIf="(favoritesStore.favorites$ | async).includes(event['ID'])" mat-stroked-button (click)="favoritesStore.unfavorite(event)">
-          <mat-icon class="icon">favorite</mat-icon>
-        </button>
-      </mat-card-actions>
-    </mat-card>
-  </ng-masonry-grid-item>
-</ng-masonry-grid>
+<div fxLayout="row wrap" fxLayoutAlign="center">
+  <mat-card *ngFor="let event of (eventsStore.events$ | async)" class="card">
+    <mat-card-header>
+      <mat-card-title>
+        <a [routerLink]="['/events', event['ID']]" class="unstyled-link">
+          {{ event['Titel'] }}
+        </a>
+      </mat-card-title>
+      <mat-card-subtitle>
+        {{ event['Referierende 1'] }}
+        <ng-container *ngIf="event['Referierende 2']">
+          <br>
+          {{ event['Referierende 2'] }}
+        </ng-container>
+      </mat-card-subtitle>
+    </mat-card-header>
+    <a *ngIf="event['Bild']" [routerLink]="['/events', event['ID']]" class="mat-card-image-link">
+      <img mat-card-image [src]="'./assets/' + event['Bild']">
+    </a>
+    <mat-card-content>
+      <p>
+        {{ 'EVENTS_PAGE.TIME' | translate }}: <strong>{{ event['Tag'] }}</strong> - <strong>{{ event['Zeitblock'] }}</strong>
+      </p>
+      <p><a [routerLink]="['/locations', 'friedenscamp']" class="unstyled-link">
+        {{ 'EVENTS_PAGE.LOCATION' | translate }}: <strong>TODO</strong>
+      </a></p>
+      <p *ngIf="event['Stichwort']">
+        {{ 'EVENTS_PAGE.CATEGORY' | translate }}: <strong>{{ event['Stichwort'] }}</strong>
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-stroked-button class="details-button" [routerLink]="['/events', event['ID']]">
+        <mat-icon class="icon">more_horiz</mat-icon>{{ 'EVENTS_PAGE.DETAILS' | translate }}
+      </button>
+      <div fxFlex></div>
+      <button *ngIf="!(favoritesStore.favorites$ | async).includes(event['ID'])" mat-stroked-button (click)="favoritesStore.favorite(event)">
+        <mat-icon class="icon">favorite_outline</mat-icon>
+      </button>
+      <button *ngIf="(favoritesStore.favorites$ | async).includes(event['ID'])" mat-stroked-button (click)="favoritesStore.unfavorite(event)">
+        <mat-icon class="icon">favorite</mat-icon>
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>
