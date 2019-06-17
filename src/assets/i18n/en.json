@@ -52,6 +52,7 @@
     "TIME": "Time",
     "LOCATION": "Location",
     "CATEGORY": "Category",
+    "MODERATION": "Moderation",
     "DETAILS": "Details",
     "WEEKDAYS": {
       "MO": "Mon",
