@@ -36,7 +36,8 @@
   },
   {
     "id": "blockade",
-    "translationKey": "BLOCKADE"
+    "translationKey": "BLOCKADE",
+    "image": "pictures/anderes/Blockade_1040x520.jpg"
   },
   {
     "id": "demonstration",

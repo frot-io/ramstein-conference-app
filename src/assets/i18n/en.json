@@ -42,19 +42,34 @@
       "TITLE": "Demonstration",
       "SUBTITLE": "The big demonstration on saturday"
     },
+    "BLOCKADE": {
+      "TITLE": "Blockade",
+      "SUBTITLE": "Wir block the Air Base Ramstein!"
+    },
     "BACK_BUTTON_LABEL": "Back to list"
   },
   "EVENTS_PAGE": {
     "TIME": "Time",
     "LOCATION": "Location",
     "CATEGORY": "Category",
+    "KEYWORD": "Keyword",
+    "MODERATION": "Moderation",
     "DETAILS": "Details",
-    "CATEGORIES": {
+    "WEEKDAYS": {
+      "MO": "Mon",
+      "TU": "Tue",
+      "WE": "Wed",
+      "TH": "Thu",
+      "FR": "Fri",
+      "SA": "Sat"
+    },
+    "KEYWORDS": {
       "Int": "International",
       "Umw": "Umweltpolitik",
       "Neo": "Neoliberalismus",
       "Mil": "Militärmacht global und Kriege",
-      "Fri": "Friedensbewegung"
+      "Fri": "Friedensbewegung",
+      "Fem": "Feminism"
     }
   },
   "FAVORITES_PAGE": {
@@ -84,6 +99,14 @@
     "ABSCHLUSSKUNDGEBUNG": {
       "TITLE": "Closing Demo",
       "DESCRIPTION": "TODO: Description"
+    },
+    "KAISERSLAUTERN": {
+      "TITLE": "Kaiserslautern Stadtmitte",
+      "DESCRIPTION": "TODO: Description"
+    },
+    "BUECHEL": {
+      "TITLE": "Fliegerhorst Büchel",
+      "DESCRIPTION": "TODO: Description"
     }
   },
   "HELP_PAGE": {
@@ -106,6 +129,10 @@
         "STEP2": "Click on the House-with-a-Plus-Symbol at the top and then on \"Add to Homescreen\"",
         "STEP3": "Click on \"Add automatically\"",
         "STEP4": "You can now access the app from your homescreen"
+      },
+      "SAFARI": {
+        "TITLE": "Safari on iOS",
+        "CONTENT": "Click on \"Share\", then \"Add to homescreen\""
       }
     },
     "PUSH_NOTIFICATIONS": {
@@ -115,7 +142,7 @@
     },
     "LANGUAGE_SELECT": {
       "TITLE": "Language",
-      "CONTENT": "<p>You can switch the language with the buttons below. <a class=\"link\" target=\"_blank\" href=\"https://unitedlanguagegroup.com/blog/inside-design-a-language-selector-is-no-place-for-flags/\">Labels instead of country flags are used on the buttons.</a></p>",
+      "CONTENT": "<p>You can switch the language with the buttons below. <a class=\"link\" target=\"_blank\" href=\"https://unitedlanguagegroup.com/blog/inside-design-a-language-selector-is-no-place-for-flags/\">Labels instead of country flags are used on the buttons.</a> <strong>Please note, that not everything could be translated to English.</strong></p>",
       "BUTTON_LABEL_GERMAN": "German",
       "BUTTON_LABEL_ENGLISH": "English"
     },

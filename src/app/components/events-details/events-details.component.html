@@ -25,14 +25,33 @@
 
 <ul>
   <li>
-    {{ 'EVENTS_PAGE.TIME' | translate }}: <strong>{{ event['Tag'] }}</strong> - <strong>{{ event['Zeitblock'] }}</strong>
+    {{ 'EVENTS_PAGE.TIME' | translate }}:
+    <strong>
+      <span *ngIf="event['Tag'] === '24.6.'">{{ 'EVENTS_PAGE.WEEKDAYS.MO' | translate }}, </span>
+      <span *ngIf="event['Tag'] === '25.6.'">{{ 'EVENTS_PAGE.WEEKDAYS.TU' | translate }}, </span>
+      <span *ngIf="event['Tag'] === '26.6.'">{{ 'EVENTS_PAGE.WEEKDAYS.WE' | translate }}, </span>
+      <span *ngIf="event['Tag'] === '27.6.'">{{ 'EVENTS_PAGE.WEEKDAYS.TH' | translate }}, </span>
+      <span *ngIf="event['Tag'] === '28.6.'">{{ 'EVENTS_PAGE.WEEKDAYS.FR' | translate }}, </span>
+      <span *ngIf="event['Tag'] === '29.6.'">{{ 'EVENTS_PAGE.WEEKDAYS.SA' | translate }}, </span>
+      {{ event['Tag'] }}
+    </strong>
+    <ng-container *ngIf="event['Startzeit']">
+      {{ event['Startzeit'] }} - {{ event['Endzeit'] }}
+    </ng-container>
   </li>
-  <li><a [routerLink]="['/locations', 'friedenscamp']" class="unstyled-link">
-    {{ 'EVENTS_PAGE.LOCATION' | translate }}: <strong>TODO</strong>
+  <li><a [routerLink]="['/locations', event['Ort ID']]">
+    {{ 'EVENTS_PAGE.LOCATION' | translate }}: {{ event['Ort'] }}
   </a></li>
-  <li *ngIf="event['Stichwort']">
-    {{ 'EVENTS_PAGE.CATEGORY' | translate }}: <strong>{{ event['Stichwort'] }}</strong>
+  <li *ngIf="event['Kategorie']">
+    {{ 'EVENTS_PAGE.CATEGORY' | translate }}: {{ event['Kategorie'] }}
   </li>
+  <li *ngIf="event['Stichwort']">
+    {{ 'EVENTS_PAGE.KEYWORD' | translate }}:
+    <strong>{{ 'EVENTS_PAGE.KEYWORDS.' + event['Stichwort'] | translate }}</strong>
+  </li>
+  <li *ngIf="event['Moderation']">
+      {{ 'EVENTS_PAGE.MODERATION' | translate }}: {{ event['Moderation'] }}
+    </li>
 </ul>
 
 <ng-container *ngIf="event['Beschreibung']">

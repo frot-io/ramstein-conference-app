@@ -1,7 +1,5 @@
 Veranstaltungsorte:[Abschlusskundgebung](/locations/abschlusskundgebung)
 
-![](/assets/pictures/mock/Blockade_1040x520.jpg)
-
 ## Wir blockieren die Air Base Ramstein am 29.06.2019.
 
  >[zum Aufruf>](https://www.ramstein-kampagne.eu/aufruf-zu-aktionen-des-zivilen-ungehorsams-2019/)

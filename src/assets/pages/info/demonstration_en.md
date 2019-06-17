@@ -1,33 +1,62 @@
+Veranstaltungsorte: [Auftaktkundgebung](/locations/auftaktkundgebung) ;
+                    [Abschlusskundgebung](/locations/abschlusskundgebung)
+                   
+Die Aktivitäten der Stopp Air Base Ramstein Kampagne im Jahr 2019 sind etwas ganz Besonderes: Stopp Ramstein geht in das 5. Jahr der Proteste. Was klein anfing, ist mittlerweile ein fester Bestandteil der Friedensbewegung geworden. Stopp Ramstein, das sind die größten Proteste vor einer Militärbasis in Deutschland.
+Wir planen für Samstag, den 29.06.2019 wieder eine Demonstration, die um 13 Uhr am Haus des Bürgers in Ramstein-Miesenbach (Prometheus-Platz) mit einer Auftaktkundgebung beginnt und dann durch die Stadt ziehen wird. Wir wollen diesmal noch näher an die Anwohner rund um die Militärbasis.
+Enden wird der Demonstrationszug wieder vor der Air Base Ramstein. Um Euren langen Atem auch ein wenig zu feiern, werden wir den Demonstrationszug vor den Toren der Base bei einem kleinen Festival mit Reden, viel Musik und Informationsständen gegen 18:30 Uhr enden lassen. Dann ziehen wir gemeinsam ins Friedenscamp zur Abschlussparty.
 
-Lorem markdownum vinctorum in cognovit infans Frigus viridi umbrarumque dixit
-revertentes equis; quatiens quae precantia occupat Epaphi tua. Non posses ille
-videtur virque adimunt animus haeret cardine, sed tempora geminato temptemus et
-Iovis. Iaculabile cornu caelo tum veretur aequor: litus ausae, in est iunctorum
-sui pereuntem, et auxerunt carinae saeva. Gerit libera Meropis interius et forma
-diramque, oculis condita altaria, et brevis verba.
+## Programmablauf
 
-1. Potita mulcendaque nomenque
-2. Liceret illi vocavit conata in et ignibus
-3. Cupiens argento me serrae Daedalus Troia
-4. Canis Clara
+* 12 Uhr gemeinsamer Aufzug vom Friedenscamps zur Auftaktkundgebung in Ramstein-Miesenbach
 
-Di vocem bene periclo prunam gerenti catenas in ingratus porrexit tendens.
-Erravisse radiis, in esse Pan Hennaeis Actaea. Tibi non fide; probro Titan,
-Tremorque cognovit quam. Vocis intus conpescuit recludit. Subductaque placeat
-sed armorum erat, qui minatur curis.
+* 13 Uhr Beginn Auftaktkundgebung Prometheusplatz in Ramstein-Miesenbach
 
-> Vires est, illum misit status: virgo me post [sit
-> creberrima](http://nata-sui.org/ora) serae, abiturus
-> [templisque](http://tinguit-opus.com/). Anaxarete non et sit capillos,
-> procubuisse Alcyone arbor nec movere, rerum licet. Sic tristia et umbra esse
-> inmiti, in quam iuga mergis.
+Rednerinnen und Redner Auftaktkundgebung:
 
-## Quod nec tulisset
+    NN Anatolischer Kulturverein
+    Brigitte Freihold (DIE LINKE)
+    Otto Jäckel (IALANA)
+    Jochen Marwede (BÜNDNIS 90/DIE GRÜNEN)
+    Michael Müller (Vorsitzender NaturFreunde Deutschlands, ehemals MdB SPD und Staatssekretär beim Bundesminister für Umwelt)
+    Hannah Schumacher (Fridays for Future Aktivistin)
 
-Felix mentisque pro Di relinquis etiam gressu Themis requiris: unus sua
-*Pelasgos choreas*: sereno adiutus exit tamen catulus. Propiusque sudor
-ceciderunt cohibentem fraxinus, non gradu cruciataque te in Theseus sua finita
-terrae. Constiterat valido de vera tectis tulit quid supereminet quaerit contra
-rursusque Aesonius miracula et anxia. Singultibus fossas prima cui sinus quanta
-Haemoniosque dum [superba sitque](http://fluitque-vestigia.io/miseram.aspx)
-quae: abigoque.
+Musik:
+
+    Morgaine und Tjorben
+    Morgaine und Äon
+
+Moderation:
+
+    Kristine Karch (Stopp Air Base Ramstein)
+    Gunda Weidmüller (Stopp Air Base Ramstein)
+
+* gegen 13:45 Uhr Aufzug durch Ramstein-Miesenbach zur Air Base Ramstein
+
+* gegen 14:45 Uhr Abschlusskundgebung mit Festival vor der Air Base Ramstein
+
+Rednerinnen und Redner Abschlusskundgebung:
+
+    Andreas Hartenfels (BÜNDNIS 90/DIE GRÜNEN)
+    Marion Küpker (Büchel ist überall! atomwaffenfrei.jetzt)
+    Oskar Lafontaine (DIE LINKE)
+    Ann Wright, USA (CodePink)
+
+Musik:
+
+    Bots mit Diether Dehm
+    Prinz Chaos II
+    Kilez More
+    Morgaine und Tjorben
+    Walter Naujok
+    The Wedge
+    Bet Williams
+
+Moderation:
+
+    Lisann Drews (IPPNW, Stopp Air Base Ramstein)
+    Reiner Braun (IPB, Stopp Air Base Ramstein)
+
+* gegen 18:30 Uhr gemeinsamer Aufzug ins Friedenscamp zur Abschlussparty
+
+![](/assets/pictures/Demo/Demo_1080.jpg)
+![](/assets/pictures/Demo/Demo_2_1080.jpg)

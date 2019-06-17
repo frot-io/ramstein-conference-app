@@ -1,11 +1,10 @@
 .card
-  max-width 300px
-  margin-bottom 5px
-  & .mat-card-image
-    max-width none !important
-    margin-top 0
-  & .mat-card-content
-    margin-left 16px
-    margin-right 16px
+  min-width 300px
+  margin-bottom 10px
+  @media screen and (min-width: 600px)
+    max-width 300px
+    margin-right 10px
+  .mat-card-image
+    margin-top 5px
   & .details-button mat-icon.icon
     margin-right 0.5rem

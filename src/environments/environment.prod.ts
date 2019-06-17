@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  vapidPublicKey: 'BBqTVCz44SYRYuFLopkKdG_rT2izyEMsRbZmluXBAVYM25TmQvVz3tTd18a-02GZmiiYBUZHGq7LmD5qGbs0mMo'
+  vapidPublicKey: 'BLYLWidNyGabsJQJHqo20SIqRzx5TxDXW8STl8l5zKNqBpPhs5Q1BHfIIyvKyk064b2um_bCQG2lJhZKDbZ5_7A'
 };

@@ -11,14 +11,14 @@ import locationsJson from '../../constants/locations.json';
 export class LocationsComponent implements OnInit {
   /* TODO: Clean up - this file is rahter spaghetti b/c of the mix of Angular and Leaflet... */
   // Defaults
-  private defaultLat = 49.4684328;
-  private defaultLng = 7.6256019;
+  private defaultLat = 49.8084328;
+  private defaultLng = 7.4256019;
   public options = {
     layers: [
       tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
       { attribution: '© OpenStreetMap contributors' })
     ],
-    zoom: 11,
+    zoom: 9,
     center: latLng(this.defaultLat, this.defaultLng)
   };
 

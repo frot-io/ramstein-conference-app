@@ -1,34 +1,38 @@
 Veranstaltungsort: [Friedenscamp](/locations/friedenscamp)
 
-Lorem markdownum vinctorum in cognovit infans Frigus viridi umbrarumque dixit
-revertentes equis; quatiens quae precantia occupat Epaphi tua. Non posses ille
-videtur virque adimunt animus haeret cardine, sed tempora geminato temptemus et
-Iovis. Iaculabile cornu caelo tum veretur aequor: litus ausae, in est iunctorum
-sui pereuntem, et auxerunt carinae saeva. Gerit libera Meropis interius et forma
-diramque, oculis condita altaria, et brevis verba.
+Die Ramstein-Aktionstage richten sich
 
-1. Potita mulcendaque nomenque
-2. Liceret illi vocavit conata in et ignibus
-3. Cupiens argento me serrae Daedalus Troia
-4. Canis Clara
+* gegen den US-Drohnenkrieg und die in der Großregion Kaiserslautern vorhandene Infrastruktur 
+  von US-Militär und NATO zur Vorbereitung und Durchführung von Kriegen
+* gegen Pläne zur Stationierung neuer Atomwaffen nach Kündigung des INF-Vertrages
+* gegen die regionale Umwelt- und Gesundheitsbelastungen durch die Militärregion und für einen
+  sozial-ökologischen Umbau
+* an die deutsche Bundesregierung zur Unterbindung der grundgesetz- und völkerrechtswidrigen 
+  Nutzung der Air Base Ramstein, was mittels einer Kündigung des Truppenstationierungsvertrages möglich ist
+* auf die internationale Zusammenarbeit der Friedensbewegung durch Beteiligung zahlreicher ausländischer Gäste,
+  die sich sowohl bei dem International Meeting, wie auch teilweise bei Workshops der Friedenswerk-statt einbringen
 
-Di vocem bene periclo prunam gerenti catenas in ingratus porrexit tendens.
-Erravisse radiis, in esse Pan Hennaeis Actaea. Tibi non fide; probro Titan,
-Tremorque cognovit quam. Vocis intus conpescuit recludit. Subductaque placeat
-sed armorum erat, qui minatur curis.
+„Stopp Air Base Ramstein“ sehen wir als Kristallisationspunkt für die friedenspolitischen Kernforderungen:
+Kriege beenden, Abrüstung für globale Gerechtigkeit, Entspannungspolitik jetzt!
+Friedenspolitischen Forderungen sehen wir auch im Kontext der neoliberalen Politik und dem gesellschaftlichen Rechtsruck.
+In einer Vielzahl von Seminaren und Diskussionsrunden wollen wir politisches Wissen und Handwerkzeug vermitteln, 
+um dieses in Aktionen für notwendige Veränderungen in der Politik einzubringen.
 
-> Vires est, illum misit status: virgo me post [sit
-> creberrima](http://nata-sui.org/ora) serae, abiturus
-> [templisque](http://tinguit-opus.com/). Anaxarete non et sit capillos,
-> procubuisse Alcyone arbor nec movere, rerum licet. Sic tristia et umbra esse
-> inmiti, in quam iuga mergis.
+## Zeitfenster
 
-## Quod nec tulisset
+* Block A: vormittags nach separater Festlegung
+* Block B: 14 Uhr
+* Block C: 16 Uhr
+* Block D: 19 Uhr
+* Block E: 20:30 Uhr
 
-Felix mentisque pro Di relinquis etiam gressu Themis requiris: unus sua
-*Pelasgos choreas*: sereno adiutus exit tamen catulus. Propiusque sudor
-ceciderunt cohibentem fraxinus, non gradu cruciataque te in Theseus sua finita
-terrae. Constiterat valido de vera tectis tulit quid supereminet quaerit contra
-rursusque Aesonius miracula et anxia. Singultibus fossas prima cui sinus quanta
-Haemoniosque dum [superba sitque](http://fluitque-vestigia.io/miseram.aspx)
-quae: abigoque.
+> [Programm >](https://ramstein-conference-app.herokuapp.com/events)
+
+> [Download des Programms als PDF (Stand 8.6.19) >](https://www.ramstein-kampagne.eu/wp-content/uploads/2019/03/FW_Programm_08.06.2019.pdf) 
+
+Kontakt
+
+Anfragen und Infos zum Programm, sowie Übernachtungsmöglichkeiten außerhalb des Camps an:
+
+Karl-Heinz Peil Tel: [+49163 3447196](+491633447196)
+Mail: [fw@ramstein-kampagne.eu](fw@ramstein-kampagne.eu)

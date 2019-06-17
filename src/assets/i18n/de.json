@@ -52,13 +52,24 @@
     "TIME": "Zeit",
     "LOCATION": "Ort",
     "CATEGORY": "Kategorie",
+    "KEYWORD": "Stichwort",
+    "MODERATION": "Moderation",
     "DETAILS": "Details",
+    "KEYWORDS": {
+      "MO": "Mo",
+      "TU": "Di",
+      "WE": "Mi",
+      "TH": "Do",
+      "FR": "Fr",
+      "SA": "Sa"
+    },
     "CATEGORIES": {
       "Int": "International",
       "Umw": "Umweltpolitik",
       "Neo": "Neoliberalismus",
       "Mil": "Militärmacht global und Kriege",
-      "Fri": "Friedensbewegung"
+      "Fri": "Friedensbewegung",
+      "Fem": "Feminismus"
     }
   },
   "FAVORITES_PAGE": {
@@ -88,6 +99,14 @@
     "ABSCHLUSSKUNDGEBUNG": {
       "TITLE": "Abschlusskundgebung",
       "DESCRIPTION": "TODO: Beschreibung"
+    },
+    "KAISERSLAUTERN": {
+      "TITLE": "Kaiserslautern Stadtmitte",
+      "DESCRIPTION": "TODO: Description"
+    },
+    "BUECHEL": {
+      "TITLE": "Fliegerhorst Büchel",
+      "DESCRIPTION": "TODO: Description"
     }
   },
   "HELP_PAGE": {
@@ -110,6 +129,10 @@
         "STEP2": "Tippe auf das Haus-mit-einem-Plus-Symbol am oberen Bildschirmrand und dann auf \"Zu Startbildschirm hinzufügen\"",
         "STEP3": "Tippe auf \"Automatisch hinzufügen\"",
         "STEP4": "Du kannst die App jetzt von deinem Startbildschirm aus starten"
+      },
+      "SAFARI": {
+        "TITLE": "Safari auf iOS",
+        "CONTENT": "Tippe auf \"Teilen\" und dann auf \"Zum Homescreen hinzufügen\""
       }
     },
     "PUSH_NOTIFICATIONS": {
@@ -119,7 +142,7 @@
     },
     "LANGUAGE_SELECT": {
       "TITLE": "Spracheinstellungen",
-      "CONTENT": "<p>Hier kannst du die Sprache der App ändern. <a class=\"link\" target=\"_blank\" href=\"https://unitedlanguagegroup.com/blog/inside-design-a-language-selector-is-no-place-for-flags/\">Es wird Text anstelle von Landesflaggen verwendet.</a></p>",
+      "CONTENT": "<p>Hier kannst du die Sprache der App ändern. <a class=\"link\" target=\"_blank\" href=\"https://unitedlanguagegroup.com/blog/inside-design-a-language-selector-is-no-place-for-flags/\">Es wird Text anstelle von Landesflaggen verwendet.</a><strong>Bitte beachte, dass die Englische Übersetzung unvollständig ist.</strong></p>",
       "BUTTON_LABEL_GERMAN": "Deutsch",
       "BUTTON_LABEL_ENGLISH": "Englisch"
     },
