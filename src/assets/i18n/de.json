@@ -119,7 +119,7 @@
     },
     "LANGUAGE_SELECT": {
       "TITLE": "Spracheinstellungen",
-      "CONTENT": "<p>Hier kannst du die Sprache der App ändern. <a class=\"link\" target=\"_blank\" href=\"https://unitedlanguagegroup.com/blog/inside-design-a-language-selector-is-no-place-for-flags/\">Es wird Text anstelle von Landesflaggen verwendet.</a></p>",
+      "CONTENT": "<p>Hier kannst du die Sprache der App ändern. <a class=\"link\" target=\"_blank\" href=\"https://unitedlanguagegroup.com/blog/inside-design-a-language-selector-is-no-place-for-flags/\">Es wird Text anstelle von Landesflaggen verwendet.</a><strong>Bitte beachte, dass die Englische Übersetzung unvollständig ist.</strong></p>",
       "BUTTON_LABEL_GERMAN": "Deutsch",
       "BUTTON_LABEL_ENGLISH": "Englisch"
     },

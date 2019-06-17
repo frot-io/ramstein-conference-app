@@ -119,7 +119,7 @@
     },
     "LANGUAGE_SELECT": {
       "TITLE": "Language",
-      "CONTENT": "<p>You can switch the language with the buttons below. <a class=\"link\" target=\"_blank\" href=\"https://unitedlanguagegroup.com/blog/inside-design-a-language-selector-is-no-place-for-flags/\">Labels instead of country flags are used on the buttons.</a></p>",
+      "CONTENT": "<p>You can switch the language with the buttons below. <a class=\"link\" target=\"_blank\" href=\"https://unitedlanguagegroup.com/blog/inside-design-a-language-selector-is-no-place-for-flags/\">Labels instead of country flags are used on the buttons.</a> <strong>Please note, that not everything could be translated to English.</strong></p>",
       "BUTTON_LABEL_GERMAN": "German",
       "BUTTON_LABEL_ENGLISH": "English"
     },
