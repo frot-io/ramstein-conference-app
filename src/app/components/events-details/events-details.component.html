@@ -42,13 +42,16 @@
   <li><a [routerLink]="['/locations', event['Ort ID']]">
     {{ 'EVENTS_PAGE.LOCATION' | translate }}: {{ event['Ort'] }}
   </a></li>
-  <li *ngIf="event['Moderation']">
-    {{ 'EVENTS_PAGE.MODERATION' | translate }}: {{ event['Moderation'] }}
+  <li *ngIf="event['Kategorie']">
+    {{ 'EVENTS_PAGE.CATEGORY' | translate }}: {{ event['Kategorie'] }}
   </li>
   <li *ngIf="event['Stichwort']">
-    {{ 'EVENTS_PAGE.CATEGORY' | translate }}:
-    <strong>{{ 'EVENTS_PAGE.CATEGORIES.' + event['Stichwort'] | translate }}</strong>
+    {{ 'EVENTS_PAGE.KEYWORD' | translate }}:
+    <strong>{{ 'EVENTS_PAGE.KEYWORDS.' + event['Stichwort'] | translate }}</strong>
   </li>
+  <li *ngIf="event['Moderation']">
+      {{ 'EVENTS_PAGE.MODERATION' | translate }}: {{ event['Moderation'] }}
+    </li>
 </ul>
 
 <ng-container *ngIf="event['Beschreibung']">

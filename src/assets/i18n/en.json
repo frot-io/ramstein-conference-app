@@ -52,6 +52,7 @@
     "TIME": "Time",
     "LOCATION": "Location",
     "CATEGORY": "Category",
+    "KEYWORD": "Keyword",
     "MODERATION": "Moderation",
     "DETAILS": "Details",
     "WEEKDAYS": {
@@ -62,7 +63,7 @@
       "FR": "Fri",
       "SA": "Sat"
     },
-    "CATEGORIES": {
+    "KEYWORDS": {
       "Int": "International",
       "Umw": "Umweltpolitik",
       "Neo": "Neoliberalismus",

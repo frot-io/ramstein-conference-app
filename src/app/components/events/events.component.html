@@ -35,9 +35,12 @@
           {{ event['Startzeit'] }} - {{ event['Endzeit'] }}
         </ng-container>
       </p>
+      <p *ngIf="event['Kategorie']">
+        {{ 'EVENTS_PAGE.CATEGORY' | translate }}: {{ event['Kategorie'] }}
+      </p>
       <p *ngIf="event['Stichwort']">
-        {{ 'EVENTS_PAGE.CATEGORY' | translate }}:
-        <strong>{{ 'EVENTS_PAGE.CATEGORIES.' + event['Stichwort'] | translate }}</strong>
+        {{ 'EVENTS_PAGE.KEYWORD' | translate }}:
+        <strong>{{ 'EVENTS_PAGE.KEYWORDS.' + event['Stichwort'] | translate }}</strong>
       </p>
     </mat-card-content>
     <mat-card-actions>
