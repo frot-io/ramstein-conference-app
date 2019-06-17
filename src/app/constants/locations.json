@@ -24,7 +24,7 @@
     "lat": 49.444297,
     "lng": 7.761579,
     "translationKey": "APOSTELKIRCHE",
-    "readMoreLink": "/info/apostelkirche"
+    "readMoreLink": "/info/abendveranstaltung"
   },
   {
     "id": "auftaktkundgebung",
@@ -33,7 +33,7 @@
     "lat": 49.447888,
     "lng": 7.555465,
     "translationKey": "AUFTAKTKUNDGEBUNG",
-    "readMoreLink": "/events/auftaktkundgebung"
+    "readMoreLink": "/events/2010"
   },
   {
     "id": "abschlusskundgebung",
@@ -42,7 +42,7 @@
     "lat": 49.438392,
     "lng": 7.568276,
     "translationKey": "ABSCHLUSSKUNDGEBUNG",
-    "readMoreLink": "/events/abschlusskundgebung"
+    "readMoreLink": "/events/2020"
   },
   {
     "id": "kaiserslautern",
@@ -51,7 +51,7 @@
     "lat": 49.436497,
     "lng": 7.768339,
     "translationKey": "KAISERSLAUTERN",
-    "readMoreLink": "/events/abschlusskundgebung"
+    "readMoreLink": "/events/95"
   },
   {
     "id": "buechel",
@@ -60,6 +60,6 @@
     "lat": 50.176131,
     "lng": 7.063645,
     "translationKey": "BUECHEL",
-    "readMoreLink": "/events/abschlusskundgebung"
+    "readMoreLink": "/events/2000"
   }
 ]

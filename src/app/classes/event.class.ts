@@ -1,6 +1,6 @@
 export class Event {
   'ID': number;
-  'Kategorie': string;
+  'Kategorie': string; // 'Aktion' | 'Friedenscamp' | 'Friedenswerkstatt' | 'Bühne' | 'Abendveranstaltung'
   'Tag': string;
   'Startzeit'?: string;
   'Endzeit'?: string;
