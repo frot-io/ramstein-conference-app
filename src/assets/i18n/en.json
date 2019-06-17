@@ -88,6 +88,14 @@
     "ABSCHLUSSKUNDGEBUNG": {
       "TITLE": "Closing Demo",
       "DESCRIPTION": "TODO: Description"
+    },
+    "KAISERSLAUTERN": {
+      "TITLE": "Kaiserslautern Stadtmitte",
+      "DESCRIPTION": "TODO: Description"
+    },
+    "BUECHEL": {
+      "TITLE": "Fliegerhorst Büchel",
+      "DESCRIPTION": "TODO: Description"
     }
   },
   "HELP_PAGE": {

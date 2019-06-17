@@ -88,6 +88,14 @@
     "ABSCHLUSSKUNDGEBUNG": {
       "TITLE": "Abschlusskundgebung",
       "DESCRIPTION": "TODO: Beschreibung"
+    },
+    "KAISERSLAUTERN": {
+      "TITLE": "Kaiserslautern Stadtmitte",
+      "DESCRIPTION": "TODO: Description"
+    },
+    "BUECHEL": {
+      "TITLE": "Fliegerhorst Büchel",
+      "DESCRIPTION": "TODO: Description"
     }
   },
   "HELP_PAGE": {

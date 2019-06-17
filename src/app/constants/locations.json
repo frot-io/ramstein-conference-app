@@ -43,5 +43,23 @@
     "lng": 7.568276,
     "translationKey": "ABSCHLUSSKUNDGEBUNG",
     "readMoreLink": "/events/abschlusskundgebung"
+  },
+  {
+    "id": "kaiserslautern",
+    "name": "Kaiserslautern, Stadtmitte",
+    "address": "Guimaráes-Platz 1, 67655 Kaiserslautern",
+    "lat": 49.436497,
+    "lng": 7.768339,
+    "translationKey": "KAISERSLAUTERN",
+    "readMoreLink": "/events/abschlusskundgebung"
+  },
+  {
+    "id": "buechel",
+    "name": "Fliegerhorst Büchel",
+    "address": "56823 Büchel",
+    "lat": 50.176131,
+    "lng": 7.063645,
+    "translationKey": "BUECHEL",
+    "readMoreLink": "/events/abschlusskundgebung"
   }
 ]
