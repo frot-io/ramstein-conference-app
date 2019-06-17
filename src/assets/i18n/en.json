@@ -42,6 +42,10 @@
       "TITLE": "Demonstration",
       "SUBTITLE": "The big demonstration on saturday"
     },
+    "BLOCKADE": {
+      "TITLE": "Blockade",
+      "SUBTITLE": "Wir block the Air Base Ramstein!"
+    },
     "BACK_BUTTON_LABEL": "Back to list"
   },
   "EVENTS_PAGE": {

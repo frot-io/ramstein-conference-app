@@ -1,33 +1,59 @@
 
-Lorem markdownum vinctorum in cognovit infans Frigus viridi umbrarumque dixit
-revertentes equis; quatiens quae precantia occupat Epaphi tua. Non posses ille
-videtur virque adimunt animus haeret cardine, sed tempora geminato temptemus et
-Iovis. Iaculabile cornu caelo tum veretur aequor: litus ausae, in est iunctorum
-sui pereuntem, et auxerunt carinae saeva. Gerit libera Meropis interius et forma
-diramque, oculis condita altaria, et brevis verba.
+## Was erwartet euch im Friedenscamp?
 
-1. Potita mulcendaque nomenque
-2. Liceret illi vocavit conata in et ignibus
-3. Cupiens argento me serrae Daedalus Troia
-4. Canis Clara
+* Stellplatz für Caravan oder Zelt
+* 3 Vegane Mahlzeiten pro Tag. Frühstück, Mittag- und Abendessen mit je einem nichtalkoholischen Getränk. 
+* WC & Duschen auf dem Camp Gelände
+* Pavillon zum Laden von Mobilgeräten
+* Ein buntes Kinderprogramm
+* Workshops und Diskussionen
+* Die Friedenswerkstatt
+* Vielfältiges und abwechslungsreiches Kulturprogramm
+* Verschiedenste Freizeitaktivitäten
+* Zusätzlich können Getränke günstig auf dem Friedenscamp erstanden werden (auch alkoholisches)
+* Love, Peace and Harmony
+* Zum 5. Jährigen Jubiläum der Kampagne gibt es noch die ein oder andere Überraschung!
 
-Di vocem bene periclo prunam gerenti catenas in ingratus porrexit tendens.
-Erravisse radiis, in esse Pan Hennaeis Actaea. Tibi non fide; probro Titan,
-Tremorque cognovit quam. Vocis intus conpescuit recludit. Subductaque placeat
-sed armorum erat, qui minatur curis.
+*Die Kosten für das Camp sind so günstig gerechnet, dass wir voraussichtlich weitestgehend kostenneutral arbeiten, aber auch kein Minus machen. Durch eine Spende gebt Ihr uns Planungssicherheit. Klar ist, alle Einnahmen werden zu 100% in die Kampagne Stopp Air Base Ramstein investiert. Jede auch noch so geringe Spende ist willkommen und hilft!*
 
-> Vires est, illum misit status: virgo me post [sit
-> creberrima](http://nata-sui.org/ora) serae, abiturus
-> [templisque](http://tinguit-opus.com/). Anaxarete non et sit capillos,
-> procubuisse Alcyone arbor nec movere, rerum licet. Sic tristia et umbra esse
-> inmiti, in quam iuga mergis.
+## Camp-Regeln:
 
-## Quod nec tulisset
+* Bitte trenne Deinen Müll -
+ *entsprechende Container sind vorhanden*
+* Keine eigenen Soundanlagen oder Megaphone -
+ *unsere Camp-Bühne bietet ja schon ein volles Unterhaltungsprogramm*
+* Keine eigenen Generatoren oder Aggregate -
+ *zum Aufladen von Mobiltelefonen steht ein Pavillon zur Verfügung*
+* Keine Glasflaschen/Gläser - 
+ *nicht alle Scherben bringen Glück*
+* Keine Waffen -
+ *irgendwie logisch* ;-)
+* Wir bitten auf eine Selbstversorgung zu verzichten. -
+ *Wir wollen einerseits durch die Gemeinschaftsküche das Zusammengehörigkeitsgefühl stärken, zum anderen aber ist das Risiko für 
+  die Organisation des Camps und die Kampagne Stopp Air Base Ramstein kaum verantwortbar, wenn alle zwischen den Zelten mit 
+  einem eigenen Grill oder Propangas rumhantieren. Zuletzt ein Umweltargument: der Müll würde deutlich überhand nehmen.*
+  
+Alle hier aufgeführten Regeln stehen im Sinne der Umwelt, unserer schönen Camp-Fläche und des rücksichtsvollen und solidarischen Miteinanders – wir bitten Euch also um ein entsprechendes Verhalten. Rassisten, Hetzer und Krawallmacher, sowie entsprechende Symbole werden nicht geduldet. Sollte Dir derartiges auffallen oder sollte es diesbezüglich Probleme geben, wende Dich bitte umgehend an die Camp-Orga. Wir kümmern uns darum.
 
-Felix mentisque pro Di relinquis etiam gressu Themis requiris: unus sua
-*Pelasgos choreas*: sereno adiutus exit tamen catulus. Propiusque sudor
-ceciderunt cohibentem fraxinus, non gradu cruciataque te in Theseus sua finita
-terrae. Constiterat valido de vera tectis tulit quid supereminet quaerit contra
-rursusque Aesonius miracula et anxia. Singultibus fossas prima cui sinus quanta
-Haemoniosque dum [superba sitque](http://fluitque-vestigia.io/miseram.aspx)
-quae: abigoque.
+> Am Freitag, den 29.06 um 8:00 Uhr geht es wieder nach Büchel wie jedes Jahr. Bitte
+meldet Euch für den Bus an - spätestens bis zum Donnerstag, den 28.06.
+
+Bitte bildet selbstorganisierte Fahrgemeinschaften zu den Demos und weiteren Aktionen während der Woche. Nehmt vor allem die älteren und weniger mobilen Aktivisten/Innen mit.
+
+## Musik gibt es Abends (Di-Sa) ab 20:30 Uhr mit:
+> *In der Reihenfolge wie sie Auftreten*
+
+* Glückgriff
+* Synthia and Friends
+* Bengt Kiene
+* Achim Reschke
+* Klakoma Flow
+* Bermooda
+* Laura Korinth
+* Morgaine/Tjorben
+* Ashram Band, Dada
+* Äon
+* Kilez More
+
+Wir freuen uns schon riesig auf das diesjährige Friedenscamp mit euch :)
+    

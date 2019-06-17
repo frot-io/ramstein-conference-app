@@ -1,33 +1,21 @@
 
-Lorem markdownum vinctorum in cognovit infans Frigus viridi umbrarumque dixit
-revertentes equis; quatiens quae precantia occupat Epaphi tua. Non posses ille
-videtur virque adimunt animus haeret cardine, sed tempora geminato temptemus et
-Iovis. Iaculabile cornu caelo tum veretur aequor: litus ausae, in est iunctorum
-sui pereuntem, et auxerunt carinae saeva. Gerit libera Meropis interius et forma
-diramque, oculis condita altaria, et brevis verba.
+Die Kampagne „Stopp Air Base Ramstein“ wurde initiiert von Personen aus der Friedensbewegung, 
+anderer sozialen Bewegungen, der Wissenschaft sowie der Politik. Alle sind seit Jahren in der 
+Friedensbewegung aktiv.Dabei sind Friedensengagierte aus der Region, die schon seit Jahren 
+gegen die US Militärbasis protestieren.
 
-1. Potita mulcendaque nomenque
-2. Liceret illi vocavit conata in et ignibus
-3. Cupiens argento me serrae Daedalus Troia
-4. Canis Clara
+Die Kampagne will die Kriege, die von Ramstein ausgehen, verstärkt in die Öffentlichkeit bringen, 
+will aufklären über die zentrale Rolle, die Ramstein in der NATO Kriegsführung spielt und mit 
+vielfältigen Aktionen ein Klima in der Gesellschaft schaffen, das eine Schließung der Militärbasis 
+auf die politische Tagesordnung setzt. Dabei setzt die Kampagne auf Mitmachen, Ideen und Kreativität, 
+will die neuen Medien einsetzen und ruft alle Interessierten auf, beteiligt euch an der Kampagne Stopp Ramstein.
 
-Di vocem bene periclo prunam gerenti catenas in ingratus porrexit tendens.
-Erravisse radiis, in esse Pan Hennaeis Actaea. Tibi non fide; probro Titan,
-Tremorque cognovit quam. Vocis intus conpescuit recludit. Subductaque placeat
-sed armorum erat, qui minatur curis.
+> [Zum Aufruf](https://www.ramstein-kampagne.eu/aufruf/)
 
-> Vires est, illum misit status: virgo me post [sit
-> creberrima](http://nata-sui.org/ora) serae, abiturus
-> [templisque](http://tinguit-opus.com/). Anaxarete non et sit capillos,
-> procubuisse Alcyone arbor nec movere, rerum licet. Sic tristia et umbra esse
-> inmiti, in quam iuga mergis.
+## Selbstverständnis
 
-## Quod nec tulisset
+Unser Protest ist anti-faschistisch; ohne Wenn und Aber. Wir stehen in der Tradition des Schwurs von Buchenwald: 
+Nie wieder Faschismus, nie wieder Krieg. Wir lehnen jede Form des Rechtsradikalismus ab, wir arbeiten mit 
+Rechtsradikalen nicht zusammen.
 
-Felix mentisque pro Di relinquis etiam gressu Themis requiris: unus sua
-*Pelasgos choreas*: sereno adiutus exit tamen catulus. Propiusque sudor
-ceciderunt cohibentem fraxinus, non gradu cruciataque te in Theseus sua finita
-terrae. Constiterat valido de vera tectis tulit quid supereminet quaerit contra
-rursusque Aesonius miracula et anxia. Singultibus fossas prima cui sinus quanta
-Haemoniosque dum [superba sitque](http://fluitque-vestigia.io/miseram.aspx)
-quae: abigoque.
+Wir sagen Nein zu Antisemitismus, Reichsbürgern, Rassismus, Nationalismus und Faschismus.
