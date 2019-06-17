@@ -53,12 +53,21 @@
     "LOCATION": "Ort",
     "CATEGORY": "Kategorie",
     "DETAILS": "Details",
+    "WEEKDAYS": {
+      "MO": "Mo",
+      "TU": "Di",
+      "WE": "Mi",
+      "TH": "Do",
+      "FR": "Fr",
+      "SA": "Sa"
+    },
     "CATEGORIES": {
       "Int": "International",
       "Umw": "Umweltpolitik",
       "Neo": "Neoliberalismus",
       "Mil": "Militärmacht global und Kriege",
-      "Fri": "Friedensbewegung"
+      "Fri": "Friedensbewegung",
+      "Fem": "Feminismus"
     }
   },
   "FAVORITES_PAGE": {
