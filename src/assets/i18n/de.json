@@ -129,6 +129,10 @@
         "STEP2": "Tippe auf das Haus-mit-einem-Plus-Symbol am oberen Bildschirmrand und dann auf \"Zu Startbildschirm hinzufügen\"",
         "STEP3": "Tippe auf \"Automatisch hinzufügen\"",
         "STEP4": "Du kannst die App jetzt von deinem Startbildschirm aus starten"
+      },
+      "SAFARI": {
+        "TITLE": "Safari auf iOS",
+        "CONTENT": "Tippe auf \"Teilen\" und dann auf \"Zum Homescreen hinzufügen\""
       }
     },
     "PUSH_NOTIFICATIONS": {

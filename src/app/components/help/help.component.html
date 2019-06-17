@@ -31,6 +31,13 @@
     {{ 'HELP_PAGE.ADD_TO_HOMESCREEN.FIREFOX.STEP4' | translate }}</a></li>
 </ol>
 
+<h3 [innerHTML]="'HELP_PAGE.ADD_TO_HOMESCREEN.SAFARI.TITLE' | translate"></h3>
+<p>
+  <a href="https://www.idownloadblog.com/2018/07/19/howto-progressive-web-apps-iphone-ipad/" target="_blank">
+    {{ 'HELP_PAGE.ADD_TO_HOMESCREEN.SAFARI.CONTENT' | translate }}
+  </a>
+</p>
+
 <h2 [innerHTML]="'HELP_PAGE.PUSH_NOTIFICATIONS.TITLE' | translate"></h2>
 <div [innerHTML]="'HELP_PAGE.PUSH_NOTIFICATIONS.CONTENT' | translate"></div>
 <button mat-raised-button (click)="resetNotificationStateAndReload()"

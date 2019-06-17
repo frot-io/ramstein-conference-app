@@ -129,6 +129,10 @@
         "STEP2": "Click on the House-with-a-Plus-Symbol at the top and then on \"Add to Homescreen\"",
         "STEP3": "Click on \"Add automatically\"",
         "STEP4": "You can now access the app from your homescreen"
+      },
+      "SAFARI": {
+        "TITLE": "Safari on iOS",
+        "CONTENT": "Click on \"Share\", then \"Add to homescreen\""
       }
     },
     "PUSH_NOTIFICATIONS": {
