@@ -117,6 +117,8 @@
       "CONTENT": "<p>You can add this application to your homescreen on mobile devices (see below for instructions). It should then also work offline. To add it to your homescreen, your connection should be stable (e.g. Wifi).</p>",
       "CHROME": {
         "TITLE": "Chrome on Android",
+        "CONTENT": "<p>If the button below is activated, you can install the app by simply clicking on it. If not, follow the steps below.</p>",
+        "BUTTON_LABEL": "Install",
         "STEP1": "Click on \"Add Ramstein to Home Screen\"",
         "DISMISSED": "If you don't see the button or dismissed it, go to <code>chrome://flags/#bypass-app-banner-engagement-checks</code>, click \"Enable\" and then \"Relaunch\"",
         "STEP2": "Click on \"Add\"",

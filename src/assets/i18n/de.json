@@ -117,6 +117,8 @@
       "CONTENT": "<p>Diese App kann auf Mobilgeräten zu deinem Startbildschirm hinzugefügt werden (siehe unten). Sie funktioniert dann auch ohne Internetverbindung. Zum Hinzufügen solltest du eine gute Internetverbindung (z.B. WLAN) haben.</p>",
       "CHROME": {
         "TITLE": "Chrome auf Android",
+        "CONTENT": "<p>Wenn der Button aktiviert ist, kannst du die App einfach mit einem Klick darauf installieren. Falls nicht, befolge bitte die unten stehenden Schritte.</p>",
+        "BUTTON_LABEL": "Installieren",
         "STEP1": "Tippe auf \"Ramstein zum Startbildschirm hinzufügen\"",
         "DISMISSED": "Wenn du den Button nicht siehst oder weggeklickt hast, gehe zu <code>chrome://flags/#bypass-app-banner-engagement-checks</code>, tippe auf \"Enable\" und dann auf \"Relaunch\"",
         "STEP2": "Tippe auf \"Hinzufügen\"",
