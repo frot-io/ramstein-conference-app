@@ -61,42 +61,42 @@ app.post("/api/notifications", function(req, res) {
 });
 
 /* Send push notification to subscribers */
-app.post('/api/newsletter', function(req, res) {
-  console.log('Handling request for /api/newsletter');
-  db.collection(NOTIFICATIONS_COLLECTION).find({}).toArray(function(err, subscribers) {
-    if (err) {
-      handleError(res, err.message, "Failed to get subscribers.");
-      return;
-    }
+// app.post('/api/newsletter', function(req, res) {
+//   console.log('Handling request for /api/newsletter');
+//   db.collection(NOTIFICATIONS_COLLECTION).find({}).toArray(function(err, subscribers) {
+//     if (err) {
+//       handleError(res, err.message, "Failed to get subscribers.");
+//       return;
+//     }
 
-    console.log('Total subscriptions: ', subscribers.length);
+//     console.log('Total subscriptions: ', subscribers.length);
 
-    const notificationPayload = {
-      "notification": {
-        "title": "Ramstein",
-        "body": "This is a push notification",
-        "icon": "assets/logo-startpage.png",
-        "vibrate": [100, 50, 100],
-        "data": {
-          "dateOfArrival": Date.now(),
-          "primaryKey": 1
-        },
-        "actions": [{
-          "action": "explore",
-          "title": "Go to the site"
-        }]
-      }
-    };
+//     const notificationPayload = {
+//       "notification": {
+//         "title": "Ramstein",
+//         "body": "This is a push notification",
+//         "icon": "assets/logo-startpage.png",
+//         "vibrate": [100, 50, 100],
+//         "data": {
+//           "dateOfArrival": Date.now(),
+//           "primaryKey": 1
+//         },
+//         "actions": [{
+//           "action": "explore",
+//           "title": "Go to the site"
+//         }]
+//       }
+//     };
 
-    Promise.all(
-      subscribers.map(sub => webpush.sendNotification(sub, JSON.stringify(notificationPayload)))
-    )
-    .then(() => res.status(200).json({message: 'Newsletter sent successfully.'}))
-    .catch(err => {
-      handleError(res, err.message, "Failed to send notifications.");
-    });
-  });
-});
+//     Promise.all(
+//       subscribers.map(sub => webpush.sendNotification(sub, JSON.stringify(notificationPayload)))
+//     )
+//     .then(() => res.status(200).json({message: 'Newsletter sent successfully.'}))
+//     .catch(err => {
+//       handleError(res, err.message, "Failed to send notifications.");
+//     });
+//   });
+// });
 
 /* Everything else */
 app.get('/*', function(req,res) {
