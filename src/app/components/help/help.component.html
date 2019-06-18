@@ -5,6 +5,11 @@
 <div [innerHTML]="'HELP_PAGE.ADD_TO_HOMESCREEN.CONTENT' | translate"></div>
 
 <h3 [innerHTML]="'HELP_PAGE.ADD_TO_HOMESCREEN.CHROME.TITLE' | translate"></h3>
+<div [innerHTML]="'HELP_PAGE.ADD_TO_HOMESCREEN.CHROME.CONTENT' | translate"></div>
+<button mat-raised-button (click)="showInstallPrompt()"
+  [disabled]="!installPromptService.installPromptEvent"
+  [innerHTML]="'HELP_PAGE.ADD_TO_HOMESCREEN.CHROME.BUTTON_LABEL' | translate">
+</button>
 <ol>
   <li>
     <a href="./assets/browsers/Chrome1.png" target="_blank">
@@ -18,8 +23,6 @@
   <li><a href="./assets/browsers/Chrome4.png" target="_blank">
     {{ 'HELP_PAGE.ADD_TO_HOMESCREEN.CHROME.STEP4' | translate }}</a></li>
 </ol>
-<button mat-raised-button (click)="showInstallPrompt()"
-  [disabled]="!installPromptService.installPromptEvent">install</button>
 
 <h3 [innerHTML]="'HELP_PAGE.ADD_TO_HOMESCREEN.FIREFOX.TITLE' | translate"></h3>
 <ol>
