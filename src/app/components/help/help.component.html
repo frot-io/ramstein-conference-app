@@ -18,6 +18,8 @@
   <li><a href="./assets/browsers/Chrome4.png" target="_blank">
     {{ 'HELP_PAGE.ADD_TO_HOMESCREEN.CHROME.STEP4' | translate }}</a></li>
 </ol>
+<button mat-raised-button (click)="showInstallPrompt()"
+  [disabled]="!installPromptService.installPromptEvent">install</button>
 
 <h3 [innerHTML]="'HELP_PAGE.ADD_TO_HOMESCREEN.FIREFOX.TITLE' | translate"></h3>
 <ol>

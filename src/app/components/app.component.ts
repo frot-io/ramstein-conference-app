@@ -1,8 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import { MatBottomSheet, MatSnackBar } from '@angular/material';
 import { Router } from '@angular/router';
 import { SwUpdate } from '@angular/service-worker';
 import { TranslateService } from '@ngx-translate/core';
+import { InstallPromptService } from '../services/install-prompt/install-prompt.service';
 import { LocalStorageService } from '../services/local-storage/local-storage.service';
 import { PushNotificationStoreService } from '../services/push-notification/push-notification-store.service';
 import { SidenavService } from '../services/sidenav/sidenav.service';
@@ -23,7 +24,8 @@ export class AppComponent implements OnInit {
               private translate: TranslateService,
               private localStorageService: LocalStorageService,
               private snackBar: MatSnackBar,
-              private swUpdate: SwUpdate) {
+              private swUpdate: SwUpdate,
+              private installPromptService: InstallPromptService) {
     translate.setDefaultLang('de');
     translate.use(localStorageService.getLanguage() || 'de');
   }
@@ -53,5 +55,14 @@ export class AppComponent implements OnInit {
         });
       });
     });
+  }
+
+  @HostListener('window:beforeinstallprompt', ['$event'])
+  onbeforeinstallprompt(e) {
+    console.log(e);
+    // Prevent Chrome 67 and earlier from automatically showing the prompt
+    // e.preventDefault();
+    // Stash the event so it can be triggered later.
+    this.installPromptService.installPromptEvent = e;
   }
 }
