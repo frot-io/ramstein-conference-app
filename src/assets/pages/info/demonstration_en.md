@@ -1,17 +1,15 @@
 Veranstaltungsorte: [Auftaktkundgebung](/locations/auftaktkundgebung) ;
                     [Abschlusskundgebung](/locations/abschlusskundgebung)
                    
-Die Aktivitäten der Stopp Air Base Ramstein Kampagne im Jahr 2019 sind etwas ganz Besonderes: Stopp Ramstein geht in das 5. Jahr der Proteste. Was klein anfing, ist mittlerweile ein fester Bestandteil der Friedensbewegung geworden. Stopp Ramstein, das sind die größten Proteste vor einer Militärbasis in Deutschland.
-Wir planen für Samstag, den 29.06.2019 wieder eine Demonstration, die um 13 Uhr am Haus des Bürgers in Ramstein-Miesenbach (Prometheus-Platz) mit einer Auftaktkundgebung beginnt und dann durch die Stadt ziehen wird. Wir wollen diesmal noch näher an die Anwohner rund um die Militärbasis.
-Enden wird der Demonstrationszug wieder vor der Air Base Ramstein. Um Euren langen Atem auch ein wenig zu feiern, werden wir den Demonstrationszug vor den Toren der Base bei einem kleinen Festival mit Reden, viel Musik und Informationsständen gegen 18:30 Uhr enden lassen. Dann ziehen wir gemeinsam ins Friedenscamp zur Abschlussparty.
+Activities of the Stopp Air Base Ramstein Campaign in 2019 are very special: Stopp Ramstein is celebrating 5 years of protest. What once started out small in the meantime has become part and parcel of the peace movement. Stopp Ramstein are the largest protests in front of a military basis in Germany. This time we want to get even closer to the residents around the military basis. The protest march will end again in front of the Air Base Ramstein. To celebrate your staying power we will end the demonstration in front of the gates of the base with a small festival with speeches, music and infromation stands around 5.30 pm. Then we will move all together to the peace camp for final party.
 
-## Programmablauf
+## Program
 
-* 12 Uhr gemeinsamer Aufzug vom Friedenscamps zur Auftaktkundgebung in Ramstein-Miesenbach
+* 12 o'clock: Walk from the Peace Camp to the initial manifestation in Ramstein-Miesenbach
 
-* 13 Uhr Beginn Auftaktkundgebung Prometheusplatz in Ramstein-Miesenbach
+* 1 o'clock: Beginning of the initial manifestation at Prometheusplatz in Ramstein-Miesenbach
 
-Rednerinnen und Redner Auftaktkundgebung:
+Speakers at the initial manifestation:
 
     NN Anatolischer Kulturverein
     Brigitte Freihold (DIE LINKE)
@@ -20,7 +18,7 @@ Rednerinnen und Redner Auftaktkundgebung:
     Michael Müller (Vorsitzender NaturFreunde Deutschlands, ehemals MdB SPD und Staatssekretär beim Bundesminister für Umwelt)
     Hannah Schumacher (Fridays for Future Aktivistin)
 
-Musik:
+Music:
 
     Morgaine und Tjorben
     Morgaine und Äon
@@ -30,11 +28,11 @@ Moderation:
     Kristine Karch (Stopp Air Base Ramstein)
     Gunda Weidmüller (Stopp Air Base Ramstein)
 
-* gegen 13:45 Uhr Aufzug durch Ramstein-Miesenbach zur Air Base Ramstein
+* around 13:45: Walk through Ramstein-Miesenbach to the Air Base Ramstein
 
-* gegen 14:45 Uhr Abschlusskundgebung mit Festival vor der Air Base Ramstein
+* around 14:45: Closing Demo with Festival in front of the Air Base Ramstein
 
-Rednerinnen und Redner Abschlusskundgebung:
+Speakers of the closing demo:
 
     Andreas Hartenfels (BÜNDNIS 90/DIE GRÜNEN)
     Marion Küpker (Büchel ist überall! atomwaffenfrei.jetzt)
@@ -56,7 +54,7 @@ Moderation:
     Lisann Drews (IPPNW, Stopp Air Base Ramstein)
     Reiner Braun (IPB, Stopp Air Base Ramstein)
 
-* gegen 18:30 Uhr gemeinsamer Aufzug ins Friedenscamp zur Abschlussparty
+* around 18:30: Walk back to the Peace Camp for the closing party
 
 ![](/assets/pictures/Demo/Demo_1080.jpg)
 ![](/assets/pictures/Demo/Demo_2_1080.jpg)

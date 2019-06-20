@@ -1,22 +1,18 @@
-Veranstaltungsort: [Apostelkirche](/locations/apostelkirche)
+Location: [Apostelkirche](/locations/apostelkirche)
 
-Die öffentliche Abendveranstaltung findet dieses Jahr in der Apostelkirche statt. Es werden auch diesmal RednerInnen, die für ihren Einsatz für den Frieden weltberühmt sind, am Freitag, den 28.6. ab 19 Uhr für das interessierte Publikum zu friedenspolitischen Themen referieren.
+The public soiree will also take place this year. There will be speakers again who are world-famous for their commitment in peace and they will give their reports about topics of peace policy to the interested audience.
 
-Achtung: Die Abendveranstaltung findet dieses Jahr nicht in der Versöhnungskirche, sondern in der Apostelkirche in der Pariser Str. 22 in 67659 Kaiserslautern statt.
-
-Bitte beachten Sie, dass die Parkmöglichkeiten an der Apostelkirche begrenzt sind. Parken können Sie an der Gartenschau (ca. 14 min Fußweg) oder im Parkhaus des Einkaufszentrum „K in Lautern“ (ca. 5 min Fußweg).
-
-Für die Abendveranstaltung gibt es dieses Jahr keine Platzreservierungen im Vorfeld. Somit sichert frühzeitiges Kommen die besten Plätze.
+Attention: The soiree will not take place in the Versöhnungskirche this year, but in the Apostelkirche (Pariser Str. 22, 67659 Kaiserslautern).
 
 ![](/assets/pictures/Abendveranstaltung/Abendveranstaltung_1080.jpg)
 
-## Referierende
+## Speakers
 
 ### Ann Wright
 
 ![](/assets/pictures/Abendveranstaltung/Ann-Wright_Stopp-Ramstein-243x300.jpg)
 
-Ann Wright ist ein pensionierter Oberst der United States Army, ehemalige Mitarbeiterin des Auswärtigen Dienstes der USA und Aktivistin der Friedensbewegung. Sie absolvierte an der University of Arkansas ihren Abschluss in Rechtswissenschaft und entschied sich danach für eine Laufbahn bei den Streitkräften der USA. An der Seekriegsakademie absolvierte sie anschließend ihren Master in Äußerer Sicherheit und war daraufhin Anfang der 80er Jahre in Fort Bragg stationiert, einem der größten amerikanischen Stützpunkte. Von 1987 bis 2003 arbeitete sie außerdem für den United States Foreign Service. Am Tag vor Beginn des Irakkriegs trat sie jedoch aus Protest gegen den Irakkrieg von ihrem Posten bei den Streitkräften und dem Auswärtigen Dienst zurück und nahm seitdem an vielen Aktionen der Friedensbewegung teil.
+Ann Wright is a retired colonel of the United States Army, former employee of the External Action Service of the USA and activist of the peace movement. She graduated in law from University of Arkansas and afterwards descided for a career at the armed forces of the USA. Subsequently she completed her Master study in External Security at the Naval Military Academy. In the beginning of the 80ies she was deployed in Fort Bragg, one of the largest US-American bases. From 1987 to 2003 she additionally worked for the United States Foreign Service. At the day before the beginning of the Iraq war she resigned from her post at the armed forces and the External Action Service and participated in many actions of the peace movement.
 
 ### Andrej Hunko
 
@@ -28,4 +24,4 @@ Andrej Hunko ist Mitglied des Deutschen Bundestags und der Parlamentarischen Ver
 
 ![](/assets/pictures/Abendveranstaltung/Unbenannt-300x281.jpg)
 
-Rainer Mausfeld ist ein deutscher Professor für Allgemeine Psychologie an der Universität Kiel und wurde durch seine 2015 veröffentlichte Kritik an der repräsentativen Demokratie und den Funktionen der Massenmedien bekannt. In seiner Publikation „Warum schweigen die Lämmer? Wie Elitendemokratie und Neoliberalismus unsere Gesellschaft und unsere Lebensgrundlagen zerstören“ thematisiert er die Verfälschung der ursprünglichen Definitionen von Freiheit und Demokratie und spricht von einer „Wahloligarchie“, in der die Macht der ökonomisch Mächtigen gehört. Außerdem kritisiert er in seinem Werk die Einschränkung des öffentlichen Debattenraums durch eine subjektive Berichtserstattung der Massenmedien in kapitalistisch organisierten Gesellschaften.
+Rainer Mausfeld is a German professor of General Psychology at the University of Kiel. He became known through his published criticism against representative democracy and the functions of the mass media in 2015. In his publication „Warum schweigen die Lämmer? Wie Elitendemokratie und Neoliberalismus unsere Gesellschaft und unsere Lebensgrundlagen zerstören“ ("Why do the lambs remain silent? How democracy of the elite and neoliberalism destroys our society and livelihood") he makes the distortion of the original definitions of freedom democracy a subject and speaks of a „Wahloligarchie“ (elective oligarchy), in which the power belongs to the economic power. In his work he also criticises the restriction of the public debate room through he subjective durch eine subjektive reporting in the mass media in capitalistic organised societies.

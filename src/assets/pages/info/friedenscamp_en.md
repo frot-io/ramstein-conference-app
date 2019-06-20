@@ -1,47 +1,34 @@
+From 23.06.2019 to 30.06.2019 from 9.00 o'clock
+
+K9 between 66879 Steinwenden and 66879 Kottweiler-Schwanden
 
 ## Was erwartet euch im Friedenscamp?
 
-* Stellplatz für Caravan oder Zelt
-* 3 Vegane Mahlzeiten pro Tag. Frühstück, Mittag- und Abendessen mit je einem nichtalkoholischen Getränk. 
-* WC & Duschen auf dem Camp Gelände
-* Pavillon zum Laden von Mobilgeräten
-* Ein buntes Kinderprogramm
-* Workshops und Diskussionen
-* Die Friedenswerkstatt
-* Vielfältiges und abwechslungsreiches Kulturprogramm
-* Verschiedenste Freizeitaktivitäten
-* Zusätzlich können Getränke günstig auf dem Friedenscamp erstanden werden (auch alkoholisches)
+Parking space for caravans or tents
+
+* 3 vegan meals per day. Breakfast, lunch and dinner with a non-alcoholic drink each.
+* For meat eaters catering opportunities will be prepared (not included within the ticket
+price)
+* Toilets & showers on the camp compound
+* Pavillon to charge mobile devices
+* A diverse kid's programme
+* Workshops and discussions
+* The peace work shop
+* different and varied cultural programme
+* Several leisure activities
+* Additional drinks can be purchased at the peace camp for good prices (also alcoholic beverages)
 * Love, Peace and Harmony
-* Zum 5. Jährigen Jubiläum der Kampagne gibt es noch die ein oder andere Überraschung!
+* The one or other surprise to the 5th anniversary of the campaign!
 
-*Die Kosten für das Camp sind so günstig gerechnet, dass wir voraussichtlich weitestgehend kostenneutral arbeiten, aber auch kein Minus machen. Durch eine Spende gebt Ihr uns Planungssicherheit. Klar ist, alle Einnahmen werden zu 100% in die Kampagne Stopp Air Base Ramstein investiert. Jede auch noch so geringe Spende ist willkommen und hilft!*
+The costs for the camp are favourable that we presumably will work cost-neutral, but also will not generate minus costs. We will get planning certainty through your donation. All earnings will be invested to 100 % into the "Stopp Air Base Ramstein" campaign. Each donation - will it be it ever so small - is welcome and helps!!!
 
-## Camp-Regeln:
+Unfortunately it is not possible to organize a camp as such for free. Having said this, we are interested that every activist is able to participate in this event. The ticket quotation was discussed very long and detailed. Our sustainable concept is that people with a better financial condition, contribute more through their support of donations or by purchasing a soli-ticket that people in a precarious financial situation can afford their entrance so that everybody is involved into the funding of the camp. Strong shoulders are allowed to support more solidary. We are not able and willing to canvass the individual financial situations, we ask you for a honest and conscious choice of your ticket.
 
-* Bitte trenne Deinen Müll -
- *entsprechende Container sind vorhanden*
-* Keine eigenen Soundanlagen oder Megaphone -
- *unsere Camp-Bühne bietet ja schon ein volles Unterhaltungsprogramm*
-* Keine eigenen Generatoren oder Aggregate -
- *zum Aufladen von Mobiltelefonen steht ein Pavillon zur Verfügung*
-* Keine Glasflaschen/Gläser - 
- *nicht alle Scherben bringen Glück*
-* Keine Waffen -
- *irgendwie logisch* ;-)
-* Wir bitten auf eine Selbstversorgung zu verzichten. -
- *Wir wollen einerseits durch die Gemeinschaftsküche das Zusammengehörigkeitsgefühl stärken, zum anderen aber ist das Risiko für 
-  die Organisation des Camps und die Kampagne Stopp Air Base Ramstein kaum verantwortbar, wenn alle zwischen den Zelten mit 
-  einem eigenen Grill oder Propangas rumhantieren. Zuletzt ein Umweltargument: der Müll würde deutlich überhand nehmen.*
-  
-Alle hier aufgeführten Regeln stehen im Sinne der Umwelt, unserer schönen Camp-Fläche und des rücksichtsvollen und solidarischen Miteinanders – wir bitten Euch also um ein entsprechendes Verhalten. Rassisten, Hetzer und Krawallmacher, sowie entsprechende Symbole werden nicht geduldet. Sollte Dir derartiges auffallen oder sollte es diesbezüglich Probleme geben, wende Dich bitte umgehend an die Camp-Orga. Wir kümmern uns darum.
+## Catering
 
-> Am Freitag, den 29.06 um 8:00 Uhr geht es wieder nach Büchel wie jedes Jahr. Bitte
-meldet Euch für den Bus an - spätestens bis zum Donnerstag, den 28.06.
+We ask to refrain from self-supply. On the one hand we want to strengthen the shared itdentity through the common kitchen, on the other hand the risk is barely responsible for both, the organisation of this camp and the "Stopp Air Base Ramstein" campaign, if everybody between their tents operate with liquefied petroleum gas for their grills. Lasat but not least, the environmental fact: the rubbish would definately become rampant.
 
-Bitte bildet selbstorganisierte Fahrgemeinschaften zu den Demos und weiteren Aktionen während der Woche. Nehmt vor allem die älteren und weniger mobilen Aktivisten/Innen mit.
-
-## Musik gibt es Abends (Di-Sa) ab 20:30 Uhr mit:
-> *In der Reihenfolge wie sie Auftreten*
+## Music (Tu-Sa) from 20:30 Uhr
 
 * Glückgriff
 * Synthia and Friends
@@ -55,8 +42,6 @@ Bitte bildet selbstorganisierte Fahrgemeinschaften zu den Demos und weiteren Akt
 * Äon
 * Kilez More
 
-Wir freuen uns schon riesig auf das diesjährige Friedenscamp mit euch :)
-
-## Lageplan
+## Camp Plan
     
 ![](/assets/pictures/Camp/camp_location.jpg)
