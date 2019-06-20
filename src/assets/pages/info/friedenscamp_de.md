@@ -1,3 +1,6 @@
+23.06.2019 bis 30.06.2019 ab 9:00 Uhr
+
+K9 zwischen 66879 Steinwenden und 66879 Kottweiler-Schwanden
 
 ## Was erwartet euch im Friedenscamp?
 

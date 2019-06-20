@@ -1,13 +1,14 @@
 // https://medium.com/@hellotunmbi/how-to-deploy-angular-application-to-heroku-1d56e09c5147
 // https://blog.angular-university.io/angular-push-notifications/
 const express = require('express');
-const bodyParser = require("body-parser");
-const mongodb = require("mongodb");
+const bodyParser = require('body-parser');
+const mongodb = require('mongodb');
 const path = require('path');
 const webpush = require('web-push');
 var enforce = require('express-sslify');
 
 const NOTIFICATIONS_COLLECTION = 'notifications';
+const MESSAGES_COLLECTION = 'messages';
 
 webpush.setVapidDetails(
     'mailto:moin@frot.io',
@@ -61,42 +62,71 @@ app.post("/api/notifications", function(req, res) {
 });
 
 /* Send push notification to subscribers */
-// app.post('/api/newsletter', function(req, res) {
-//   console.log('Handling request for /api/newsletter');
-//   db.collection(NOTIFICATIONS_COLLECTION).find({}).toArray(function(err, subscribers) {
-//     if (err) {
-//       handleError(res, err.message, "Failed to get subscribers.");
-//       return;
-//     }
+app.post('/api/newsletter', function(req, res) {
+  console.log('Handling request for /api/newsletter...');
 
-//     console.log('Total subscriptions: ', subscribers.length);
+  if (req.body.key !== process.env.MSG_PRIVATE_KEY) {
+    handleError(res, "Unauthorized: key was " + req.body.key, "Unauthorized!", 401);
+    return;
+  }
 
-//     const notificationPayload = {
-//       "notification": {
-//         "title": "Ramstein",
-//         "body": "This is a push notification",
-//         "icon": "assets/logo-startpage.png",
-//         "vibrate": [100, 50, 100],
-//         "data": {
-//           "dateOfArrival": Date.now(),
-//           "primaryKey": 1
-//         },
-//         "actions": [{
-//           "action": "explore",
-//           "title": "Go to the site"
-//         }]
-//       }
-//     };
+  db.collection(NOTIFICATIONS_COLLECTION).find({}).toArray(function(err, subscribers) {
+    if (err) {
+      handleError(res, err.message, "Failed to get subscribers.");
+      return;
+    }
 
-//     Promise.all(
-//       subscribers.map(sub => webpush.sendNotification(sub, JSON.stringify(notificationPayload)))
-//     )
-//     .then(() => res.status(200).json({message: 'Newsletter sent successfully.'}))
-//     .catch(err => {
-//       handleError(res, err.message, "Failed to send notifications.");
-//     });
-//   });
-// });
+    console.log('Total subscriptions: ', subscribers.length);
+
+    if (!req.body.title) {
+      handleError(res, 'No title provided!', 'No title provided!', 400);
+      return;
+    }
+
+    if (!req.body.body) {
+      handleError(res, 'No body provided!', 'No body provided!', 400);
+      return;
+    }
+
+    db.collection(MESSAGES_COLLECTION).find({}).toArray(function(err, messages) {
+      if (err) {
+        handleError(res, err.message, "Failed to get messages.");
+        return;
+      }
+
+      console.log('Total messages: ', messages.length);
+
+      const notificationPayload = {
+        "notification": {
+          "title": req.body.title,
+          "body": req.body.body,
+          "icon": "assets/logo-startpage.png",
+          "vibrate": [100, 50, 100],
+          "data": {
+            "dateOfArrival": Date.now(),
+            "primaryKey": messages.length
+          }
+        }
+      };
+
+      db.collection(MESSAGES_COLLECTION).insertOne(notificationPayload, function(err, doc) {
+        if (err) {
+          handleError(res, err.message, "Failed to add message to database");
+        } else {
+          Promise.all(
+            subscribers.map(sub => webpush.sendNotification(sub, JSON.stringify(notificationPayload)))
+          )
+          .then(() => res.status(200).json({message: 'Push notification sent successfully.'}))
+          .catch(err => {
+            handleError(res, err.message, "Failed to send push notification.");
+          });
+        }
+      });
+
+
+    });
+  });
+});
 
 /* Everything else */
 app.get('/*', function(req,res) {
