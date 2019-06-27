@@ -22,4 +22,8 @@ export class EventsDetailsComponent implements OnInit {
       this.event = this.eventStore.getEvent(id);
     });
   }
+
+  backToList() {
+    window.history.back();
+  }
 }
