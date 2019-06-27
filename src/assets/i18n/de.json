@@ -70,7 +70,8 @@
       "Mil": "Militärmacht global und Kriege",
       "Fri": "Friedensbewegung",
       "Fem": "Feminismus"
-    }
+    },
+    "BACK_BUTTON_LABEL": "Zurück zur Liste"
   },
   "FAVORITES_PAGE": {
     "NO_FAVORITE": "Bitte wähle Favoriten auf der Seite <strong>Veranstaltungen</strong> aus"
