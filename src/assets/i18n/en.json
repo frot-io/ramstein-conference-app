@@ -141,7 +141,8 @@
     "PUSH_NOTIFICATIONS": {
       "TITLE": "Push-Notifications",
       "CONTENT": "<p>On the first startup, a dialog box at the bottom asks you for enabling push-notifications. If you accidentally clicked 'Deny', you can re-enable them with:<ol><li>If you use a browser: Click on the lock left of the URL and set 'Notification' to 'Ask'.</li><li>If you installed the app: Go to the app settings of your Operating System (Android or iOS) and re-enable Notifications.</li><li>Click the button below.</li></ol></p>",
-      "BUTTON_LABEL": "Clear Permissions an Reload"
+      "BUTTON_LABEL_CLEAR": "Clear Permissions an Reload",
+      "BUTTON_LABEL_TEST": "Test Notification"
     },
     "LANGUAGE_SELECT": {
       "TITLE": "Language",
@@ -189,5 +190,8 @@
   },
   "UPDATE_DIALOG": {
     "AVAILABLE": "Update available! Please update once you have a stable connection."
+  },
+  "EVENT_REMINDER_SERVICE": {
+    "TEST_FAILED": "Something went wrong. Probably the Notification Permission has not been granted."
   }
 }

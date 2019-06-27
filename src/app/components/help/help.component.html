@@ -46,7 +46,9 @@
 <h2 [innerHTML]="'HELP_PAGE.PUSH_NOTIFICATIONS.TITLE' | translate"></h2>
 <div [innerHTML]="'HELP_PAGE.PUSH_NOTIFICATIONS.CONTENT' | translate"></div>
 <button mat-raised-button (click)="resetNotificationStateAndReload()"
-  [innerHTML]="'HELP_PAGE.PUSH_NOTIFICATIONS.BUTTON_LABEL' | translate"></button>
+  [innerHTML]="'HELP_PAGE.PUSH_NOTIFICATIONS.BUTTON_LABEL_CLEAR' | translate"></button>
+<button mat-raised-button (click)="showTestNotification()"
+  [innerHTML]="'HELP_PAGE.PUSH_NOTIFICATIONS.BUTTON_LABEL_TEST' | translate"></button>
 
 <h2 [innerHTML]="'HELP_PAGE.LANGUAGE_SELECT.TITLE' | translate"></h2>
 <div [innerHTML]="'HELP_PAGE.LANGUAGE_SELECT.CONTENT' | translate"></div>

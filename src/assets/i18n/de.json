@@ -141,7 +141,8 @@
     "PUSH_NOTIFICATIONS": {
       "TITLE": "Push-Notifications",
       "CONTENT": "<p>Beim ersten Besuch erscheint eine Dialogbox am unteren Bildschirmrand und fragt dich nach der Berechtigung für Push-Notifications. Falls du aus Versehen 'Ablehnen' geklickt hast, kannst du diese zurücksetzen:<ol><li>Wenn du einen Browser benutzt: Klicke auf das Schloss in der Adresszeile und setze 'Benachrichtigung' auf 'Fragen'.</li><li>Wenn du die App installiert hast: Gehe in die App-Einstellungen deines Betriebssystems (Android oder iOS) und aktiviere Push-Notifications für diese App.</li><li>Klicke auf diesen Button:</li></ol></p>",
-      "BUTTON_LABEL": "Berechtigungen zurücksetzen und Seite neu laden"
+      "BUTTON_LABEL_CLEAR": "Berechtigungen zurücksetzen und Seite neu laden",
+      "BUTTON_LABEL_TEST": "Benachrichtigung testen"
     },
     "LANGUAGE_SELECT": {
       "TITLE": "Spracheinstellungen",
@@ -189,5 +190,8 @@
   },
   "UPDATE_DIALOG": {
     "AVAILABLE": "Update verfügbar! Bitte updaten, sobald die Verbindung stabil ist."
+  },
+  "EVENT_REMINDER_SERVICE": {
+    "TEST_FAILED": "Etwas ist schiefgelaufen. Wahrscheinlich ist die Berechtigung nicht gewährt."
   }
 }
