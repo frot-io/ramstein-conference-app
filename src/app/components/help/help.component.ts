@@ -3,6 +3,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { LocalStorageService } from 'src/app/services/local-storage/local-storage.service';
 import { AppUpdateService } from './../../services/app-update/app-update.service';
 import { InstallPromptService } from './../../services/install-prompt/install-prompt.service';
+import { EventReminderService } from 'src/app/services/event-reminder/event-reminder.service';
 
 @Component({
   selector: 'app-help',
@@ -13,7 +14,8 @@ export class HelpComponent {
   constructor(public translateService: TranslateService,
               private localStorageService: LocalStorageService,
               private appUpdateService: AppUpdateService,
-              public installPromptService: InstallPromptService) {}
+              public installPromptService: InstallPromptService,
+              private eventReminderService: EventReminderService) {}
 
   showInstallPrompt() {
     const event = this.installPromptService.installPromptEvent;
@@ -33,6 +35,10 @@ export class HelpComponent {
   resetNotificationStateAndReload() {
     this.localStorageService.setPushNotificationDismissed(false);
     window.location.reload();
+  }
+
+  showTestNotification() {
+    this.eventReminderService.showTestNotification();
   }
 
   changeLanguage(lang) {
